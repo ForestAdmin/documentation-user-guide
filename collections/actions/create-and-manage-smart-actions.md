@@ -9,6 +9,7 @@ On our Live Demo example, our `companies` collection has many examples of Smart 
 {% hint style="info" %}
 If you're looking for information on native actions (CRUD), check out [this page](./).
 {% endhint %}
+
 ### Create a Smart Action
 Here it depends on your setup: if you are using a self-hosted project, head on to the [Developer Guide](https://docs.forestadmin.com/documentation/reference-guide/actions/create-and-manage-smart-actions) to start adding them right into your agent.
 If you have used instant setup (cloud), you will be able to create new actions right from your Collection settings.
@@ -28,15 +29,16 @@ When a webhook action is triggered on a record (or list of records), Forest Admi
 {% endhint %}
 
 After saving those actions, you will see a spinner that lets you know the action is being created, and a couple seconds later it is available (you will just need to refresh your browser when prompted).
+
 ### Enable/Disable a Smart Action according to the state of a record
 
 Sometimes, your Smart Action only makes sense depending on the state of your records. On our Live Demo, it does not make any sense to enable the `Mark as Live` Smart Action on the `companies` collection if the company is already live, right?
 
 In the collection settings, you can configure the UI options of your Smart Actions.
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 15.33.57.png>)
+![](<../../.gitbook/assets/2019-07-01_15.33.57.png>)
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 15.03.13.png>)
+![](<../../.gitbook/assets/2019-07-01_15.03.13.png>)
 
 ### &#x20;Restrict a smart action to specific users and roles <a href="#restrict-a-smart-action-to-specific-users" id="restrict-a-smart-action-to-specific-users"></a>
 
@@ -64,15 +66,15 @@ Actions requiring approval will be available in the Collaboration menu **(3)** i
 
 In “To Review”, you will be able to approve or reject the request **(5)** with an optional message **(6)** for more details.
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 15.52.53.png>)
+![](<../../.gitbook/assets/2019-07-01_15.52.53.png>)
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 16.00.32.png>)
+![](<../../.gitbook/assets/2019-07-01_16.00.32.png>)
 
 #### Review past approval requests
 
 All past approval requests - made by you or other approvers - in the History tab **(1)**.
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 15.59.47.png>)
+![](<../../.gitbook/assets/2019-07-01_15.59.47.png>)
 
 {% hint style="info" %}
 You can export your approval requests history from this tab using the top right button **(2)**.
@@ -80,7 +82,7 @@ You can export your approval requests history from this tab using the top right 
 
 You can get more details on a specific action by clicking on it:
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 16.05.38.png>)
+![](<../../.gitbook/assets/2019-07-01_16.05.38.png>)
 
 {% hint style="success" %}
 Want to go further with Smart Actions? Read the next page to discover how to make your Smart Actions even more powerful with **Forms**!
