@@ -15,14 +15,20 @@ Here it depends on your setup: if you are using a self-hosted project, head on t
 If you have used instant setup (cloud), you will be able to create new actions right from your Collection settings.
 
 Go to Edit Layout, select the collection where you want to create new actions, then select the `Actions`tab:
+
 ![](<../../.gitbook/assets/2023-06-29_14.30.40.png>)
+
 From there you can click on `Create your first action` to get started.
 #### Action of type 'Update record'
 This action allows you to update the value of selected fields from your records. You just need to select the appropriate fields by clicking on 'Add field', and selecting the right entry from the dropdown menu, then type the desired value on the right
+
 ![](<../../.gitbook/assets/2023-06-29_14.44.17.png>)
+
 #### Action of type 'Webhook'
 This action allows you to plug in to a workflow automation tool like n8n, make, zapier… and trigger actions on those platforms right from your admin panel. You just need to pick your favorite automation tool, and create a webhook endpoint with your workflow. Then copy the URL to this endpoint in the provided field:
+
 ![](<../../.gitbook/assets/2023-06-29_14.49.48.png>)
+
 
 {% hint style="info" %}
 When a webhook action is triggered on a record (or list of records), Forest Admin will send along the ids of those records so that you can use them in your automation process.
