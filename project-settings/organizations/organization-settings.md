@@ -35,6 +35,10 @@ This tab gathers all security options of your Organization. For now you can only
 
 #### Configuring SSO
 
+{% hint style="info" %}
+We are officially supporting: **Okta, OneLogin, Google** and **Azure** IdPs.
+{% endhint %}
+
 To start configuring SSO for your Organization, click on "Configure Single Sign-On":
 
 ![](<../../.gitbook/assets/Capture d’écran 2021-10-13 à 11.42.24.png>)
@@ -46,6 +50,7 @@ You'll first need to **declare Forest Admin in your Identity Provider** using th
 {% hint style="warning" %}
 Forest Admin supports SAML v2 (not v1)
 {% endhint %}
+
 
 Then choose how you want to communicate information from your Identity Provider (IP):
 
