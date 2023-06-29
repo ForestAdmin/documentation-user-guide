@@ -1,3 +1,0 @@
-{
-    "window.title": "${rootName}${separator}${activeEditorShort} ${separator} [Branch: feat/document-no-code-actions]"
-}
