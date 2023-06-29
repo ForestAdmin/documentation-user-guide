@@ -12,7 +12,7 @@ After browsing through the table view of a Collection, you might want to dig fur
 
 The Table view is the most basic view of your collection. It shows collections as rows and their fields as columns:
 
-![](<../../.gitbook/assets/Capture d’écran 2022-01-26 à 17.26.42.png>)
+![](<../../.gitbook/assets/2022-01-26_17.26.42.png>)
 
 {% content-ref url="the-table-view.md" %}
 [the-table-view.md](the-table-view.md)
@@ -26,7 +26,7 @@ You can switch your default Table view to a **Smart View**. Learn more [here](cr
 
 The Details view is a list of all your collection's fields and their values:
 
-![](<../../.gitbook/assets/Capture d’écran 2022-01-26 à 17.31.00.png>)
+![](<../../.gitbook/assets/2022-01-26_17.31.00.png>)
 
 This view is useful, but a bit abrupt. This is why we created the Summary view.
 
@@ -34,4 +34,4 @@ This view is useful, but a bit abrupt. This is why we created the Summary view.
 
 The Summary view is much more user-friendly and it's created by you! Check out the [Build a Summary view](https://docs.forestadmin.com/documentation/reference-guide/views/build-a-summary-view) page.
 
-![](<../../.gitbook/assets/Capture d’écran 2022-01-26 à 17.32.15.png>)
+![](<../../.gitbook/assets/2022-01-26_17.32.15.png>)

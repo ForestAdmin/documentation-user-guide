@@ -8,7 +8,7 @@ For collection-specific settings, checkout [this page](../../collections/manage-
 
 Make sure you have the **Admin** role. If you do, you can access your Project settings from the top-right dropdown:
 
-![](<../../.gitbook/assets/Capture d’écran 2022-01-27 à 13.04.56.png>)
+![](<../../.gitbook/assets/2022-01-27_13.04.56.png>)
 
 In this section, we'll cover:
 
@@ -23,7 +23,7 @@ For Teams and Users settings, check out this [section](../teams-and-users/).
 
 You might have 2 or more projects where you use Forest Admin. In this case, click the _Switch project_ link in the top-left dropdown
 
-![](<../../.gitbook/assets/Capture d’écran 2022-01-27 à 12.50.01.png>)
+![](<../../.gitbook/assets/2022-01-27_12.50.01.png>)
 
 You'll be redirected to [https://app.forestadmin.com/projects](https://app.forestadmin.com/projects) which lists all your active projects.
 
@@ -31,4 +31,4 @@ You'll be redirected to [https://app.forestadmin.com/projects](https://app.fores
 
 Head over to your project settings and find the delete project button in the danger zone:
 
-![](<../../.gitbook/assets/Capture d’écran 2022-01-27 à 12.54.36.png>)
+![](<../../.gitbook/assets/2022-01-27_12.54.36.png>)

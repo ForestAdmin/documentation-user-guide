@@ -24,7 +24,7 @@ With this widget, you can control how your dates will be displayed:
 
 To customize your date format, use [Moment.js](https://momentjs.com/) syntax:
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 11.46.22.png>)
+![](<../../.gitbook/assets/2019-07-01_11.46.22.png>)
 
 Here's what each token represents:
 
@@ -138,7 +138,7 @@ If you must keep them **private**, you should consider using [signed URLs](https
 
 From the table view, clicking on the file icon will open the PDF in a new tab.
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 12.08.02.png>)
+![](<../../.gitbook/assets/2019-07-01_12.08.02.png>)
 
 From the summary and details views, the PDF can be previewed:
 
@@ -166,11 +166,11 @@ Use this option to specify a URL prefix or path prefix depending on your usage. 
 
 * If you store your files on an external cloud (ie: AWS S3) and in your database as a **filename**, your prefix will be a link like this:
 
-![](<../../.gitbook/assets/Capture d’écran 2019-04-15 à 09.24.25.png>)
+![](<../../.gitbook/assets/2019-04-15_09.24.25.png>)
 
 * If you store your images in **base64**, you could find it convenient to add a `data:image/png;base64` prefix on the go:
 
-![](<../../.gitbook/assets/Capture d’écran 2019-04-19 à 11.28.29.png>)
+![](<../../.gitbook/assets/2019-04-19_11.28.29.png>)
 
 ### Preview size
 

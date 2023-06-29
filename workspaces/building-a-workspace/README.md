@@ -62,7 +62,7 @@ In the Field component, select `collection1` as the source and choose which fiel
 
 You may have a more complex use case, where you'd want to display a property further away. To achieve this, you'll have to click the _Toggle to input code_ button:
 
-![](<../../.gitbook/assets/Capture d’écran 2022-10-07 à 12.18.06 (1).png>)
+![](<../../.gitbook/assets/2022-10-07_12.18.06 (1).png>)
 
 For instance, if your collection is `Company` and it is linked to a `Country` collection, you may want to display `{{country.name}}` or even `{{country.headquarter.address}}`.
 

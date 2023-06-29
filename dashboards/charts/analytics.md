@@ -31,4 +31,4 @@ WHERE companies.id = ?
 GROUP BY key;
 ```
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-02 à 14.30.07.png>)
+![](<../../.gitbook/assets/2019-07-02_14.30.07.png>)

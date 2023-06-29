@@ -4,13 +4,13 @@ Your fields are what contains your data. They belong to a collection, so in orde
 
 Here's an example of what you'll see in the _Fields_ tab:
 
-![](<../../.gitbook/assets/Capture d’écran 2020-07-23 à 10.09.23.png>)
+![](<../../.gitbook/assets/2020-07-23_10.09.23.png>)
 
 ## Basic settings
 
 As you can see below - **(1)**, you can change how your field's name will be displayed to your users.
 
-![](<../../.gitbook/assets/Capture d’écran 2020-07-23 à 10.11.26.png>)
+![](<../../.gitbook/assets/2020-07-23_10.11.26.png>)
 
 You can also add a _description_ **(2)** which will be displayed when you edit your data via this field.
 
@@ -24,7 +24,7 @@ Other options are also available:
 This section is where you will adjust how you edit this field.\
 First, select a **widget (1)**.&#x20;
 
-![](<../../.gitbook/assets/Capture d’écran 2020-07-23 à 10.21.14.png>)
+![](<../../.gitbook/assets/2020-07-23_10.21.14.png>)
 
 {% hint style="info" %}
 After selecting a widget, its _settings_ panel should open automatically. You can however reopen that panel at any time by clicking on the cog icon **(2)**.
@@ -57,7 +57,7 @@ A display widget is an interface tool which will be displayed when you display y
 
 Select a _display_ widget **(1)**.&#x20;
 
-![](<../../.gitbook/assets/Capture d’écran 2020-07-23 à 10.41.03.png>)
+![](<../../.gitbook/assets/2020-07-23_10.41.03.png>)
 
 This is how you will **control how your data is displayed** in your views (table view, summary view, related data views, etc).
 

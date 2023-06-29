@@ -318,7 +318,7 @@ The radio button widget works the same way as the [dropdown](edit-widgets.md#dro
 
 ![Manually entering values](<../../.gitbook/assets/image (325).png>)
 
-!["Alter values" option (display settings)](<../../.gitbook/assets/Capture d’écran 2020-12-01 à 15.15.45.png>)
+!["Alter values" option (display settings)](<../../.gitbook/assets/2020-12-01_15.15.45.png>)
 
 While editing, the widget will look like this:
 
@@ -330,7 +330,7 @@ The checkboxes widget works the same way as the [dropdown](edit-widgets.md#dropd
 
 ![Manually entering values](<../../.gitbook/assets/image (315).png>)
 
-!["Alter values" option (display settings)](<../../.gitbook/assets/Capture d’écran 2020-12-01 à 15.17.17.png>)
+!["Alter values" option (display settings)](<../../.gitbook/assets/2020-12-01_15.17.17.png>)
 
 While editing, your widget will look like this:
 

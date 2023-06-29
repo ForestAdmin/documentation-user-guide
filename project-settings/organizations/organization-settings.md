@@ -2,7 +2,7 @@
 
 Your Organization settings are accessible from the top-right dropdown:
 
-![](<../../.gitbook/assets/Capture d’écran 2021-10-13 à 11.11.27.png>)
+![](<../../.gitbook/assets/2021-10-13_11.11.27.png>)
 
 ### Overview tab
 
@@ -41,7 +41,7 @@ We are officially supporting: **Okta, OneLogin, Google** and **Azure** IdPs.
 
 To start configuring SSO for your Organization, click on "Configure Single Sign-On":
 
-![](<../../.gitbook/assets/Capture d’écran 2021-10-13 à 11.42.24.png>)
+![](<../../.gitbook/assets/2021-10-13_11.42.24.png>)
 
 You'll first need to **declare Forest Admin in your Identity Provider** using the information in the grey panel:
 

@@ -6,7 +6,7 @@ Forest Admin provides a straightforward UI to configure the charts you want.
 
 First, turn on the Layout Editor mode **(1)**, then click _Add a new chart_ **(2)**.
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-02 à 09.15.18.png>)
+![](<../../.gitbook/assets/2019-07-02_09.15.18.png>)
 
 {% hint style="info" %}
 To add a new dashboard, click on _+ New_ while in Layout Editor mode **(0)**.
@@ -14,7 +14,7 @@ To add a new dashboard, click on _+ New_ while in Layout Editor mode **(0)**.
 
 Then add a _Name_ and optionally a _Description_ **(1)** and select a [chart type](./#what-types-of-charts-exist-in-forest-admin) **(2)**:
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-02 à 09.23.00.png>)
+![](<../../.gitbook/assets/2019-07-02_09.23.00.png>)
 
 Next, in **Simple** mode, you need to provide the following information, depending on your chart type:
 
@@ -24,7 +24,7 @@ Next, in **Simple** mode, you need to provide the following information, dependi
 * 1 time frame (day, week, month, year) option.
 * 1 or multiple filters.
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-02 à 10.47.13.png>)
+![](<../../.gitbook/assets/2019-07-02_10.47.13.png>)
 
 ## Creating a Chart with SQL
 
@@ -47,7 +47,7 @@ SELECT COUNT(*) AS value
 FROM customers;
 ```
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-02 à 10.50.31.png>)
+![](<../../.gitbook/assets/2019-07-02_10.50.31.png>)
 
 ### Single value (with growth percentage)
 
@@ -55,18 +55,18 @@ The returned columns **must** be named `value` and `previous`. In the following 
 
 ```sql
 SELECT current.count AS value, previous.count AS previous
-FROM (  
-    SELECT COUNT(*)  
-    FROM appointments  
+FROM (
+    SELECT COUNT(*)
+    FROM appointments
     WHERE start_date BETWEEN '2018-01-01' AND '2018-02-01'
-) as current, (  
-    SELECT COUNT(*)  
-    FROM appointments  
+) as current, (
+    SELECT COUNT(*)
+    FROM appointments
     WHERE start_date BETWEEN '2017-12-01' AND '2018-01-01'
 ) as previous;
 ```
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-02 à 10.53.33.png>)
+![](<../../.gitbook/assets/2019-07-02_10.53.33.png>)
 
 ### Repartition
 
@@ -78,7 +78,7 @@ FROM transactions
 GROUP BY status;
 ```
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-02 à 14.08.05.png>)
+![](<../../.gitbook/assets/2019-07-02_14.08.05.png>)
 
 ### Time-based
 
@@ -91,7 +91,7 @@ GROUP BY key
 ORDER BY key;
 ```
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-02 à 14.10.02 (1).png>)
+![](<../../.gitbook/assets/2019-07-02_14.10.02 (1).png>)
 
 ### Objective
 
@@ -107,7 +107,7 @@ FROM orders
 WHERE orders.created_at < date_trunc('year', now());
 ```
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-02 à 14.16.46.png>)
+![](<../../.gitbook/assets/2019-07-02_14.16.46.png>)
 
 ### Leaderboard
 
@@ -126,4 +126,4 @@ ORDER BY value DESC
 LIMIT 10;
 ```
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-02 à 14.12.28.png>)
+![](<../../.gitbook/assets/2019-07-02_14.12.28.png>)
