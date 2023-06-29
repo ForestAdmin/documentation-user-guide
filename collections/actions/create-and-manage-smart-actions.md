@@ -10,6 +10,26 @@ On our Live Demo example, our `companies` collection has many examples of Smart 
 If you're looking for information on native actions (CRUD), check out [this page](./).
 {% endhint %}
 
+### Create a Smart Action
+Here it depends on your setup: if you are using a self-hosted project, head on to the [Developer Guide](https://docs.forestadmin.com/documentation/reference-guide/actions/create-and-manage-smart-actions) to start adding them right into your agent.
+If you have used instant setup (cloud), you will be able to create new actions right from your Collection settings.
+
+Go to Edit Layout, select the collection where you want to create new actions, then select the `Actions`tab:
+![](<../../.gitbook/assets/2023-06-29_14.30.40.png>)
+From there you can click on `Create your first action` to get started.
+#### Action of type 'Update record'
+This action allows you to update the value of selected fields from your records. You just need to select the appropriate fields by clicking on 'Add field', and selecting the right entry from the dropdown menu, then type the desired value on the right
+![](<../../.gitbook/assets/2023-06-29_14.44.17.png>)
+#### Action of type 'Webhook'
+This action allows you to plug in to a workflow automation tool like n8n, make, zapier… and trigger actions on those platforms right from your admin panel. You just need to pick your favorite automation tool, and create a webhook endpoint with your workflow. Then copy the URL to this endpoint in the provided field:
+![](<../../.gitbook/assets/2023-06-29_14.49.48.png>)
+
+{% hint style="info" %}
+When a webhook action is triggered on a record (or list of records), Forest Admin will send along the ids of those records so that you can use them in your automation process.
+{% endhint %}
+
+After saving those actions, you will see a spinner that lets you know the action is being created, and a couple seconds later it is available (you will just need to refresh your browser when prompted).
+
 ### Enable/Disable a Smart Action according to the state of a record
 
 Sometimes, your Smart Action only makes sense depending on the state of your records. On our Live Demo, it does not make any sense to enable the `Mark as Live` Smart Action on the `companies` collection if the company is already live, right?
