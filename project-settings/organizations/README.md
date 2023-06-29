@@ -10,7 +10,7 @@ An Organization is simply a **group of projects**: they share the same projects 
 
 Once you're logged in, on your projects page, open the top-left dropdown to view your Organizations:
 
-![](<../../.gitbook/assets/Capture d’écran 2021-10-13 à 10.53.20.png>)
+![](<../../.gitbook/assets/2021-10-13_10.53.20.png>)
 
 To create a new Organization, click "New Organization". Fill in a name and you're done!
 
@@ -32,7 +32,7 @@ You may be required to log in again when you switch between Organizations depend
 
 If your Organization has [set up SSO](organization-settings.md#security-tab), this is how you can access it:
 
-![](<../../.gitbook/assets/Capture d’écran 2021-10-13 à 17.22.27.png>)
+![](<../../.gitbook/assets/2021-10-13_17.22.27.png>)
 
 then enter the name of your Organization as communicated by your administrator and click "Login":
 

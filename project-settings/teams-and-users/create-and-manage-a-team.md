@@ -4,7 +4,7 @@
 
 You can create a team by going to your Teams tab in your _project settings_, then click "+ New team" **(1)**:
 
-![](<../../.gitbook/assets/Capture d’écran 2020-03-09 à 16.55.59.png>)
+![](<../../.gitbook/assets/2020-03-09_16.55.59.png>)
 
 {% hint style="info" %}
 When creating a team, you can **optionally** copy another team's layout **(2)**.
@@ -20,7 +20,7 @@ If you want to apply an _existing_ team's layout to another team, go to its sett
 This action cannot be undone! Always review your action before copying a layout.
 {% endhint %}
 
-![](<../../.gitbook/assets/Capture d’écran 2020-04-02 à 13.51.36.png>)
+![](<../../.gitbook/assets/2020-04-02_13.51.36.png>)
 
 ### Delete a team
 

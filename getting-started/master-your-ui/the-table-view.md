@@ -10,7 +10,7 @@ description: >-
 
 To search in Forest, use the search bar at the top of the page **(1)**:
 
-![](<../../.gitbook/assets/Capture d’écran 2022-01-26 à 17.35.18.png>)
+![](<../../.gitbook/assets/2022-01-26_17.35.18.png>)
 
 Your search terms are highlighted within the matching results **(2)**.
 
@@ -22,11 +22,11 @@ Only regular fields are searched on. All _reference fields_ of `belongsTo` recor
 
 Lets search for "Lowe":
 
-![](<../../.gitbook/assets/Capture d’écran 2020-01-17 à 16.27.33.png>)
+![](<../../.gitbook/assets/2020-01-17_16.27.33.png>)
 
 We get no result!&#x20;
 
-![](<../../.gitbook/assets/Capture d’écran 2020-01-17 à 16.28.26.png>)
+![](<../../.gitbook/assets/2020-01-17_16.28.26.png>)
 
 The **extended search** lets you search also within _reference fields_ of `belongsTo` records.
 
@@ -44,11 +44,11 @@ Searching is just one way to be faster at finding the desired data. Forest Admin
 
 By clicking on a column’s header **(1)**, you will sort the data by descending then ascending order, depending on the type of data in this field. An arrow **(2)** will appear in the header, showing you that this column is sorted.
 
-![](<../../.gitbook/assets/Capture d’écran 2019-06-28 à 16.06.09.png>)
+![](<../../.gitbook/assets/2019-06-28_16.06.09.png>)
 
 ### Add one or several filters
 
-![](<../../.gitbook/assets/Capture d’écran 2019-08-12 à 18.16.32.png>)
+![](<../../.gitbook/assets/2019-08-12_18.16.32.png>)
 
 You can filter your list of records by clicking at the very end of the search bar on ‘Filter’ **(1)**. Or you can also  click on the filter icon in column headers as a shortcut to pre-fill the property you wish to filter on **(2)**.&#x20;
 
@@ -64,7 +64,7 @@ The list of filtering options available depends on the nature of the selected fi
 
 To change the logic between conditions, simply click to toggle between AND and OR.
 
-![](<../../.gitbook/assets/Capture d’écran 2019-08-12 à 18.32.27.png>)
+![](<../../.gitbook/assets/2019-08-12_18.32.27.png>)
 
 Click **Apply filters** for them to be taken into account.
 
@@ -134,11 +134,11 @@ Forest Admin provides basic CRUD actions out of the box. Check out how you can [
 
 On all table views, you'll notive a down caret (▾) next to the top-left header checkbox. Clicking on it lets you choose between selecting all records of the collection or selection only records from the current page:
 
-![](<../../.gitbook/assets/Capture d’écran 2020-03-05 à 17.47.07 copie.png>)
+![](<../../.gitbook/assets/2020-03-05_17.47.07 copie.png>)
 
 Selecting all records has no consequence, however applying an action to all those records might. That's why we've added a warning when you **select all records (1)**:
 
-![](<../../.gitbook/assets/Capture d’écran 2020-03-05 à 17.47.19 copie.png>)
+![](<../../.gitbook/assets/2020-03-05_17.47.19 copie.png>)
 
 {% hint style="info" %}
 Having selected all records, you can deselect records from this page only: moving to any another page will deselect all records.
@@ -146,7 +146,7 @@ Having selected all records, you can deselect records from this page only: movin
 
 Otherwise, you can **select records from current page only (2)** which will select only visible records:
 
-![](<../../.gitbook/assets/Capture d’écran 2020-03-05 à 17.47.40 copie.png>)
+![](<../../.gitbook/assets/2020-03-05_17.47.40 copie.png>)
 
 ## Pagination
 
@@ -156,4 +156,4 @@ Navigating the Forest Admin interface is pretty straightforward, and it won’t 
 
 Very large collections can’t be displayed on a single page. Where this is the case, you will be able to check the number of records in the collection at the bottom right side of the Table view **(1)**. At the bottom in the middle, you will be able to browse through the different pages of the collection **(2)**.
 
-![](<../../.gitbook/assets/Capture d’écran 2019-06-28 à 15.53.01.png>)
+![](<../../.gitbook/assets/2019-06-28_15.53.01.png>)

@@ -12,7 +12,7 @@ Forest Admin provides a straightforward UI to configure the segments you want st
 
 To create a new segment, activate the Layout Editor mode **(1)** on the top right part of your screen and click on the cog just next to the collection you want to edit **(2)** and select the _Segments_ tab **(3).**&#x20;
 
-![](<../.gitbook/assets/Capture d’écran 2019-07-01 à 16.59.51.png>)
+![](<../.gitbook/assets/2019-07-01_16.59.51.png>)
 
 At this point there are 2 possibilities:
 
@@ -20,7 +20,7 @@ If you have never created any segment for this collection, click the "Create you
 
 Otherwise, click the "+ New segment" link **(5)**.
 
-![](<../.gitbook/assets/Capture d’écran 2019-07-01 à 17.02.33.png>)
+![](<../.gitbook/assets/2019-07-01_17.02.33.png>)
 
 To create your segment, give it a name **(6)** and add 1 or more filter(s) **(7)**. \
 You can also adjust your **sorting** **field** and **order** [like you would for a collection](manage-your-collection-settings.md#general-tab).
@@ -39,7 +39,7 @@ SQL queries allow you to create advanced filters and connect your data through a
 
 Simply switch to **Query** mode **(1)**, type in your SQL query **(2)** and save.
 
-![](<../.gitbook/assets/Capture d’écran 2019-07-01 à 17.19.49.png>)
+![](<../.gitbook/assets/2019-07-01_17.19.49.png>)
 
 {% code title="QUERY" %}
 ```sql
@@ -64,7 +64,7 @@ If you want to make a SQL segment based on several databases, you can use the [d
 
 Usually, you want the organization of your segments to match the sequencing of your business workflows. To do so, you can **reorder** your segments using the Layout Editor mode just [like you would for collections](../getting-started/master-your-ui/using-the-layout-editor-mode/#reorder-collections-and-fields).
 
-![](<../.gitbook/assets/Capture d’écran 2019-07-01 à 17.30.22.png>)
+![](<../.gitbook/assets/2019-07-01_17.30.22.png>)
 
 {% hint style="warning" %}
 By default, newly created segments are **disabled**.

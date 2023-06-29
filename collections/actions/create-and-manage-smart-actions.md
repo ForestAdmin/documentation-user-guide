@@ -16,9 +16,9 @@ Sometimes, your Smart Action only makes sense depending on the state of your rec
 
 In the collection settings, you can configure the UI options of your Smart Actions.
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 15.33.57.png>)
+![](<../../.gitbook/assets/2019-07-01_15.33.57.png>)
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 15.03.13.png>)
+![](<../../.gitbook/assets/2019-07-01_15.03.13.png>)
 
 ### &#x20;Restrict a smart action to specific users and roles <a href="#restrict-a-smart-action-to-specific-users" id="restrict-a-smart-action-to-specific-users"></a>
 
@@ -46,15 +46,15 @@ Actions requiring approval will be available in the Collaboration menu **(3)** i
 
 In “To Review”, you will be able to approve or reject the request **(5)** with an optional message **(6)** for more details.
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 15.52.53.png>)
+![](<../../.gitbook/assets/2019-07-01_15.52.53.png>)
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 16.00.32.png>)
+![](<../../.gitbook/assets/2019-07-01_16.00.32.png>)
 
 #### Review past approval requests
 
 All past approval requests - made by you or other approvers - in the History tab **(1)**.
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 15.59.47.png>)
+![](<../../.gitbook/assets/2019-07-01_15.59.47.png>)
 
 {% hint style="info" %}
 You can export your approval requests history from this tab using the top right button **(2)**.
@@ -62,7 +62,7 @@ You can export your approval requests history from this tab using the top right 
 
 You can get more details on a specific action by clicking on it:
 
-![](<../../.gitbook/assets/Capture d’écran 2019-07-01 à 16.05.38.png>)
+![](<../../.gitbook/assets/2019-07-01_16.05.38.png>)
 
 {% hint style="success" %}
 Want to go further with Smart Actions? Read the next page to discover how to make your Smart Actions even more powerful with **Forms**!

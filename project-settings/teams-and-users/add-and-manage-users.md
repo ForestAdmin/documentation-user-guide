@@ -13,7 +13,7 @@ This can be done with those simple steps:
   5. Click on Invite
 * Your pending invitations are listed below the user list
 
-![](<../../.gitbook/assets/Capture d’écran 2020-10-23 à 16.58.48.png>)
+![](<../../.gitbook/assets/2020-10-23_16.58.48.png>)
 
 ### Manage a user's teams <a href="#add-an-existing-user-to-a-team" id="add-an-existing-user-to-a-team"></a>
 
@@ -26,7 +26,7 @@ From there, you can:
 * **(3)** Remove him from a team
 * Don't forget to save afterwards
 
-![](<../../.gitbook/assets/Capture d’écran 2020-04-02 à 13.49.13.png>)
+![](<../../.gitbook/assets/2020-04-02_13.49.13.png>)
 
 {% hint style="info" %}
 A user must be assigned to a team at all times
@@ -36,11 +36,11 @@ A user must be assigned to a team at all times
 
 To remove a user, go to a user's details page **(1)** from the _Users_ tab:
 
-![](<../../.gitbook/assets/Capture d’écran 2020-03-09 à 16.39.11.png>)
+![](<../../.gitbook/assets/2020-03-09_16.39.11.png>)
 
 You can then remove a user from the **Danger zone** by clicking on "Remove user" **(2)**. Confirm by typing "CONFIRM REMOVE" **(3)**.
 
-![](<../../.gitbook/assets/Capture d’écran 2020-03-09 à 16.37.43.png>)
+![](<../../.gitbook/assets/2020-03-09_16.37.43.png>)
 
 ### Add a profile picture
 
@@ -58,7 +58,7 @@ For now, it's the only way to add a profile picture.
 
 User tags are useful for the [scopes](../../collections/scopes.md#using-user-tags) feature: they allow you to organize your users into groups and control the data they are able to see.
 
-![](<../../.gitbook/assets/Capture d’écran 2020-04-16 à 09.22.48.png>)
+![](<../../.gitbook/assets/2020-04-16_09.22.48.png>)
 
 On the each user's details page, you can add a tag **(1)**, edit an existing tag **(2)** or remove a tag **(3)**.
 
