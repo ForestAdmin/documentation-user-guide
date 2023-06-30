@@ -35,6 +35,7 @@
 * [Introduction to Workspaces](workspaces/introduction-to-workspaces.md)
 * [Using Workspaces](workspaces/using-workspaces/README.md)
   * [Sharing your own Workspace URL with pre-selected data](workspaces/using-workspaces/sharing-your-own-workspace-url-with-pre-selected-data.md)
+* [Editing records with field components](workspaces/editing-records-with-field-components.md)
 * [Building a workspace](workspaces/building-a-workspace/README.md)
   * [Workspace Incident Management example](workspaces/building-a-workspace/workspace-incident-management-example.md)
   * [Workspace KYC example](workspaces/building-a-workspace/workspace-kyc-example.md)
