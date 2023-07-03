@@ -8,14 +8,6 @@ description: OneLogin SSO for Forest Admin
 You must have one project in your organization with the plan [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to access this feature.
 {% endhint %}
 
-## Requirements
-
-
-To configure OneLogin SAML SSO, you must:
-
-- Be in Admin mode in OneLogin
-- Have admin permission level in Forest Admin
-
 ## Configuration
 1. In your OneLogin admin dashboard, click **Add app**
 2. Select **SAML Custom Connector (Advanced)** and follow the wizard.
@@ -27,7 +19,7 @@ To configure OneLogin SAML SSO, you must:
 | --- | --- | --- |
 | ACS URL* | Assertion Consumer Service URL is responsible for receiving the SAML response | `https://api.forestadmin.com/api/saml/callback` |
 | ACS Consumer) URL Validator* | URL Validator | `^https://(api\|app).development.forestadmin.com/.*$` |
-| Single Logout URL | Redirected to this location after logout | `https://app.forestadmin.com/login` |
+| Logout URL | Redirected to this location after logout | `https://app.forestadmin.com/login` |
 | SAML nameID format | Should be the **email address used on Forest Admin accounts** | Select **Email** |
 | Audience (EntityID) | A globally unique name | `forestadmin-OrganizationName` |
 | (Optional) RelayState | Only useful for [IDP-initiated login](../organization-settings.md#idp-initiated-login) | `{"organizationName": "<OrganizationName>", "destinationUrl": "organization.projects"}`|
