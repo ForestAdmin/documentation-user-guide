@@ -74,3 +74,7 @@
   * [Billing tab](project-settings/other-project-settings/billing-tab.md)
 * [Organizations](project-settings/organizations/README.md)
   * [Organization settings](project-settings/organizations/organization-settings.md)
+    * [Configure SSO with Azure AD](project-settings/organizations/sso-guides/sso-with-azure.md)
+    * [Configure SSO with Google](project-settings/organizations/sso-guides/sso-with-google.md)
+    * [Configure SSO with Okta](project-settings/organizations/sso-guides/sso-with-okta.md)
+    * [Configure SSO with OneLogin](project-settings/organizations/sso-guides/sso-with-one-login.md)
