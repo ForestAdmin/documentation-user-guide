@@ -39,9 +39,9 @@ This tab gathers all security options of your Organization. For now you can only
 ### Configuring SSO
 
 {% hint style="info" %}
-The are supporting the SAML 2.0 specifications, you can use all the Identity providers you want therefore we recommend to use on of the following officially supported platforms.
+We are supporting the SAML 2.0 specifications, you can use all the main Identity Providers.
 
-We are officially supporting: [**Okta**](./sso-guides/sso-with-okta.md), [**OneLogin**](./sso-guides/sso-with-one-login.md), [**Google**](./sso-guides/sso-with-google.md) and [**Azure Active Directory**](./sso-guides/sso-with-azure.md) IdPs.
+For instance, the following platforms have been tested and documented: [**Okta**](./sso-guides/sso-with-okta.md), [**OneLogin**](./sso-guides/sso-with-one-login.md), [**Google**](./sso-guides/sso-with-google.md) and [**Azure Active Directory**](./sso-guides/sso-with-azure.md) IdPs.
 {% endhint %}
 
 To start configuring SSO for your Organization, click on "Configure Single Sign-On":
@@ -56,8 +56,8 @@ You'll first need to **declare Forest Admin in your Identity Provider** using th
 | --- | --- | --- |
 | Callback URL (Assertion Consumer Service URL)* | Assertion Consumer Service URL is responsible for receiving the SAML response | `https://api.forestadmin.com/api/saml/callback` |
 | Sign on URL* | Sign on URL | `https://api.forestadmin.com/api/saml/callback` |
-| Single Logout URL | Redirected to this location after logout | `https://app.forestadmin.com/login` (⚠️ Be careful if you use custom domains)|
-| Audience (EntityID) | Named SP Entity ID in Forest Admin | *Value is displayed in the Forest Admin* |
+| Single Logout URL | Redirected to this location after logout | `https://app.forestadmin.com/login` (⚠️ Or your custom domain if you use one)|
+| Audience (EntityID) | Named SP Entity ID in Forest Admin | *Value is displayed in the Forest Admin settings* |
 
 #### Configure Forest Admin with the Identity Provider Metadata
 **XML file upload or XML file endpoint (Recommended)**
@@ -88,9 +88,9 @@ If it works, you're all set but you will still need to enable that new SSO authe
 After enabling SSO, all users will be required to [log in](./#how-to-log-in-using-single-sign-on-sso) again.
 {% endhint %}
 
-#### IDP-initiated login (Optional)
+#### Identity Provider-initiated login (Optional)
 
-Once you have enabled SSO, you have the option to enable IDP-initiated login: this will allow your users to be automatically logged in when they come to Forest Admin from your identity provider dashboard.
+Once you have enabled SSO, you have the option to enable **IdP-initiated login**: this will allow your users to be automatically logged in when they come to Forest Admin from your identity provider dashboard.
 
 ![](<../../.gitbook/assets/image (318).png>)
 
@@ -98,14 +98,14 @@ To set it up properly, you will need to set a default **Relay state** on your id
 
 ```javascript
 {
-  "organizationName": "<OrganizationName_TO_REPLACE>",
+  "organizationName": "OrganizationName",
   "destinationUrl": "organization.projects"
 }
 ```
 
 #### Troubleshooting
 
-Follow the below verifications:
+Check the steps below this if you encounter an issue::
 
 * Double check all information (endpoints, certificate expiration dates, etc..)
 * Make sure the `NameID` configured on your Identity Provider is the **email address used on Forest Admin accounts too**

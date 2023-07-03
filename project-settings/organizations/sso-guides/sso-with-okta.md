@@ -5,7 +5,7 @@ description: Okta SSO for Forest Admin
 # Okta SSO
 
 {% hint style="info" %}
-You must have one project in your organization with the plan [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to have access to this feature.
+You must have one project in your organization with the plan [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to access this feature.
 {% endhint %}
 
 ## Requirements
@@ -19,8 +19,8 @@ To configure Okta SAML SSO, you must:
 ## Configuration
 1. In your Okta admin dashboard, click **Create a new app integration**
 2. Select **SAML 2.0** and follow the wizard.
-3. Navigate to the Okta application you just created. Click on the **Sign On** tab, **Metadata details** section. And copy the `Metadata URL` head to Forest Admin, select **XML file upload or XML file endpoint** and paste the `Metadata URL` to the Metadata XML endpoint.
-4. Perform some tests and enables it for your whole company.
+3. Navigate to the Okta application you just created. Click on the **Sign On** tab, **Metadata details** section, and copy the `Metadata URL` head to Forest Admin, select **XML file upload or XML file endpoint** and paste the `Metadata URL` to the Metadata XML endpoint.
+4. You can perform some tests before enabling it for your whole company..
 
 
 | Setting | Description | Value |
@@ -35,7 +35,7 @@ To configure Okta SAML SSO, you must:
 
 ### Troubleshooting
 
-Follow the below verifications:
+Check the steps below this if you encounter an issue::
 
 * Double check all information (endpoints, certificate expiration dates, etc..)
 * Make sure the `Name ID format` configured on your Identity Provider is the **email address used on Forest Admin accounts too**

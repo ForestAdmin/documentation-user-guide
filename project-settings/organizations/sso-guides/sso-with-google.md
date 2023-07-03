@@ -5,7 +5,7 @@ description: Google SSO for Forest Admin
 # Google SSO
 
 {% hint style="info" %}
-You must have one project in your organization with the plan [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to have access to this feature.
+You must have one project in your organization with the plan [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to access this feature.
 {% endhint %}
 
 ## Requirements
@@ -32,7 +32,7 @@ You can find the [Google documentation on custom SAML application here](https://
 
 ### Troubleshooting
 
-Follow the below verifications:
+Check the steps below this if you encounter an issue::
 
 * Double check all information (endpoints, certificate expiration dates, etc..)
-* Make sure the `nameID` configured on your Identity Provider is the **email address used on Forest Admin accounts**
+* Make sure the `Name ID` (the primary email) configured on your Identity Provider is the **email address used on Forest Admin accounts too**
