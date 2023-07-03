@@ -11,7 +11,7 @@ If you're looking for information on native actions (CRUD), check out [this page
 {% endhint %}
 
 ### Create a Smart Action
-Here it depends on your setup: if you are using a self-hosted project, head on to the [Developer Guide](https://docs.forestadmin.com/documentation/reference-guide/actions/create-and-manage-smart-actions) to start adding them right into your agent.
+Here it depends on your setup: if you are using a self-hosted agent, head on to the [Developer documentation portal](https://docs.forestadmin.com/documentation-portal), navigate to the `Smart Actions` documentation of your agent stack to start plugging them right into your agent.
 If you have used instant setup (cloud), you will be able to create new actions right from your Collection settings.
 
 Go to Edit Layout, select the collection where you want to create new actions, then select the `Actions`tab:
