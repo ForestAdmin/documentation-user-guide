@@ -8,13 +8,6 @@ description: Okta SSO for Forest Admin
 You must have one project in your organization with the plan [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to access this feature.
 {% endhint %}
 
-## Requirements
-
-
-To configure Okta SAML SSO, you must:
-
-- Be in Admin mode in Okta
-- Have admin permission level in Forest Admin
 
 ## Configuration
 1. In your Okta admin dashboard, click **Create a new app integration**

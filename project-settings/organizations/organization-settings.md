@@ -28,7 +28,8 @@ A user must belong to at least 1 project of the Organization to be invited as an
 ### Security tab
 
 {% hint style="info" %}
-The Security tab is only available for the **Plus plan** or above
+The Security tab is only available for the **Plus plan** or above.
+*You need a least one project within this organization with this plan to gain access to this feature*
 {% endhint %}
 
 This tab gathers all security options of your Organization. For now you can only configure Single Sign-On (SSO).
@@ -44,7 +45,11 @@ We are supporting the SAML 2.0 specifications, you can use all the main Identity
 For instance, the following platforms have been tested and documented: [**Okta**](./sso-guides/sso-with-okta.md), [**OneLogin**](./sso-guides/sso-with-one-login.md), [**Google**](./sso-guides/sso-with-google.md) and [**Azure Active Directory**](./sso-guides/sso-with-azure.md) IdPs.
 {% endhint %}
 
-To start configuring SSO for your Organization, click on "Configure Single Sign-On":
+#### Requirements
+
+To configure SSO for a Forest Admin organization, you must:
+- Be an [organization owner](#owners-tab).
+- Have access to your Identity Provider.
 
 #### Configure your Identity Provider
 
@@ -56,7 +61,7 @@ You'll first need to **declare Forest Admin in your Identity Provider** using th
 | --- | --- | --- |
 | Callback URL (Assertion Consumer Service URL)* | Assertion Consumer Service URL is responsible for receiving the SAML response | `https://api.forestadmin.com/api/saml/callback` |
 | Sign on URL* | Sign on URL | `https://api.forestadmin.com/api/saml/callback` |
-| Single Logout URL | Redirected to this location after logout | `https://app.forestadmin.com/login` (⚠️ Or your custom domain if you use one)|
+| Logout URL | Redirected to this location after logout | `https://app.forestadmin.com/login` (⚠️ Or your custom domain if you use one)|
 | Audience (EntityID) | Named SP Entity ID in Forest Admin | *Value is displayed in the Forest Admin settings* |
 
 #### Configure Forest Admin with the Identity Provider Metadata
@@ -72,7 +77,7 @@ You may also enter your authentication information manually. You'll need to prov
 
 * a **Login endpoint**
 * a **Logout endpoint**
-* and finally **a valid certificate**
+* and finally a **Valid certificate**
 
 ![](<../../.gitbook/assets/image (595).png>)
 

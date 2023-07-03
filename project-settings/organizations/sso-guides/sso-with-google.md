@@ -8,13 +8,6 @@ description: Google SSO for Forest Admin
 You must have one project in your organization with the plan [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to access this feature.
 {% endhint %}
 
-## Requirements
-
-
-To configure Google SAML SSO, you must:
-
-- Be in Admin mode in Google
-- Have admin permission level in Forest Admin
 
 ## Configuration
 1. Log in to your Google account and navigate to the Admin console.
