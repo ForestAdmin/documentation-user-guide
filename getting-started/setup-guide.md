@@ -2,9 +2,9 @@
 
 You've successfully installed Forest Admin 🎉 and you're wondering **what's next?** Here are a few recommendations:
 
-### Get to know your Forest UI
+### Get to know your new interface
 
-Forest includes a _quick tour_ to take you through the basic views and settings: click on the **blue circles** whenever you need more information!
+Forest includes a _quick tour_ to take you through the basic views and settings: when you reach your project for the first time, you can click on the **blue circles** whenever you need more information!
 
 ![](<../.gitbook/assets/image (605).png>)
 
