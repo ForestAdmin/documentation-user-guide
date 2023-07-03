@@ -56,8 +56,8 @@ You'll first need to **declare Forest Admin in your Identity Provider** using th
 | --- | --- | --- |
 | Callback URL (Assertion Consumer Service URL)* | Assertion Consumer Service URL is responsible for receiving the SAML response | `https://api.forestadmin.com/api/saml/callback` |
 | Sign on URL* | Sign on UR | `https://api.forestadmin.com/api/saml/callback` |
-| Single Logout URL | Redirected to this location after logout | `https://app.forestadmin.com/login` |
-| Audience (EntityID) | Should be **email address used on Forest Admin accounts** | `forestadmin-OrganizationName` |
+| Single Logout URL | Redirected to this location after logout | `https://app.forestadmin.com/login` (⚠️ Be careful if you use custom domains)|
+| Audience (EntityID) | Named SP Entity ID in Forest Admin | *Value is displayed in the Forest Admin* |
 
 
 Then choose how you want to communicate information from your Identity Provider (IP):
