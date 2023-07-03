@@ -30,7 +30,7 @@ To configure OneLogin SAML SSO, you must:
 | Single Logout URL | Redirected to this location after logout | `https://app.forestadmin.com/login` |
 | SAML nameID format | Should be **email address used on Forest Admin accounts** | Select **Email** |
 | Audience (EntityID) | A globally unique name | `forestadmin-OrganizationName` |
-| (Optional) RelayState | Only useful for [IDP-initiated login](../organization-settings.md#idp-initiated-login) | `{"organizationName": "<REPLACE by OrganizationName>", "destinationUrl": "organization.projects"}`|
+| (Optional) RelayState | Only useful for [IDP-initiated login](../organization-settings.md#idp-initiated-login) | `{"organizationName": "<OrganizationName>", "destinationUrl": "organization.projects"}`|
 
 ### IDP-initiated login
 You can find more info on [IDP-initiated login here](../organization-settings.md#idp-initiated-login)

@@ -23,16 +23,19 @@ To configure Okta SAML SSO, you must:
 4. Perform some tests and enables it for your whole company.
 
 
-<figure><img src="../../../.gitbook/assets/organization-sso-okta-metadata.png" alt=""><figcaption>Okta metadata URL</figcaption></figure>
+| Setting | Description | Value |
+| --- | --- | --- |
+| ACS URL* | Assertion Consumer Service URL is responsible for receiving the SAML response. Check *Use this for Recipient URL and Destination URL* | `https://api.forestadmin.com/api/saml/callback` |
+| Audience URI (EntityID) | A globally unique name | `forestadmin-OrganizationName` |
+| Name ID format | Should be **email address used on Forest Admin accounts** | Select **EmailAddress** |
+| Application username | | Select **Email** or let **None** |
+| Update application username on | | Select **Create and update** |
+| (Optional) Default RelayState | Only useful for [IDP-initiated login](../organization-settings.md#idp-initiated-login) | `{"organizationName": "<OrganizationName>", "destinationUrl": "organization.projects"}`|
 
-### IDP-initiated login
-You can find more info on [IDP-initiated login here](../organization-settings.md#idp-initiated-login)
-
-<figure><img src="../../../.gitbook/assets/organization-sso-okta-configuration.png" alt=""><figcaption>RelayState example - Redirect to SSO organization after an IdP initiated login</figcaption></figure>
 
 ### Troubleshooting
 
 Follow the below verifications:
 
 * Double check all information (endpoints, certificate expiration dates, etc..)
-* Make sure the `nameID` configured on your Identity Provider is the **email address used on Forest Admin accounts**
+* Make sure the `Name ID format` configured on your Identity Provider is the **email address used on Forest Admin accounts too**
