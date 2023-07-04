@@ -11,9 +11,9 @@ You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) t
 ## Supported features
 
 * Provisioning users from Okta to Forest Admin
-* Updating user role, permission level, teams, and tags from Okta to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
+* Updating user role, permission level, and tags from Okta to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
 * Deleting user in Forest Admin when user is removed from Forest Admin app in Okta.&#x20;
-* Groups can be used to assign users to team, do not use the "teams" parameter is you want to use groups to handle teams.
+* SCIM Groups are used to assign users to teams.
 
 ## Adding the Forest Admin app
 
@@ -53,18 +53,13 @@ Create mapping rules to automatically provide values to mandatory parameters `te
 
 * permissionLevel (string): should match any of “Admin”, “Developer”, “Editor”, or “User”.
 * role (`string`): should match exactly an existing role in the project.
-* teams (optional `string`): team names, separated with a coma. ex: `"team1,team2,someOtherTeam"`. If this parameter is not present, you have to use groups to handle teams.
 * tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
 
 {% hint style="warning" %}
 Beware of selecting the right mapping direction: Okta to ForestAdmin
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (443).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-For _teams_, the function `Arrays.toCsvString(user.<your_custom_parameter>)` allows to conversion of a multivalue field to a string with a comma separator.
-{% endhint %}
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Adding custom user attributes
 
@@ -74,9 +69,9 @@ You may want to add custom user attributes to base your mapping rules on. To do 
 
 ## Managing teams with SCIM groups
 
-You can use SCIM groups to manage teams in Forest Admin. Groups allow you to create mapping rules between Okta groups and Forest Admin teams.
+Groups allow you to create mapping rules between Okta groups and Forest Admin teams.
 
-First, go to the Directory tab and on the Groups section, ensure that you defined a group for each ForestAdmin team.
+First, go to the Directory tab and on the Groups section, ensure that you defined a group in Okta for each team in ForestAdmin. You can also create teams in ForestAdmin directly from Okta.
 
 <figure><img src="../../../.gitbook/assets/image (584).png" alt=""><figcaption></figcaption></figure>
 
@@ -84,11 +79,11 @@ Then go to the ForestAdmin App in Okta and click on the "Push groups" tab.
 
 <figure><img src="../../../.gitbook/assets/image (596).png" alt=""><figcaption></figcaption></figure>
 
-Click on "Push Groups" and select "Find groups by name". Type in the name of any group you want to link with a ForestAdmin team.
+Click on "Refresh App Groups" then "Push Groups" and select "Find groups by name". Type in the name of any group you want to link with a ForestAdmin team.
 
 ![](<../../../.gitbook/assets/image (582).png>)![](<../../../.gitbook/assets/image (583).png>)
 
-Okta will then check if a ForestAdmin team exists with the same name, or suggest you to select an existing team to link with the group.
+You can then map the Okta group with an existing ForestAdmin team or create a new team with the same name.
 
 {% hint style="warning" %}
 Warning: when you link a group from Okta to a ForestAdmin team, the ForestAdmin team will be renamed to match the group name, unless you disable this option (see below).
@@ -98,4 +93,4 @@ Warning: when you link a group from Okta to a ForestAdmin team, the ForestAdmin 
 
 To prevent Okta from renaming your ForestAdmin teams, you can disable groups renaming in the app settings.
 
-![](<../../../.gitbook/assets/image (594).png>)![](<../../../.gitbook/assets/image (586).png>)
+![](<../../../.gitbook/assets/image (4).png>)![](../../../.gitbook/assets/image.png)\

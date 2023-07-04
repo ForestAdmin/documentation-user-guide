@@ -1,6 +1,6 @@
 # Using Smart Views
 
-## What is a Smart View?&#x20;
+## What is a Smart View?
 
 A Smart View is page specially designed by your technical team using Javascript, HTML, and CSS. It is useful when you need extensive customization.
 
@@ -30,11 +30,11 @@ Here are a few examples:
 
 To apply a Smart view you created, turn on the Layout Editor mode **(1)**, click on the table button **(2)** and drag & drop your Smart View's name in first position inside the dropdown **(3)**:
 
-![](<../../.gitbook/assets/2019-07-09_11.51.33.png>)
+![](../../.gitbook/assets/2019-07-09\_11.51.33.png)
 
 Your view will refresh automatically. You can now turn off the Layout Editor mode **(4)**.
 
-![](<../../.gitbook/assets/2019-07-09_11.59.12.png>)
+![](../../.gitbook/assets/2019-07-09\_11.59.12.png)
 
 ### Impact on related data
 
@@ -46,9 +46,8 @@ Once your Smart view is applied, it will also be displayed in your record's rela
 
 #### In the summary view
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 {% hint style="info" %}
 As of today, it's **not** possible to set different views for your table/summary/related data views.
 {% endhint %}
-

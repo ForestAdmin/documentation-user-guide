@@ -6,7 +6,7 @@ Options are adjustments that can be made on top of your selected widget settings
 Options apply right before the value is displayed, that's why they are **only available in the display settings** panel.
 {% endhint %}
 
-![](<../../.gitbook/assets/2020-09-18_17.53.47.png>)
+![](../../.gitbook/assets/2020-09-18\_17.53.47.png)
 
 There are 2 options. Some are available only on specific widgets.
 
@@ -14,7 +14,7 @@ There are 2 options. Some are available only on specific widgets.
 
 This option allows you modify values fetched from your database before they are displayed on your screen.
 
-![](<../../.gitbook/assets/2020-09-18_17.55.18.png>)
+![](../../.gitbook/assets/2020-09-18\_17.55.18.png)
 
 This options is best suited for `enum` type fields (since there is a finite number of possible values), but can also be useful for other type fields in specific situations.
 
@@ -52,4 +52,4 @@ It's then up to you to customize how you want the data to be displayed. Change t
 
 You may also add a default rule, which will apply if no other condition is met:
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
