@@ -28,7 +28,7 @@ A user must belong to at least 1 project of the Organization to be invited as an
 ### Security tab
 
 {% hint style="info" %}
-The Security tab is only available for the **Plus plan** or above.
+The Security tab is only available for the **Pro plan** or above.
 *You need a least one project within this organization with this plan to gain access to this feature*
 {% endhint %}
 
