@@ -403,7 +403,7 @@ Use this widget to handle JSON content.
 
 ## Address
 
-This widget allows you to benefit from [Mapbox](https://www.mapbox.com/)'s address autocompletion.
+This widget allows you to benefit from [Google Places](https://developers.google.com/maps/documentation/places/web-service)'s address autocompletion.
 
 <figure><img src="../../.gitbook/assets/image (340).png" alt=""><figcaption></figcaption></figure>
 
