@@ -51,7 +51,7 @@ Use _Static_ content type if you want to manually enter your content.
 
 ![](<../../.gitbook/assets/image (321).png>)
 
-Your values should be added **manually** - as a comma-separated list -, **unless** you enabled the _Alter values_ option (available in [display settings](./#display-settings)) or if your field is an enum, in which cases you will be able to simply enable/disable values to add them :
+Your values should be added **manually** - as a comma-separated list -, **unless** you enabled the _Alter values_ option (available in [display settings](./#display-settings)) or if your field is an enum, in which cases you will be able to simply enable/disable values to add them:
 
 !["Alter values" option (display settings)](<../../.gitbook/assets/image (86).png>)
 

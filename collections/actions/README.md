@@ -43,7 +43,7 @@ Smart actions can be triggered from the _Actions_ button or directly from a [Sum
 
 Triggering an action is very simple, but the behavior can differ according to the type of action.
 
-There are 3 types of actions :
+There are 3 types of actions:
 
 * **Bulk** actions: the action will be available when you click on one or several desired records
 * **Single** actions: the action is only available for one selected record at a time

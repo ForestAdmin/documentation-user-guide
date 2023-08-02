@@ -80,7 +80,7 @@ _Collection permissions_ allow you to enable/disable the following collection-sp
 
 ### Control environment access per role <a href="#control-environment-access-per-role" id="control-environment-access-per-role"></a>
 
-From a role's details page, you can also :‌
+From a role's details page, you can also:‌
 
 * &#x20;toggle which environments users assigned to this role have access to **(1)**
 *   select which environment you wish to view permissions of or edit them **(2)**
