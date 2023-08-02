@@ -1,6 +1,6 @@
 ---
 description: >-
-  The Table view is the gateway to your data. It shows collections as rows and
+  The Table view is the gateway to your data. It shows records as rows and
   their fields as columns.
 ---
 
