@@ -4,7 +4,7 @@ The Layout Editor mode is your go-to tool when you want to **edit your user inte
 
 ### Swiching ON the Layout Editor mode ​&#x20;
 
-Provided you have the necessary permission, you will see a paintbrush icon at the **top-right** of your interface.
+Provided you have the necessary permission, you will see the "Edit layout" button with a layer icon at the **top-right** of your interface.
 
 ![](<../../../.gitbook/assets/2022-01-26_17.39.25.png>)
 
@@ -30,4 +30,3 @@ After logging in, Forest Admin automatically redirects you to the dashboard by d
 2. Change the position of the "Data" tab &#x20;
 
 ![](../../../.gitbook/assets/ezgif-1-43607ca7f91d.gif)
-
