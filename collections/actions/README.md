@@ -12,7 +12,7 @@ In Forest Admin, all the available actions can fall into 2 categories.
 
 #### Native actions
 
-Those actions come out-of-the-box. We've covered them in details _from a route perspective_ in [Routes](broken-reference), but here is what the most common ones look like in the interface:
+Those actions come out-of-the-box. Here is what the most common ones look like in the interface:
 
 * **Create**: create a new record in a given collection **(1)**
 * **Duplicate**: create a new record from an existing one **(2)**

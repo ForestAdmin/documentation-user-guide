@@ -33,7 +33,7 @@ The **extended search** lets you search also within _reference fields_ of `belon
 ![](<../../.gitbook/assets/image (331).png>)
 
 {% hint style="info" %}
-_Extended search_ is **not the default** search because it is **slower**. Although not recommended, you can choose to [make it the default search](broken-reference).
+_Extended search_ is **not the default** search because it is **slower**.
 {% endhint %}
 
 ## Filters
@@ -52,7 +52,7 @@ By clicking on a column’s header **(1)**, you will sort the data by descending
 
 You can filter your list of records by clicking at the very end of the search bar on ‘Filter’ **(1)**. Or you can also  click on the filter icon in column headers as a shortcut to pre-fill the property you wish to filter on **(2)**.&#x20;
 
-If you notice there is no filter **(3)**: either you have [disabled filtering on this field](../../collections/customize-your-fields/#basic-settings), or it is a [Smart field](broken-reference).
+If you notice there is no filter **(3)**: either you have [disabled filtering on this field](../../collections/customize-your-fields/#basic-settings), or it is a Smart Field that does not support filters.
 
 Once opened, the filter management dropdown will look like this:
 

@@ -20,7 +20,7 @@ You'll enter an Edit mode where you can change values of editable fields. Don't 
 {% hint style="info" %}
 A field can be disabled in Edit mode for several reasons:\
 • if it's set as [read only](../customize-your-fields/#basic-settings) \
-• if it's a [Smart field](broken-reference) with no `set` method
+• if it's a Smart field with no `set` method
 {% endhint %}
 
 ### From the Summary view
