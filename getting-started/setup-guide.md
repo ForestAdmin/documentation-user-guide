@@ -52,10 +52,8 @@ Charts help you analyze your data. Learn all about charts here:
 
 ### Invite your teammates
 
-Inviting new people to join is easy and Forest is much more useful as a team!&#x20;
+Forest Admin is much more powerful as a team! And inviting new people to join is easy.&#x20;
 
-To invite new users, you need to be on a paying plan. Go to your [Billing tab](../project-settings/other-project-settings/billing-tab.md) and **upgrade**.
-
-You may then [invite new users](../project-settings/teams-and-users/add-and-manage-users.md).
+You just have to go into your project settings and enter the Users tab, then [invite new users](../project-settings/teams-and-users/add-and-manage-users.md).
 
 To learn more about Teams, visit [this page](../project-settings/teams-and-users/).
