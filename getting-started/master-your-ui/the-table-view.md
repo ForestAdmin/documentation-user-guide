@@ -132,7 +132,7 @@ Forest Admin provides basic CRUD actions out of the box. Check out how you can [
 
 #### Select all records vs Select current page only
 
-On all table views, you'll notive a down caret (▾) next to the top-left header checkbox. Clicking on it lets you choose between selecting all records of the collection or selection only records from the current page:
+On all table views, you'll notice a down caret (▾) next to the top-left header checkbox. Clicking on it lets you choose between selecting all records of the collection or selection only records from the current page:
 
 ![](<../../.gitbook/assets/2020-03-05_17.47.07 copie.png>)
 
