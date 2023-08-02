@@ -226,7 +226,7 @@ Use this widget to neatly display your JSON.
 Use this _display_ widget with the [User dropdown](https://docs.forestadmin.com/user-guide/collections/customize-your-fields/edit-widgets#user-dropdown) _edit_ widget for optimal results.
 {% endhint %}
 
-This widget detects emails of existing users of your current project and displays their profile picture:
+This widget detects emails of existing Forest Admin users of your project and displays their profile picture:
 
 <figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
