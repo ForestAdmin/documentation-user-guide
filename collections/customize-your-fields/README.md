@@ -16,8 +16,8 @@ You can also add a _description_ **(2)** which will be displayed when you edit y
 
 Other options are also available:
 
-* **Read only**: Enable if you don't want anyone modifying the data of this field
-* **Filtering enabled**: Disable if you don't want anyone using a filter on this field
+* **Read only**: Enable if you don't want anyone to modify the data of this field.
+* **Filtering enabled**: Disable if you don't want anyone to use a filter on this field.
 
 ## Edit settings
 
