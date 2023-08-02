@@ -11,14 +11,12 @@ You can display only specific fields for a collection and in a given order. When
 By default, 15 records are displayed per page. However, you are free to change this number if needed.
 
 {% hint style="warning" %}
-The number of records per page affects your **loading time**. Choose it wisely!
+The number of records per page affects the **loading time** of your data, so we recommend not having too many results on a single page. Choose your configuration wisely!
 {% endhint %}
 
 To do so, you must use the _Edit Layout_ mode, which is accessible through a button at the upper left side of the Forest Admin interface, then adjust your number of records per page at the bottom right.
 
 ![](<../../../.gitbook/assets/2019-06-28_15.56.27.png>)
-
-We recommend not having too many results on a single page for performance reasons.
 
 ### Change a collection's _reference field_
 
