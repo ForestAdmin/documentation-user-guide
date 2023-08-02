@@ -3,7 +3,7 @@
 This page walks you through all available _edit_ widgets settings.
 
 {% hint style="info" %}
-For an introduction on what widgets are and a comprehensive list of what widgets you'll be able to choose from, check out the previous page: [Customize your fields](https://docs.forestadmin.com/developer-guide/reference-guide/fields/customize-your-fields)
+For an introduction on what widgets are and a comprehensive list of what widgets you'll be able to choose from, check out the previous page: [Customize your fields](./)
 {% endhint %}
 
 ## Text input
