@@ -10,6 +10,10 @@ To configure a Summary view, go to the Summary tab **(1)**, then click "Add one"
 
 ![](<../../.gitbook/assets/2019-06-28_16.38.36.png>)
 
+{% hint style="success" %}
+Once the Summary View created for a specific collection, it will become the default entrypoint while navigating to a specific record of this collection.
+{% endhint %}
+
 {% hint style="info" %}
 If a Summary view already exists, you can always reconfigure it by activating the [_Layout Editor_ mode](using-the-layout-editor-mode/).
 {% endhint %}
