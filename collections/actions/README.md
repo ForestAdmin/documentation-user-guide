@@ -28,7 +28,7 @@ Some actions are only available when 1+ record(s) are selected. This depends on 
 ![](<../../.gitbook/assets/2019-07-01_12.36.29.png>)
 
 {% hint style="warning" %}
-Native actions' **permissions** can be configured in the project settings, in the [Roles tab](). set from each of your [collections' settings](../../project-settings/teams-and-users/manage-roles#collection-permissions-1).
+Native actions' **permissions** can be configured in the project settings, in the [Roles tab](../project-settings/teams-and-users/manage-roles#collection-permissions-1).
 {% endhint %}
 
 #### Smart Actions
