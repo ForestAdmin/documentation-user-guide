@@ -28,7 +28,7 @@ Some actions are only available when 1+ record(s) are selected. This depends on 
 ![](<../../.gitbook/assets/2019-07-01_12.36.29.png>)
 
 {% hint style="warning" %}
-Native actions' **permissions** are set from each of your [collections' settings](../manage-your-collection-settings.md#collection-permissions).
+Native actions' **permissions** can be configured in the project settings, in the [Roles tab](). set from each of your [collections' settings](../../project-settings/teams-and-users/manage-roles#collection-permissions-1).
 {% endhint %}
 
 #### Smart Actions
@@ -36,7 +36,7 @@ Native actions' **permissions** are set from each of your [collections' settings
 Smart actions are your own business-related actions, built with your own code. You'll learn how to use them in the [following page](create-and-manage-smart-actions.md#what-is-a-smart-action).
 
 {% hint style="info" %}
-Smart actions can be triggered from the _Actions_ button or directly from a [Summary view](../../getting-started/master-your-ui/build-a-summary-view.md#acting-on-your-data).
+Smart Actions can be triggered from the _Actions_ button in the List View, from the Details View, or directly from a [Summary View](../../getting-started/master-your-ui/build-a-summary-view.md#acting-on-your-data) or a Workspace.
 {% endhint %}
 
 ### Triggering different types of actions
@@ -45,9 +45,9 @@ Triggering an action is very simple, but the behavior can differ according to th
 
 There are 3 types of actions:
 
-* **Bulk** actions: the action will be available when you click on one or several desired records
+* **Bulk** actions: the action will be available when you select one or several records
 * **Single** actions: the action is only available for one selected record at a time
-* **Global** actions: the action is always available and will be executed on all records
+* **Global** actions: the action is always available in the Table View without having to select one or several records
 
 
 
