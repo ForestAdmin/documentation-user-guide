@@ -5,7 +5,7 @@ To create a new record, click the **Add** button from the Table view.
 ![](<../../.gitbook/assets/2020-01-17_00.18.43.png>)
 
 {% hint style="warning" %}
-There's no **Add** button? Record creation might be [disabled](../manage-your-collection-settings.md#collection-permissions).
+There's no **Add** button? Record creation might be [disabled](../../project-settings/teams-and-users/manage-roles.md#collection-permissions-1) for your current role.
 {% endhint %}
 
 Once on the creation form, fill out all required fields as per your database's constraints:
@@ -16,9 +16,9 @@ Once on the creation form, fill out all required fields as per your database's c
 This form can be customized. Check out [this section](../../getting-started/master-your-ui/using-the-layout-editor-mode/customize-your-creation-and-edition-forms.md#customizing-a-creation-form) to do so.
 {% endhint %}
 
-When creating a record, you can also link an _existing_ `belongsTo` records **(1)** or create a _new_ one **(2)**.
+When creating a record, you can also link an _existing_ `belongsTo` records **(2)** or create a _new_ one **(3)**.
 
-You can also add existing **(4)** or new **(5)** `hasMany` records from its _Related data_ collections **(3)**:
+You can also add existing **(4)** or new **(5)** `hasMany` records from its _Related data_ collections **(1)**:
 
 ![](<../../.gitbook/assets/2020-01-17_16.03.06.png>)
 
