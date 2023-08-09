@@ -18,18 +18,18 @@ This enhancement proves especially beneficial when redirecting users from extern
 
 ### **URL Construction**
 
-The query options are constructed by encoding the URL with component names separated by **`.`** and then followed by the attribute for each option.
+The query parameters of the URL are constructed this way: `<componentName>.<attribute>=<value>`
 
 For instance, here's how you can encode a URL:
 
 ```jsx
-encodeURI('<https://app.forestadmin.com/Library/Development/Operations/workspaces/615546e6-e0ea-4c8e-98fa-a4e0bc9dc8d1?component1.selectedRecords=[1,2]&component1.search=search> something')
+encodeURI('<https://app.forestadmin.com/Library/Development/Operations/workspaces/615546e6-e0ea-4c8e-98fa-a4e0bc9dc8d1?component1.selectedRecords=[1,2]&component1.search="search something">')
 ```
 
 This will result in the following encoded URL:
 
 ```jsx
-<https://app.forestadmin.com/Library/Development/Operations/workspaces/615546e6-e0ea-4c8e-98fa-a4e0bc9dc8d1?component1.selectedRecords=%5B1,2%5D&component1.search=search%20something>'
+<https://app.forestadmin.com/Library/Development/Operations/workspaces/615546e6-e0ea-4c8e-98fa-a4e0bc9dc8d1?component1.selectedRecords=%5B1,2%5D&component1.search=%22search%20something%22>'
 ```
 
 ### **Component Parameters**
