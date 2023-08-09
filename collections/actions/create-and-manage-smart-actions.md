@@ -56,7 +56,7 @@ Critical actions for your business may need approval before being processed.
 
 #### Set up your approval workflow
 
-To add an additional layer of security over a Smart Action, head over to the _Roles_ tab of your [projects settings](../../project-settings/other-project-settings/#how-to-access-project-settings). From there, you'll be able to select Trigger with approval for that Smart Action. Note that this must be set for each role.
+To add an additional layer of security over a Smart Action, head over to the [Roles tab](../../project-settings/teams-and-users/manage-roles.md#approval-workflow-permissions) of your project settings. From there, you'll be able to select Trigger with approval for that Smart Action. Note that this must be set for each role.
 
 #### Review approval requests
 
