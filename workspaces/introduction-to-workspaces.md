@@ -6,17 +6,31 @@ Our vision is that, in the future, workspaces will become the place where operat
 
 ### What is a workspace?
 
-A Workspace is single web page that you can build using components. Once built, it should become your operators' main tool to do their day-to-day work.
+A Workspace is a simple application that you can build using components to tackle a specific workflow. Once built, it should become your operators' main tool to do their day-to-day work.
 
-A Component is a piece of UI that helps you do your day-to-day work. For now, there are 4 components: Text, Chart, Collection and Button. In the future, there will be many more!
+A Component is a piece of UI that you can combine with others to build the application that will help operators increase their productivity doing their day-to-day work. There are a lot of components you can use:
+- Text,
+- Divider,
+- Tabs,
+- Section,
+- Collection
+- Chart,
+- Field,
+- Button,
+- Search,
+- Link,
+- Dropdown,
+- Toggle.
+
+...and many more in the future!
 
 See below a Workspace example from our [KYC Live Demo](https://demo.forestadmin.com/demo-finance/Production/KYC%20team/workspaces/8c34e297-1cf0-4fbe-8bc5-c0baa8695d17):
 
 <figure><img src="../.gitbook/assets/CleanShot 2023-05-04 at 15.30.05.png" alt=""><figcaption><p>Workspace example</p></figcaption></figure>
 
-### What are the scheduled improvements of workspaces?
+### What are the future improvements of workspaces?
 
-What you see now are only the first steps of workspaces. We're currently working on making them much more powerfull with the following next iterations:
+What you see now are only the first steps of workspaces. We're currently working on making them much more powerful with the following next iterations:
 
 * **Smart-action forms**: embed your Smart Action forms into workspaces.
 * **Multi-page**: create more than one page for the same workspace and link them together.
