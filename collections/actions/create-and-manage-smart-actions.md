@@ -85,7 +85,3 @@ You can export your approval requests history from this tab using the top right 
 You can get more details on a specific action by clicking on it:
 
 ![](<../../.gitbook/assets/2019-07-01_16.05.38.png>)
-
-{% hint style="success" %}
-Want to go further with Smart Actions? Read the next page to discover how to make your Smart Actions even more powerful with **Forms**!
-{% endhint %}
