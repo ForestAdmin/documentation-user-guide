@@ -59,7 +59,7 @@ Select a _display_ widget **(1)**.&#x20;
 
 ![](<../../.gitbook/assets/2020-07-23_10.41.03.png>)
 
-This is how you will **control how your data is displayed** in your views (table view, summary view, related data views, etc).
+This is how you will **control how your data is displayed** in your views (Table View, Summary View, related data views, etc).
 
 {% hint style="info" %}
 After selecting a widget, its _settings_ panel should open automatically. You can however reopen that panel at any time by clicking on the cog icon **(2)**.

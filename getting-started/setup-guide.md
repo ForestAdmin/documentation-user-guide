@@ -34,9 +34,9 @@ For each field, you can set how it is displayed and how it is edited:
 [customize-your-fields](../collections/customize-your-fields/)
 {% endcontent-ref %}
 
-### Trigger a Smart action
+### Trigger a Smart Action
 
-Every business is unique: that's why we created Smart actions:&#x20;
+Every business is unique: that's why we created Smart Actions:&#x20;
 
 {% content-ref url="../collections/actions/" %}
 [actions](../collections/actions/)

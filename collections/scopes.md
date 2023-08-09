@@ -7,7 +7,7 @@ A scope is a filter which applies to a collection and all its segments.&#x20;
 It is useful in that it can be used to control what data is available to users. More specifically, scopes can be set up to filter data dynamically on the current user.
 
 {% hint style="warning" %}
-**Scopes** are applied to the entire application excluding global smart actions, API & SQL charts and Collaboration & Activities.
+**Scopes** are applied to the entire application excluding global Smart Actions, API & SQL charts and Collaboration & Activities.
 {% endhint %}
 
 ### How to set up a scope

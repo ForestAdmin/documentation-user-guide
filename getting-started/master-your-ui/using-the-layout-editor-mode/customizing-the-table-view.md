@@ -1,4 +1,4 @@
-# Customize the Table view
+# Customize the Table View
 
 ### Show/hide and reorder fields ​​ <a href="#show-hide-fields" id="show-hide-fields"></a>
 
@@ -22,12 +22,12 @@ To do so, you must use the _Edit Layout_ mode, which is accessible through a but
 
 Your collections are intertwined. When a collection is linked to another by a `belongsto` relationship, we show its most representative value: we call this its **reference field**.&#x20;
 
-By default it's the `id`, but you may want to change it to something more explicit. This can be done from the linked [collection's General settings](../../../collections/manage-your-collection-settings.md#general-tab), but you use the quick access from the Table view:
+By default it's the `id`, but you may want to change it to something more explicit. This can be done from the linked [collection's General settings](../../../collections/manage-your-collection-settings.md#general-tab), but you use the quick access from the Table View:
 
 ![Accessing "Address" collection's reference field setting](<../../../.gitbook/assets/2020-02-20_15.10.20.png>)
 
-### Set a Smart view as your default view
+### Set a Smart View as your default view
 
-You may have created [Smart view](../create-and-manage-smart-views.md#what-is-a-smart-view) to replace the default Table view of a specific collection. \
+You may have created [Smart View](../create-and-manage-smart-views.md#what-is-a-smart-view) to replace the default Table View of a specific collection. \
 \
-That Smart view is **not applied by default**. Learn how you can [set it as the default view](../create-and-manage-smart-views.md#applying-a-smart-view).
+That Smart View is **not applied by default**. Learn how you can [set it as the default view](../create-and-manage-smart-views.md#applying-a-smart-view).

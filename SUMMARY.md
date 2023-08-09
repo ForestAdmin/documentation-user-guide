@@ -6,13 +6,13 @@
 
 * [Setup guide](getting-started/setup-guide.md)
 * [Master your UI](getting-started/master-your-ui/README.md)
-  * [The Table view](getting-started/master-your-ui/the-table-view.md)
+  * [The Table View](getting-started/master-your-ui/the-table-view.md)
   * [Using the Layout Editor mode](getting-started/master-your-ui/using-the-layout-editor-mode/README.md)
-    * [Customize the Table view](getting-started/master-your-ui/using-the-layout-editor-mode/customizing-the-table-view.md)
-    * [Customize the Details view](getting-started/master-your-ui/using-the-layout-editor-mode/customize-the-details-view.md)
+    * [Customize the Table View](getting-started/master-your-ui/using-the-layout-editor-mode/customizing-the-table-view.md)
+    * [Customize the Details View](getting-started/master-your-ui/using-the-layout-editor-mode/customize-the-details-view.md)
     * [Customize your creation and edition forms](getting-started/master-your-ui/using-the-layout-editor-mode/customize-your-creation-and-edition-forms.md)
-  * [Build a Summary view](getting-started/master-your-ui/build-a-summary-view.md)
-  * [Build an Explorer view](getting-started/master-your-ui/build-an-explorer-view.md)
+  * [Build a Summary View](getting-started/master-your-ui/build-a-summary-view.md)
+  * [Build an Explorer View](getting-started/master-your-ui/build-an-explorer-view.md)
   * [Using Smart Views](getting-started/master-your-ui/create-and-manage-smart-views.md)
 
 ## Collections

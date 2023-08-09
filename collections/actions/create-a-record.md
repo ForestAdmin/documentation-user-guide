@@ -1,6 +1,6 @@
 # Create a record
 
-To create a new record, click the **Add** button from the Table view.
+To create a new record, click the **Add** button from the Table View.
 
 ![](<../../.gitbook/assets/2020-01-17_00.18.43.png>)
 
@@ -18,7 +18,7 @@ This form can be customized. Check out [this section](../../getting-started/mast
 
 When creating a record, you can also link an _existing_ `belongsTo` records **(2)** or create a _new_ one **(3)**.
 
-You can also add existing **(4)** or new **(5)** `hasMany` records from its _Related data_ collections **(1)**:
+You can also add existing **(4)** or new **(5)** `hasMany` records from its _related data_ collections **(1)**:
 
 ![](<../../.gitbook/assets/2020-01-17_16.03.06.png>)
 

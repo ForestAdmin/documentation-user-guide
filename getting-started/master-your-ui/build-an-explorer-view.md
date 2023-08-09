@@ -1,4 +1,4 @@
-# Build an Explorer view
+# Build an Explorer View
 
 ### What is the Explorer?
 
@@ -10,9 +10,9 @@ You may also edit, add and associate records from the Explorer tab:
 
 ![](<../../.gitbook/assets/image (57).png>)
 
-### Build your Explorer view
+### Build your Explorer View
 
-To build your Explorer view according to your needs, turn on the [Layout Editor](using-the-layout-editor-mode/) mode while on the Explorer tab:
+To build your Explorer View according to your needs, turn on the [Layout Editor](using-the-layout-editor-mode/) mode while on the Explorer tab:
 
 ![](<../../.gitbook/assets/image (593).png>)
 

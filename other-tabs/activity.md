@@ -9,7 +9,7 @@ It allows users to track any actions triggered by a member of your Forest Admin 
 * Create
 * Update
 * Delete
-* Trigger a [Smart action](../collections/actions/create-and-manage-smart-actions.md#what-is-a-smart-action)
+* Trigger a [Smart Action](../collections/actions/create-and-manage-smart-actions.md#what-is-a-smart-action)
 * Leave a [note](collaboration/communicate-with-notes.md)
 
 For each of these actions, the **user**, the **record** and **datetime** are logged.

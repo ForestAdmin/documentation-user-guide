@@ -34,7 +34,7 @@ Native actions' **permissions** can be configured in the project settings, in th
 
 #### Smart Actions
 
-Smart actions are your own business-related actions, built with your own code. You'll learn how to use them in the [following page](create-and-manage-smart-actions.md#what-is-a-smart-action).
+Smart Actions are your own business-related actions, built with your own code. You'll learn how to use them in the [following page](create-and-manage-smart-actions.md#what-is-a-smart-action).
 
 {% hint style="info" %}
 Smart Actions can be triggered from the _Actions_ button in the List View, from the Details View, or directly from a [Summary View](../../getting-started/master-your-ui/build-a-summary-view.md#acting-on-your-data) or a Workspace.

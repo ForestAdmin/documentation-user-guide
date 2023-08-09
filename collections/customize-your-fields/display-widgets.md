@@ -136,11 +136,11 @@ If you must keep them **private**, you should consider using [signed URLs](https
 
 ### PDFs
 
-From the table view, clicking on the file icon will open the PDF in a new tab.
+From the Table View, clicking on the file icon will open the PDF in a new tab.
 
 ![](<../../.gitbook/assets/2019-07-01_12.08.02.png>)
 
-From the summary and details views, the PDF can be previewed:
+From the summary and Details Views, the PDF can be previewed:
 
 ![](<../../.gitbook/assets/image (230).png>)
 

@@ -13,7 +13,7 @@ All you have to do to embed your Metabase dashboard into Forest Admin is to crea
 
 <figure><img src="../.gitbook/assets/image (575).png" alt=""><figcaption></figcaption></figure>
 
-Then, click on "Edit in builder" to start creating your smart chart.
+Then, click on "Edit in builder" to start creating your Smart Chart.
 
 **Component**
 
@@ -37,18 +37,18 @@ To create a visually attractive look, you can alter the CSS to fit your preferen
 }
 
 .c-smart-chart__content {
-  display: flex; 
-  width: 100%; 
-  height: 100%; 
-  flex-direction: column; 
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
   overflow: hidden;
   color: var(--color-beta-on-surface_medium);
 }
 
 .c-smart-chart__metabase {
-  flex-grow: 1; 
-  border: none; 
-  margin: 0; 
+  flex-grow: 1;
+  border: none;
+  margin: 0;
   padding: 0;
 }
 ```

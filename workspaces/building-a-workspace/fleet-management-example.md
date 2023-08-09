@@ -28,7 +28,7 @@ You may now select your segment from the Collection component:
 
 <figure><img src="../../.gitbook/assets/2022-11-08_11.19.49.png" alt=""><figcaption></figcaption></figure>
 
-Next, we'll add a map of the idle drivers. This map is a **Smart view** which needs to be coded within the Smart view tab of the corresponding collection settings. If you're interested in such a view, check out [this example](https://docs.forestadmin.com/documentation/reference-guide/smart-views/create-a-map-view).
+Next, we'll add a map of the idle drivers. This map is a **Smart View** which needs to be coded within the Smart View tab of the corresponding collection settings. If you're interested in such a view, check out [this example](https://docs.forestadmin.com/documentation/reference-guide/smart-views/create-a-map-view).
 
 <figure><img src="../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure>
 

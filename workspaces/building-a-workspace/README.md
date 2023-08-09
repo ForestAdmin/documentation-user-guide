@@ -36,7 +36,7 @@ Soon you'll be able to use markdown format as well.
 
 ### The Action Component
 
-The **Action** component can be used to trigger `global,` `single`, and `bulk` smart actions as well as CRUD operations.&#x20;
+The **Action** component can be used to trigger `global,` `single`, and `bulk` Smart Actions as well as CRUD operations.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-05 at 16.56.40.png" alt=""><figcaption></figcaption></figure>
 
@@ -144,11 +144,11 @@ Here are some examples:
 If you rename your components, the syntax adjusts automatically in all components using templating.
 {% endhint %}
 
-#### Adding Related data
+#### Adding related data
 
-Templating may also be used **in filters** of the Collection component. In practice, this allows you to recreate a Related data collection.
+Templating may also be used **in filters** of the Collection component. In practice, this allows you to recreate a related data collection.
 
-![Creating a Related data](<../../.gitbook/assets/image (370).png>)
+![Creating a related data](<../../.gitbook/assets/image (370).png>)
 
 In the example above, we've set up collection1 (`Customer`) and collection2 (`Order`) so that when you click on a **Customer**, it shows **their Orders only** in collection2.
 

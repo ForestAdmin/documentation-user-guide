@@ -1,10 +1,10 @@
 ---
 description: >-
-  The Table view is the gateway to your data. It shows records as rows and
+  The Table View is the gateway to your data. It shows records as rows and
   their fields as columns.
 ---
 
-# The Table view
+# The Table View
 
 ## Search
 
@@ -124,15 +124,15 @@ Then the following filter conditions will yield the following results:
 
 ## Select
 
-The Table view does not only display your data. It also allows you to interact with it:
+The Table View does not only display your data. It also allows you to interact with it:
 
 {% hint style="info" %}
-Forest Admin provides basic CRUD actions out of the box. Check out how you can [duplicate and delete from the Table view](../../collections/actions/#native-actions), but also [create](../../collections/actions/create-a-record.md) and [update](../../collections/actions/edit-a-record.md) from dedicated views.
+Forest Admin provides basic CRUD actions out of the box. Check out how you can [duplicate and delete from the Table View](../../collections/actions/#native-actions), but also [create](../../collections/actions/create-a-record.md) and [update](../../collections/actions/edit-a-record.md) from dedicated views.
 {% endhint %}
 
 #### Select all records vs Select current page only
 
-On all table views, you'll notice a down caret (▾) next to the top-left header checkbox. Clicking on it lets you choose between selecting all records of the collection or selection only records from the current page:
+On all Table Views, you'll notice a down caret (▾) next to the top-left header checkbox. Clicking on it lets you choose between selecting all records of the collection or selection only records from the current page:
 
 ![](<../../.gitbook/assets/2020-03-05_17.47.07 copie.png>)
 
@@ -154,6 +154,6 @@ Navigating the Forest Admin interface is pretty straightforward, and it won’t 
 
 ### Browse several pages
 
-Very large collections can’t be displayed on a single page. Where this is the case, you will be able to check the number of records in the collection at the bottom right side of the Table view **(1)**. At the bottom in the middle, you will be able to browse through the different pages of the collection **(2)**.
+Very large collections can’t be displayed on a single page. Where this is the case, you will be able to check the number of records in the collection at the bottom right side of the Table View **(1)**. At the bottom in the middle, you will be able to browse through the different pages of the collection **(2)**.
 
 ![](<../../.gitbook/assets/2019-06-28_15.53.01.png>)

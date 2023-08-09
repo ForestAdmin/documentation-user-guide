@@ -7,9 +7,9 @@ You can set an entire **collection** as _Read only_ for specific roles in the [R
 You can set a specific **field** as _Read only_ in its [basic settings](../customize-your-fields/#basic-settings).
 {% endhint %}
 
-### From the Details view
+### From the Details View
 
-To edit a record from the Details view, simply click on the Edit button at the top right.
+To edit a record from the Details View, simply click on the Edit button at the top right.
 
 ![](<../../.gitbook/assets/2020-01-16_23.54.47.png>)
 
@@ -20,18 +20,18 @@ You'll enter an Edit mode where you can change values of editable fields. Don't 
 {% hint style="info" %}
 A field can be disabled in Edit mode for several reasons:\
 • if it's set as [read only](../customize-your-fields/#basic-settings) \
-• if it's a Smart field with no `set` method
+• if it's a Smart Field with no `set` method
 {% endhint %}
 
-### From the Summary view
+### From the Summary View
 
-You can edit from your Summary view just as easily:
+You can edit from your Summary View just as easily:
 
 ![](<../../.gitbook/assets/image (588).png>)
 
-### From the Table view
+### From the Table View
 
-To edit from the table view ("_inline editing_"), **right-click** on the field you wish to edit:
+To edit from the Table View ("_inline editing_"), **right-click** on the field you wish to edit:
 
 ![](<../../.gitbook/assets/2020-02-20_11.55.14.png>)
 

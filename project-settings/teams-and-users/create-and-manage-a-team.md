@@ -12,7 +12,7 @@ When creating a team, you can **optionally** copy another team's layout **(2)**.
 
 ### Manage your team's layout
 
-The **layout** of a team is the way every visible aspect of your UI is set, from columns to smart views to widgets.
+The **layout** of a team is the way every visible aspect of your UI is set, from columns to Smart Views to widgets.
 
 If you want to apply an _existing_ team's layout to another team, go to its settings page and use the "Copy" feature **(3)**.
 

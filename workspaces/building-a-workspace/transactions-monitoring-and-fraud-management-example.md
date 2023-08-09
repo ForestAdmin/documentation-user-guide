@@ -132,7 +132,7 @@ Then you're free to style your link as you wish. &#x20;
 
 
 
-And it's done! You have a fully-functional workflow that allows you to send an email to a relevant person. Of course, you can do more with Forest Admin, for example to send such a message without leaving your admin panel. However, you need to create a [smart action](../../collections/actions/create-and-manage-smart-actions.md) first. Workspaces are powerful but they are limited by your database and features of your admin panel.
+And it's done! You have a fully-functional workflow that allows you to send an email to a relevant person. Of course, you can do more with Forest Admin, for example to send such a message without leaving your admin panel. However, you need to create a [Smart Action](../../collections/actions/create-and-manage-smart-actions.md) first. Workspaces are powerful but they are limited by your database and features of your admin panel.
 
 
 

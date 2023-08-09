@@ -28,7 +28,7 @@ The **Reference field** field enables you to specify how links to a record of th
 If no _reference field_ is given, `id` is used to display the reference link.
 {% endhint %}
 
-Finally, the **Sorting field** and **Order** fields allow you to manage how you want your collection's data to display at page load. In the image above, we've set them to `updated at` and `descending` respectively, so that going to the Addresses table view will show your data ordered from most recently _updated_ backward.&#x20;
+Finally, the **Sorting field** and **Order** fields allow you to manage how you want your collection's data to display at page load. In the image above, we've set them to `updated at` and `descending` respectively, so that going to the Addresses Table View will show your data ordered from most recently _updated_ backward.&#x20;
 
 {% hint style="success" %}
 As you can see, the column header shows a **down arrow** which notifies you it is sorted.

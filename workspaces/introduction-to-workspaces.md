@@ -18,6 +18,6 @@ See below a Workspace example from our [KYC Live Demo](https://demo.forestadmin.
 
 What you see now are only the first steps of workspaces. We're currently working on making them much more powerfull with the following next iterations:
 
-* **Smart-action forms**: embed your smart action forms into workspaces.
+* **Smart-action forms**: embed your Smart Action forms into workspaces.
 * **Multi-page**: create more than one page for the same workspace and link them together.
 * **Smoother experience**: auto-save, copy/paste, undo, keyboard shortcuts.
