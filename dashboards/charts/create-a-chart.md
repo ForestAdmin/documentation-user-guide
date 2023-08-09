@@ -95,10 +95,6 @@ ORDER BY key;
 
 ### Objective
 
-{% hint style="warning" %}
-This chart is not available for Mongodb databases yet.
-{% endhint %}
-
 The returned columns **must** be named `key` and `objective`. In the following example, we set manually the objective to 750.
 
 ```sql
@@ -110,10 +106,6 @@ WHERE orders.created_at < date_trunc('year', now());
 ![](../../.gitbook/assets/2019-07-02\_14.16.46.png)
 
 ### Leaderboard
-
-{% hint style="warning" %}
-This chart is not available for Mongodb databases yet.
-{% endhint %}
 
 The returned columns **must** be named `key` and `value` and `LIMIT` **must** be defined. In the following example, we limited the leaderboard to 10 items.
 
