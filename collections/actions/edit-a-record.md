@@ -3,7 +3,7 @@
 Your data is made up of records which contains fields. Each field can be edited - provided the right permission is set. Here we'll learn how to edit a field.
 
 {% hint style="info" %}
-You can set an entire **collection** as _Read only_ in its [General settings](../manage-your-collection-settings.md#general-tab).\
+You can set an entire **collection** as _Read only_ for specific roles in the [Roles tab](../../project-settings/teams-and-users/manage-roles.md#collection-permissions-1).\
 You can set a specific **field** as _Read only_ in its [basic settings](../customize-your-fields/#basic-settings).
 {% endhint %}
 
