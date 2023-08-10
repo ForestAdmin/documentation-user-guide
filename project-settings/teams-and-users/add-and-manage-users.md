@@ -24,7 +24,8 @@ From there, you can:
 * **(1)** Add him to a new team
 * **(2)** Change a team he belongs to
 * **(3)** Remove him from a team
-* Don't forget to save afterwards
+
+Don't forget to save afterwards
 
 ![](<../../.gitbook/assets/2020-04-02_13.49.13.png>)
 

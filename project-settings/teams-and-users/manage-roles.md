@@ -27,7 +27,7 @@ This section lets you to easily manage your Smart Action permissioins (for this 
 
 ![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MNL8RDssS14SucKOxhW%2F-MNL8dVEaQPf3Gt2l6Dt%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-29%20a%CC%80%2023.33.19.png?alt=media\&token=a977faf6-54ec-4fc0-9a99-b7422b4a3792)
 
-* Trigger: Allow users assigned to this role to trigger this Smart Actions
+* Trigger: Allow users assigned to this role to trigger this Smart Action
 
 #### Approval workflow permissions <a href="#approval-workflow-permissions" id="approval-workflow-permissions"></a>
 
@@ -44,7 +44,7 @@ The following options become available if you are on the [Pro](https://www.fores
 #### Conditional permissions <a href="#collection-permissions" id="collection-permissions"></a>
 
 {% hint style="info" %}
-In addition to the **Pro** plan, this feature requires a minimum version to be available.
+In addition to the **Pro** plan, this feature requires a minimum agent version to be installed.
 {% endhint %}
 
 Your processes likely depend on your data: for instance, a $1,000 refund is more sensitive than a $10 refund. You probably want to authorize your operators to trigger $10 refunds, but not $1,000 or more. This is now possible within the permissions page:
@@ -72,8 +72,8 @@ The same feature is available for **Trigger** and **Approve** permissions: use t
 _Collection permissions_ allow you to enable/disable the following collection-specific permissions:‌
 
 * _Read (list)_: access to the collection's [Table View](../../getting-started/master-your-ui/the-table-view.md) data. Note that the collection must also be [shown in the layout](../../getting-started/master-your-ui/using-the-layout-editor-mode/) to be displayed.
-* _Read (details)_: access to the [Details View](../../getting-started/master-your-ui/using-the-layout-editor-mode/customize-the-details-view.md) data of any record of this collection.
-* _Create_: create a record of this collection (N.B: the "Duplicate" permissions is also managed by this permission)
+* _Read (details)_: access to the [Details View](../../getting-started/master-your-ui/using-the-layout-editor-mode/customize-the-details-view.md) (and Summary View) data of any record of this collection.
+* _Create_: create a record of this collection (N.B: the "Duplicate" action is also managed by this permission)
 * _Update_: update a record of this collection
 * _Delete_: delete a record of this collection
 * _Export_: export the list of records of this collection
@@ -89,24 +89,24 @@ From a role's details page, you can also:‌
 
 ![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MNLEdL3DsRwZtcPE3Y8%2F-MNLHgbJt8yyjtjbegaE%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-30%20a%CC%80%2000.13.58.png?alt=media\&token=25e11968-7174-4b9a-90c6-570b8cf37e05)
 
-**Only remote environments** are available here, since development environments have all permissions‌
+**Only remote environments** are available here, since development environments have all permissions‌.
 
 ### Export role permissions <a href="#export-role-permissions" id="export-role-permissions"></a>
 
 At anytime you may export your user role permissions to a CSV file by clicking on _Export user permissions_ from the _Users_ tab:‌
 
-![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MLw\_8zLAMrECE3UR252%2F-MLwdtJp4dUTFe-1CuHN%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-12%20a%CC%80%2014.06.02.png?alt=media\&token=71b59490-63ee-4bb2-8758-099232387859)
-
 ![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MLweVxJZ9hplEwP4DBy%2F-MLweruzQ-hpmhdUOe5e%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-12%20a%CC%80%2014.34.46.png?alt=media\&token=4267a170-093e-45ef-8d91-5ed3ca9460f3)
+
+![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MLw\_8zLAMrECE3UR252%2F-MLwdtJp4dUTFe-1CuHN%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-12%20a%CC%80%2014.06.02.png?alt=media\&token=71b59490-63ee-4bb2-8758-099232387859)
 
 It contains User information **(1)**, Smart Action name **(2)** and Collection name **(3).** Granted permissions **(4)** are as follows:‌
 
 * _empty_: the user is not authorized to use that Smart Action as part of that team
-* _Trigger_: the user can trigger that Smart Action
+* _trigger_: the user can trigger that Smart Action
 * If the [approval workflow module](../../collections/actions/create-and-manage-smart-actions.md#require-approval-for-a-smart-action) is enabled:
-  * _Request_: the user can ask for an approval to trigger that Smart Action
-  * _Request/approve_: the user can ask for an approval to trigger that Smart Action and can approve requests of this Smart Action except his own
-  * _Request/approve(self)_: the user can ask for an approval to trigger that Smart Action and can approve requests of this Smart Action including his own
+  * _request_: the user can ask for an approval to trigger that Smart Action
+  * _request/approve_: the user can ask for an approval to trigger that Smart Action and can approve requests of this Smart Action except his own
+  * _request/approve(self)_: the user can ask for an approval to trigger that Smart Action and can approve requests of this Smart Action including his own
 
 ### Copy role permissions across environments
 
