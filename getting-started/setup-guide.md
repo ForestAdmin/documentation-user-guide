@@ -4,7 +4,7 @@ You've successfully installed Forest Admin 🎉 and you're wondering **what's ne
 
 ### Get to know your new interface
 
-Forest includes a _quick tour_ to take you through the basic views and settings: when you reach your project for the first time, you can click on the **blue circles** whenever you need more information!
+Forest Admin includes a _quick tour_ to take you through the basic views and settings: when you reach your project for the first time, you can click on the **blue circles** whenever you need more information!
 
 ![](<../.gitbook/assets/image (605).png>)
 

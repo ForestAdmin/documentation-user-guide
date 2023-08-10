@@ -1,6 +1,6 @@
 # Performance
 
-Loading performance is key to streamlining your operations. Here are a few steps we recommend to take to ensure your Forest is optimized.
+Loading performance is key to streamlining your operations. Here are a few steps we recommend to take to ensure your Forest Admin project is optimized.
 
 ### 1. Show only Smart Fields you absolutely need
 

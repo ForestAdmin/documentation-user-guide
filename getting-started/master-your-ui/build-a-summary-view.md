@@ -38,7 +38,7 @@ In the related data category, you will find all fields associated to your record
 
 The Summary View is of course very useful to check at a glance all the information on a record. But, it is also possible to _act_ _on the data_ straight from this View. The last menu, **actions** **(1)** allows you to insert into a Section any of your [Smart Actions](../../collections/actions/create-and-manage-smart-actions.md).
 
-For example in the Forest Live Demo, you can upload Legal Docs **(3)** for a company and Mark it as Live **(2)** from this Summary View.
+For example in the Forest Admin Live Demo, you can upload Legal Docs **(3)** for a company and Mark it as Live **(2)** from this Summary View.
 
 ![](<../../.gitbook/assets/2019-06-28_18.15.40.png>)
 

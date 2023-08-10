@@ -69,7 +69,7 @@ SCIM JSON Template: add the following:
 
 ## Adding Forest Admin custom parameters
 
-* permissionLevel (`string`): should match exactly an existing permissionLevel in ForestAdmin.
+* permissionLevel (`string`): should match exactly an existing permissionLevel in Forest Admin.
 * role (`string`): should match exactly an existing role in the project.
 * tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
 
@@ -89,14 +89,14 @@ You may want to add custom user attributes to base your mapping rules on. To do 
 
 ## Managing teams with SCIM groups
 
-Groups allow you to create mapping rules between oneLogin roles and ForestAdmin teams.
+Groups allow you to create mapping rules between oneLogin roles and Forest Admin teams.
 
 First, go to the Provisioning tab and on the Entitlement section, click on "Refresh" to fetch teams in OneLogin.
 
 <figure><img src="../../../.gitbook/assets/image (490).png" alt=""><figcaption></figcaption></figure>
 
-You can then create a rule for each role you want to map with an existing ForestAdmin team.
+You can then create a rule for each role you want to map with an existing Forest Admin team.
 
 <figure><img src="../../../.gitbook/assets/image (518).png" alt=""><figcaption></figcaption></figure>
 
-When a role is added a removed from a user, it will be automatically added or removed to the corresponding ForestAdmin team.
+When a role is added a removed from a user, it will be automatically added or removed to the corresponding Forest Admin team.

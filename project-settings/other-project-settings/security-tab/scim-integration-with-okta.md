@@ -13,7 +13,7 @@ description: Adding Forest Admin to Okta from the preconfigured app (recommended
 * SCIM Groups are used to assign users to teams.
 Note:
 * userName is following an email format and is readonly after creation
-* firstName and lastName are also readonly after creation 
+* firstName and lastName are also readonly after creation
 
 ## Requirements
 In order to enable Okta SCIM to manage your Forest Admin users you must
@@ -65,7 +65,7 @@ Create mapping rules to automatically provide values to mandatory parameters `te
 * tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
 
 {% hint style="warning" %}
-Beware of selecting the right mapping direction: Okta to ForestAdmin
+Beware of selecting the right mapping direction: Okta to Forest Admin
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
@@ -80,27 +80,27 @@ You may want to add custom user attributes to base your mapping rules on. To do 
 
 Groups allow you to create mapping rules between Okta groups and Forest Admin teams.
 
-First, go to the Directory tab and on the Groups section, ensure that you defined a group in Okta for each team in ForestAdmin. You can also create teams in ForestAdmin directly from Okta.
+First, go to the Directory tab and on the Groups section, ensure that you defined a group in Okta for each team in Forest Admin. You can also create teams in Forest Admin directly from Okta.
 
 <figure><img src="../../../.gitbook/assets/image (584).png" alt=""><figcaption></figcaption></figure>
 
-Then go to the ForestAdmin App in Okta and click on the "Push groups" tab.
+Then go to the Forest Admin App in Okta and click on the "Push groups" tab.
 
 <figure><img src="../../../.gitbook/assets/image (596).png" alt=""><figcaption></figcaption></figure>
 
-Click on "Refresh App Groups" then "Push Groups" and select "Find groups by name". Type in the name of any group you want to link with a ForestAdmin team.
+Click on "Refresh App Groups" then "Push Groups" and select "Find groups by name". Type in the name of any group you want to link with a Forest Admin team.
 
 ![](<../../../.gitbook/assets/image (582).png>)![](<../../../.gitbook/assets/image (583).png>)
 
-You can then map the Okta group with an existing ForestAdmin team or create a new team with the same name.
+You can then map the Okta group with an existing Forest Admin team or create a new team with the same name.
 
 {% hint style="warning" %}
-Warning: when you link a group from Okta to a ForestAdmin team, the ForestAdmin team will be renamed to match the group name, unless you disable this option (see below).
+Warning: when you link a group from Okta to a Forest Admin team, the Forest Admin team will be renamed to match the group name, unless you disable this option (see below).
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (589).png" alt=""><figcaption></figcaption></figure>
 
-To prevent Okta from renaming your ForestAdmin teams, you can disable groups renaming in the app settings.
+To prevent Okta from renaming your Forest Admin teams, you can disable groups renaming in the app settings.
 
 ![](<../../../.gitbook/assets/image (4).png>)![](../../../.gitbook/assets/image.png)\
 

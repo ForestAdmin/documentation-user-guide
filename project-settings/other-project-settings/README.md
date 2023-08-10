@@ -1,6 +1,6 @@
 # Other project settings
 
-Project settings are where you'll go to configure your Forest at a global scale.
+Project settings are where you'll go to configure your Forest Admin project at a global scale.
 
 For collection-specific settings, checkout [this page](../../collections/manage-your-collection-settings.md).
 

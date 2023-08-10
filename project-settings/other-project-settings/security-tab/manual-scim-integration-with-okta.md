@@ -72,7 +72,7 @@ The "External namespace" field should be filled with `urn:ietf:params:scim:schem
 Create mapping rules to automatically provide values to mandatory parameters `role` and `permissionLevel`, and optionally `tags`. If you don’t create mapping rules, you will have to provide these values manually for each user provisioned.
 
 {% hint style="warning" %}
-Beware of selecting the right mapping direction: Okta to ForestAdmin
+Beware of selecting the right mapping direction: Okta to Forest Admin
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
@@ -87,26 +87,26 @@ You may want to add custom user attributes to base your mapping rules on. To do 
 
 Groups allow you to create mapping rules between Okta groups and Forest Admin teams.
 
-First, go to the Directory tab and on the Groups section, ensure that you defined a group for each ForestAdmin team.
+First, go to the Directory tab and on the Groups section, ensure that you defined a group for each Forest Admin team.
 
 <figure><img src="../../../.gitbook/assets/image (584).png" alt=""><figcaption></figcaption></figure>
 
-Then go to the ForestAdmin App in Okta and click on the "Push groups" tab.
+Then go to the Forest Admin App in Okta and click on the "Push groups" tab.
 
 <figure><img src="../../../.gitbook/assets/image (596).png" alt=""><figcaption></figcaption></figure>
 
-Click on "Refresh App Groups" then "Push Groups" and select "Find groups by name". Type in the name of any group you want to link with a ForestAdmin team.
+Click on "Refresh App Groups" then "Push Groups" and select "Find groups by name". Type in the name of any group you want to link with a Forest Admin team.
 
 ![](<../../../.gitbook/assets/image (582).png>)![](<../../../.gitbook/assets/image (583).png>)
 
-You can then map the Okta group with an existing ForestAdmin team or create a new team with the same name.
+You can then map the Okta group with an existing Forest Admin team or create a new team with the same name.
 
 {% hint style="warning" %}
-Warning: when you link a group from Okta to a ForestAdmin team, the ForestAdmin team will be renamed to match the group name, unless you disable this option (see below).
+Warning: when you link a group from Okta to a Forest Admin team, the Forest Admin team will be renamed to match the group name, unless you disable this option (see below).
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (589).png" alt=""><figcaption></figcaption></figure>
 
-To prevent Okta from renaming your ForestAdmin teams, you can disable groups renaming in the app settings.
+To prevent Okta from renaming your Forest Admin teams, you can disable groups renaming in the app settings.
 
 ![](<../../../.gitbook/assets/image (594).png>)![](<../../../.gitbook/assets/image (586).png>)
