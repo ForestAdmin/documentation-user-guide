@@ -2,6 +2,10 @@
 
 ## Roles <a href="#roles" id="roles"></a>
 
+{% hint style="info" %}
+This feature is only available to the **Admin** permission level.
+{% endhint %}
+
 Roles can be created **(1)** in the _Roles_ tab of your project settings:‌
 
 ![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MNKoQqHaS-Lnznag76U%2F-MNKqQtM7TOIj45vKjSl%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-29%20a%CC%80%2022.10.51.png?alt=media\&token=49e34003-e934-453d-b7f3-2e88b817afba)
@@ -114,13 +118,9 @@ Setting up role permissions can take a lot of time, especially if you need to do
 
 This is why we've implemented the "Copy role permissions across environments" feature. In a few clicks, you can apply the permissions of **all roles** of an environment to another environment.
 
-To use it, go to: Project Settings ➜ Roles ➜ Actions.
+To use it, go to: Project Settings → Roles → Actions.
 
 ![](<../../.gitbook/assets/image (617).png>)
-
-{% hint style="info" %}
-This feature is only available to the **Admin** permission level.
-{% endhint %}
 
 ## Permission level <a href="#permission-level" id="permission-level"></a>
 

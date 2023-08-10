@@ -11,8 +11,8 @@ You must have one project in your organization with the plan [Forest Admin Pro p
 
 ## Configuration
 1. Log in to your Google account and navigate to the Admin console.
-2. In the Google Admin console, go to Menu: **Apps ➜ Web and mobile apps**.
-3. Click **Add App ➜ Add custom SAML app** and follow the wizard.
+2. In the Google Admin console, go to Menu: **Apps → Web and mobile apps**.
+3. Click **Add App → Add custom SAML app** and follow the wizard.
 4. In the **Service Provider Details** window, enter:
 - ACS URL: Assertion Consumer Service URL is responsible for receiving the SAML response (It should be https://api.forestadmin.com/api/saml/callback).
 - Entity ID: This is a globally unique name that Forest Admin gives you.
