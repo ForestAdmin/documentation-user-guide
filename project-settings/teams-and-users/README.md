@@ -10,4 +10,4 @@ Forest Admin's user permissions can be summarised by the following features:
 4. [**Permission levels**](manage-roles.md#permission-level)**:**  The permission level of a user determines what Forest Admin administration permissions he has (e.g. Admin, Developer, Editor, User).
 5. [**Scopes**](../../collections/scopes.md)**:** a scope is a pre-defined filter which applies to a collection and all its segments. It can be applied to specific teams.
 
-For more details , read the following pages.
+For more details, read the following pages.
