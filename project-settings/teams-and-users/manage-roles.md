@@ -114,7 +114,7 @@ Setting up role permissions can take a lot of time, especially if you need to do
 
 This is why we've implemented the "Copy role permissions across environments" feature. In a few clicks, you can apply the permissions of **all roles** of an environment to another environment.
 
-To use it, go to: Project Settings -> Roles -> Actions.
+To use it, go to: Project Settings ➜ Roles ➜ Actions.
 
 ![](<../../.gitbook/assets/image (617).png>)
 
