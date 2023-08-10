@@ -32,6 +32,6 @@ This view is useful, but a bit abrupt. This is why we created the Summary View.
 
 #### Summary View
 
-The Summary View is much more user-friendly and it's created by you! Check out the [Build a Summary View](https://docs.forestadmin.com/documentation/reference-guide/views/build-a-summary-view) page.
+The Summary View is much more user-friendly and it's created by you! Check out the [Build a Summary View](build-a-summary-view.md) page.
 
 ![](<../../.gitbook/assets/2022-01-26_17.32.15.png>)
