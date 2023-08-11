@@ -33,7 +33,7 @@ You can find more info on [IDP-initiated login here](../organization-settings.md
 
 ### Troubleshooting
 
-Check the steps below this if you encounter an issue::
+Check the steps below this if you encounter an issue:
 
 * Double check all information (endpoints, certificate expiration dates, etc..)
 * Make sure the `nameID` configured on your Identity Provider is the **email address used on Forest Admin accounts**

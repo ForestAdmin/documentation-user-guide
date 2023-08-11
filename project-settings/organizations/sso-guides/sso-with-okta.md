@@ -28,7 +28,7 @@ You must have one project in your organization with the plan [Forest Admin Pro p
 
 ### Troubleshooting
 
-Check the steps below this if you encounter an issue::
+Check the steps below this if you encounter an issue:
 
 * Double check all information (endpoints, certificate expiration dates, etc..)
 * Make sure the `Name ID format` configured on your Identity Provider is the **email address used on Forest Admin accounts too**

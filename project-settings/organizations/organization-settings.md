@@ -47,7 +47,7 @@ For instance, the following platforms have been tested and documented: [**Okta**
 
 #### Requirements
 
-To configure SSO for a Forest Admin organization, you must:
+To configure SSO for your organization, you must:
 - Be an [organization owner](#owners-tab).
 - Have access to your Identity Provider.
 
@@ -110,7 +110,7 @@ To set it up properly, you will need to set a default **Relay state** on your id
 
 #### Troubleshooting
 
-Check the steps below this if you encounter an issue::
+Check the steps below this if you encounter an issue:
 
 * Double check all information (endpoints, certificate expiration dates, etc..)
 * Make sure the `NameID` configured on your Identity Provider is the **email address used on Forest Admin accounts too**
