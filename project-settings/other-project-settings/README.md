@@ -25,7 +25,7 @@ You might have 2 or more projects where you use Forest Admin. In this case, clic
 
 ![](<../../.gitbook/assets/2022-01-27_12.50.01.png>)
 
-You'll be redirected to [https://app.forestadmin.com/projects](https://app.forestadmin.com/projects) which lists all your active projects.
+You'll be redirected to the list of all your projects.
 
 ### How to delete a project
 

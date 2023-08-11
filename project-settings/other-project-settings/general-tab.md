@@ -3,9 +3,9 @@
 In the General tab of your Project settings, you'll be able to:
 
 * Rename your project
-* Set your default environment
 * Set your default timezone
 * Set your default locale
+* Transfer the ownership of your project
 * Delete your project
 
 ![](<../../.gitbook/assets/image (560).png>)
