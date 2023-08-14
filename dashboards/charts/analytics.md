@@ -6,7 +6,9 @@ Forest Admin’s dashboard is handy when it comes to monitoring the overall KPIs
 
 ![](<../../.gitbook/assets/image (381).png>)
 
-“Analytics per record” are only supported in the Smart and Query modes.
+{% hint style="info" %}
+“Analytics per record” are only supported in the API and Query modes.
+{% endhint %}
 
 * For Query charts, use the character `?` to inject the current record the user is currently seeing to your query.
 * For API charts, the parameter `record_id` is automatically passed in the HTTP body to access the record the user is currently seeing.
