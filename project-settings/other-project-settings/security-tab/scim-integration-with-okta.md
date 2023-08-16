@@ -15,7 +15,7 @@ description: Adding Forest Admin to Okta from the preconfigured app (recommended
 
 ## Requirements
 
-In order to enable Okta SCIM to manage your Forest Admin users you must
+In order to enable Okta SCIM to manage your Forest Admin users you must:
 
 * Have a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/)
 * Be administrator of your Forest Admin project
