@@ -33,7 +33,7 @@ As each user change contains information about Teams and Roles with their name a
 
 The export will generate a CSV file.
 Each new line materializes a user change and displays the new value for the affected fields listed above.
-For example, assigning a user to a new team will log the **complete list of teams** after the new configuration saved.
+For example, assigning a user to a new team will log the **complete list of teams** once the new configuration is saved.
 
 As a way to display accurate information, the role and teams contained in each entry will be displayed with the name it had at the date of the change.
 
