@@ -28,7 +28,7 @@ The configuration changes that are tracked on the users of you project are:&#x20
 - Roles (create / name update / delete)
 
 {% hint style="info" %}
-As each user change will contain information about Teams and Roles with their name at the instant of the change, and as Teams and Roles names can be edited, Teams and Roles are also tracked in the user related history to let administrators understand the whole history export.
+As each user change contains information about Teams and Roles with their name at the instant of the change, and as Teams and Roles names can be edited, Teams and Roles are also tracked in the user oriented history to let administrators understand the whole history export.
 {% endhint %}
 
 The export will generate a CSV file.
