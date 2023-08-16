@@ -22,6 +22,7 @@ The configuration changes that are tracked on the users of you project are:&#x20
 - Users (update)
   - Projects Assignment (i.e. joins or leaves the project)
   - Teams Assignment (i.e. joins or leaves a team)
+  - Role Assignment
   - Permission level Assignment
   - Tags Assignment
 - Teams (create / name update / delete)
