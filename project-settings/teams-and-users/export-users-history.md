@@ -19,13 +19,17 @@ Simply click on the Export dropdown **(2)** and select "Export users history" **
 
 The configuration changes that are tracked on the users of you project are:&#x20;
 
-- Teams (create / name update / delete)
-- Roles (create / name update / delete)
 - Users (update)
   - Projects Assignment (i.e. joins or leaves the project)
   - Teams Assignment (i.e. joins or leaves a team)
   - Permission level Assignment
   - Tags Assignment
+- Teams (create / name update / delete)
+- Roles (create / name update / delete)
+
+{% hint style="info" %}
+As each user change will contain information about Teams and Roles with their name at the instant of the change, and as Teams and Roles names can be edited, Teams and Roles are also tracked in the user related history to let administrators understand the whole history export.
+{% endhint %}
 
 The export will generate a CSV file.
 Each new line materializes a user change and displays the new value for the affected fields listed above.
