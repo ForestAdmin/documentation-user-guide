@@ -4,22 +4,21 @@ description: Adding Forest Admin to Okta from the preconfigured app (recommended
 
 # SCIM integration with Okta
 
-
 ## Supported features
 
 * Provisioning users from Okta to Forest Admin
 * Updating user role, permission level, and tags from Okta to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
-* Deleting user in Forest Admin when user is removed from Forest Admin app in Okta.&#x20;
-* SCIM Groups are used to assign users to teams.
-Note:
+* Deleting user in Forest Admin when user is removed from Forest Admin app in Okta.
+* SCIM Groups are used to assign users to teams. Note:
 * userName is following an email format and is readonly after creation
 * firstName and lastName are also readonly after creation
 
 ## Requirements
+
 In order to enable Okta SCIM to manage your Forest Admin users you must
+
 * Have a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/)
 * Be administrator of your Forest Admin project
-
 
 ## Adding the Forest Admin app
 
@@ -47,9 +46,6 @@ Paste your token in the API Token field in the Integration tab:​​​​
 
 <figure><img src="../../../.gitbook/assets/image (496).png" alt=""><figcaption></figcaption></figure>
 
-
-
-
 ## Configuring the app
 
 You may then proceed to configure your app:
@@ -68,7 +64,7 @@ Create mapping rules to automatically provide values to mandatory parameters `te
 Beware of selecting the right mapping direction: Okta to Forest Admin
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Adding custom user attributes
 
@@ -90,7 +86,7 @@ Then go to the Forest Admin App in Okta and click on the "Push groups" tab.
 
 Click on "Refresh App Groups" then "Push Groups" and select "Find groups by name". Type in the name of any group you want to link with a Forest Admin team.
 
-![](<../../../.gitbook/assets/image (582).png>)![](<../../../.gitbook/assets/image (583).png>)
+![](<../../../.gitbook/assets/image (582).png>) ![](<../../../.gitbook/assets/image (583).png>)
 
 You can then map the Okta group with an existing Forest Admin team or create a new team with the same name.
 
@@ -102,22 +98,16 @@ Warning: when you link a group from Okta to a Forest Admin team, the Forest Admi
 
 To prevent Okta from renaming your Forest Admin teams, you can disable groups renaming in the app settings.
 
-![](<../../../.gitbook/assets/image (4).png>)![](../../../.gitbook/assets/image.png)\
-
+![](<../../../.gitbook/assets/image (4).png>)![](<../../../.gitbook/assets/image (3).png>)\\
 
 ## Troubleshooting
 
-* I cannot create or update a user
-Please check that
-    * the `permissionLevel` of this user is either `admin`, `editor`, `user` or `developer`
-    * the `role` of this user matches one role that you have already defined in Forest Admin (example: `Operations`)
-
+* I cannot create or update a user Please check that
+  * the `permissionLevel` of this user is either `admin`, `editor`, `user` or `developer`
+  * the `role` of this user matches one role that you have already defined in Forest Admin (example: `Operations`)
 * I have made changes in the Okta app that I don't see reflected in Forest Admin
-    * Some updates can take some time. You should allow a couple minutes before the synchronization finishes
-
-
+  * Some updates can take some time. You should allow a couple minutes before the synchronization finishes
 * My agent keeps restarting
-    * Some updates (for instance related to teams) are susceptible to updating your rendering, therefore your agent will have to restart. This is a normal part of Forest Admin behavior.
+  * Some updates (for instance related to teams) are susceptible to updating your rendering, therefore your agent will have to restart. This is a normal part of Forest Admin behavior.
 
-
-*If you still cannot enable SCIM, don't hesitate to [ask for help on our Community forum](https://community.forestadmin.com/)*
+_If you still cannot enable SCIM, don't hesitate to_ [_ask for help on our Community forum_](https://community.forestadmin.com/)

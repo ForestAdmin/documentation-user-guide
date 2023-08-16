@@ -86,7 +86,7 @@ _Collection permissions_ allow you to enable/disable the following collection-sp
 
 From a role's details page, you can also:‌
 
-* &#x20;toggle which environments users assigned to this role have access to **(1)**
+* toggle which environments users assigned to this role have access to **(1)**
 *   select which environment you wish to view permissions of or edit them **(2)**
 
     ​
@@ -97,9 +97,9 @@ From a role's details page, you can also:‌
 
 ### Export role permissions <a href="#export-role-permissions" id="export-role-permissions"></a>
 
-At anytime you may export your user role permissions to a CSV file by clicking on _Export user permissions_ from the _Users_ tab:‌
+At anytime you may export your user role permissions to a CSV file by clicking on _Export user permissions_ from the _Users_ tab:
 
-![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MLweVxJZ9hplEwP4DBy%2F-MLweruzQ-hpmhdUOe5e%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-12%20a%CC%80%2014.34.46.png?alt=media\&token=4267a170-093e-45ef-8d91-5ed3ca9460f3)
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MLw\_8zLAMrECE3UR252%2F-MLwdtJp4dUTFe-1CuHN%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-12%20a%CC%80%2014.06.02.png?alt=media\&token=71b59490-63ee-4bb2-8758-099232387859)
 
@@ -126,12 +126,12 @@ To use it, go to: Project Settings → Roles → Actions.
 
 The permission level of a user determines what Forest Admin administration permissions he has. You can assign one of the following _permission levels_ per user:‌
 
-| Forest Admin permission level | Manage Data               | Customize admin UI (activate layout editor) | Access project settings (environments only) | Access project settings (environments, teams, user roles) |
-| ----------------------------- | ------------------------- | ------------------------------------------- | ------------------------------------------- | --------------------------------------------------------- |
-| **Admin**                     |     :heavy\_check\_mark:  |        :heavy\_check\_mark:                 |             :heavy\_check\_mark:            |               :heavy\_check\_mark:                        |
-| **Developer**                 |     :heavy\_check\_mark:  |        :heavy\_check\_mark:                 |             :heavy\_check\_mark:            |                                                           |
-| **Editor**                    |     :heavy\_check\_mark:  |        :heavy\_check\_mark:                 |                                             |                                                           |
-| **User**                      |     :heavy\_check\_mark:  |                                             |                                             |                                                           |
+| Forest Admin permission level | Manage Data          | Customize admin UI (activate layout editor) | Access project settings (environments only) | Access project settings (environments, teams, user roles) |
+| ----------------------------- | -------------------- | ------------------------------------------- | ------------------------------------------- | --------------------------------------------------------- |
+| **Admin**                     | :heavy\_check\_mark: | :heavy\_check\_mark:                        | :heavy\_check\_mark:                        | :heavy\_check\_mark:                                      |
+| **Developer**                 | :heavy\_check\_mark: | :heavy\_check\_mark:                        | :heavy\_check\_mark:                        |                                                           |
+| **Editor**                    | :heavy\_check\_mark: | :heavy\_check\_mark:                        |                                             |                                                           |
+| **User**                      | :heavy\_check\_mark: |                                             |                                             |                                                           |
 
 ## Manage a user's role and permission level <a href="#manage-a-users-role-and-permission-level" id="manage-a-users-role-and-permission-level"></a>
 

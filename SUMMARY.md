@@ -63,6 +63,7 @@
 * [Teams, Users & Permissions](project-settings/teams-and-users/README.md)
   * [Create and manage a team](project-settings/teams-and-users/create-and-manage-a-team.md)
   * [Add and manage users](project-settings/teams-and-users/add-and-manage-users.md)
+  * [Export users history](project-settings/teams-and-users/export-users-history.md)
   * [Manage roles and permission levels](project-settings/teams-and-users/manage-roles.md)
 * [Other project settings](project-settings/other-project-settings/README.md)
   * [General tab](project-settings/other-project-settings/general-tab.md)

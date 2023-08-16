@@ -12,7 +12,7 @@ You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) t
 
 * Provisioning users from Okta to Forest Admin
 * Updating user role, permission level, and tags from Okta to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
-* Deleting user in Forest Admin when user is removed from Forest Admin app in Okta.&#x20;
+* Deleting user in Forest Admin when user is removed from Forest Admin app in Okta.
 * Groups are used to assign users to team.
 
 ## Adding the Forest Admin app
@@ -75,7 +75,7 @@ Create mapping rules to automatically provide values to mandatory parameters `ro
 Beware of selecting the right mapping direction: Okta to Forest Admin
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Adding custom user attributes
 
@@ -97,7 +97,7 @@ Then go to the Forest Admin App in Okta and click on the "Push groups" tab.
 
 Click on "Refresh App Groups" then "Push Groups" and select "Find groups by name". Type in the name of any group you want to link with a Forest Admin team.
 
-![](<../../../.gitbook/assets/image (582).png>)![](<../../../.gitbook/assets/image (583).png>)
+![](<../../../.gitbook/assets/image (582).png>) ![](<../../../.gitbook/assets/image (583).png>)
 
 You can then map the Okta group with an existing Forest Admin team or create a new team with the same name.
 
@@ -109,4 +109,4 @@ Warning: when you link a group from Okta to a Forest Admin team, the Forest Admi
 
 To prevent Okta from renaming your Forest Admin teams, you can disable groups renaming in the app settings.
 
-![](<../../../.gitbook/assets/image (594).png>)![](<../../../.gitbook/assets/image (586).png>)
+![](<../../../.gitbook/assets/image (594).png>) ![](<../../../.gitbook/assets/image (586).png>)

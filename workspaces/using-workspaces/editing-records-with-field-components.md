@@ -7,4 +7,4 @@ You can utilize Field components within your workspace to modify the record curr
 3. Set the action to be triggered as 'Edit a _your collection name_'.
 4. For the editing mode, ensure to select 'Related field components' from the available options.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
