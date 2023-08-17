@@ -7,8 +7,9 @@ You need to be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/
 Some organizations with hundreds of collaborators use Forest Admin every day.
 Administrators of such projects usually need to monitor:
 - how users are added to the admin panel,
-- which Permission Level, Role, Tags they are given
-- which Teams they are assign to
+- which Permission Level, Role, Tags they are given,
+- which Teams they are assign to,
+
 by other collaborators authorized to do so.
 
 Such monitoring is possible using the users history export.
