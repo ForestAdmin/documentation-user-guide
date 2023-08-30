@@ -6,22 +6,22 @@ description: Adding Forest Admin to Okta from the preconfigured app (recommended
 
 ## Supported features
 
-* Provisioning users from Okta to Forest Admin
-* Updating user role, permission level, and tags from Okta to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
-* Deleting user in Forest Admin when user is removed from Forest Admin app in Okta.
-* SCIM Groups are used to assign users to teams.
+- Provisioning users from Okta to Forest Admin
+- Updating user role, permission level, and tags from Okta to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
+- Deleting user in Forest Admin when user is removed from Forest Admin app in Okta.
+- SCIM Groups are used to assign users to teams.
 
 Note:
 
-* userName is following an email format and is readonly after creation
-* firstName and lastName are also readonly after creation
+- userName is following an email format and is readonly after creation
+- firstName and lastName are also readonly after creation
 
 ## Requirements
 
 In order to enable Okta SCIM to manage your Forest Admin users you must:
 
-* Have a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/)
-* Be administrator of your Forest Admin project
+- Have a [Forest Admin Pro plan](https://www.forestadmin.com/pricing)
+- Be administrator of your Forest Admin project
 
 ## Adding the Forest Admin app
 
@@ -59,9 +59,9 @@ You may then proceed to configure your app:
 
 Create mapping rules to automatically provide values to mandatory parameters `teams`, `role`, and `permissionLevel`, and optionally `tags`. If you don’t create mapping rules, you will have to provide these values manually for each user provisioned.
 
-* permissionLevel (string): should match any of `admin`, `developer`, `editor`, or `user`.
-* role (`string`): should match exactly an existing role in the project.
-* tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
+- permissionLevel (string): should match any of `admin`, `developer`, `editor`, or `user`.
+- role (`string`): should match exactly an existing role in the project.
+- tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
 
 {% hint style="warning" %}
 Beware of selecting the right mapping direction: Okta to Forest Admin
@@ -105,12 +105,12 @@ To prevent Okta from renaming your Forest Admin teams, you can disable groups re
 
 ## Troubleshooting
 
-* I cannot create or update a user Please check that
-  * the `permissionLevel` of this user is either `admin`, `editor`, `user` or `developer`
-  * the `role` of this user matches one role that you have already defined in Forest Admin (example: `Operations`)
-* I have made changes in the Okta app that I don't see reflected in Forest Admin
-  * Some updates can take some time. You should allow a couple minutes before the synchronization finishes
-* My agent keeps restarting
-  * Some updates (for instance related to teams) are susceptible to updating your rendering, therefore your agent will have to restart. This is a normal part of Forest Admin behavior.
+- I cannot create or update a user Please check that
+  - the `permissionLevel` of this user is either `admin`, `editor`, `user` or `developer`
+  - the `role` of this user matches one role that you have already defined in Forest Admin (example: `Operations`)
+- I have made changes in the Okta app that I don't see reflected in Forest Admin
+  - Some updates can take some time. You should allow a couple minutes before the synchronization finishes
+- My agent keeps restarting
+  - Some updates (for instance related to teams) are susceptible to updating your rendering, therefore your agent will have to restart. This is a normal part of Forest Admin behavior.
 
 _If you still cannot enable SCIM, don't hesitate to_ [_ask for help on our Community forum_](https://community.forestadmin.com/)

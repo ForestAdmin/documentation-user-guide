@@ -1,7 +1,7 @@
 # Security tab
 
 {% hint style="info" %}
-You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to have access to this tab.
+You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this tab.
 {% endhint %}
 
 Here, we explore essential features like IP whitelisting, auto logout, two-factor authentication (2FA), and user provisioning via SCIM. All to boost your project's security and manage user permissions effectively.
@@ -43,6 +43,7 @@ Setting this up means you can add any user to a Forest Admin project directly fr
 This feature is compatible with **OneLogin** and **Okta**, but other Identity Providers may be added manually.
 
 Pick and follow the integration guide that fits your needs:
+
 - [Integration with OneLogin](scim-integration-with-onelogin.md)
 - [Integration with Okta (app)](scim-integration-with-okta.md)
 - [Integration with Okta (manually)](manual-scim-integration-with-okta.md)

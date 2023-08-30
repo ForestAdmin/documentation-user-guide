@@ -36,7 +36,7 @@ This section lets you to easily manage your Smart Action permissioins (for this 
 #### Approval workflow permissions <a href="#approval-workflow-permissions" id="approval-workflow-permissions"></a>
 
 {% hint style="info" %}
-You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to have access to this feature.
+You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this feature.
 {% endhint %}
 
 If you are using our approval workflow feature, your approval permissions are also managed within roles.‌

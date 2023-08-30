@@ -1,7 +1,7 @@
 # Activity
 
 {% hint style="info" %}
-You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to have access to this feature.
+You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this feature.
 {% endhint %}
 
 The global _Activity_ tab gives you an overall view of all your team's activities:

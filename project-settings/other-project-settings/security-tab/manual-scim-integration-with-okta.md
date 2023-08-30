@@ -5,15 +5,15 @@ description: Adding Forest Admin to Okta from a manually configued app
 # Manual SCIM integration with Okta
 
 {% hint style="info" %}
-You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to have access to this feature.
+You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this feature.
 {% endhint %}
 
 ## Supported features
 
-* Provisioning users from Okta to Forest Admin
-* Updating user role, permission level, and tags from Okta to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
-* Deleting user in Forest Admin when user is removed from Forest Admin app in Okta.
-* Groups are used to assign users to team.
+- Provisioning users from Okta to Forest Admin
+- Updating user role, permission level, and tags from Okta to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
+- Deleting user in Forest Admin when user is removed from Forest Admin app in Okta.
+- Groups are used to assign users to team.
 
 ## Adding the Forest Admin app
 
@@ -55,9 +55,9 @@ The "Sync Password" field should be kept disabled, as we don't support it.
 
 ## Adding Forest Admin custom parameters
 
-* permissionLevel (string): should match any of “Admin”, “Developer”, “Editor”, or “User”.
-* role (`string`): should match exactly an existing role in the project.
-* tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
+- permissionLevel (string): should match any of “Admin”, “Developer”, “Editor”, or “User”.
+- role (`string`): should match exactly an existing role in the project.
+- tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
 
 Go to Profile Editor and add attributes:
 
