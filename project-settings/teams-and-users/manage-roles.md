@@ -8,11 +8,11 @@ This feature is only available to the **Admin** permission level.
 
 Roles can be created **(1)** in the _Roles_ tab of your project settings:‌
 
-![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MNKoQqHaS-Lnznag76U%2F-MNKqQtM7TOIj45vKjSl%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-29%20a%CC%80%2022.10.51.png?alt=media\&token=49e34003-e934-453d-b7f3-2e88b817afba)
+![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj_ZiSkSA%2F-MNKoQqHaS-Lnznag76U%2F-MNKqQtM7TOIj45vKjSl%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-29%20a%CC%80%2022.10.51.png?alt=media&token=49e34003-e934-453d-b7f3-2e88b817afba)
 
 To manage a role's permissions, click on it **(2)**:
 
-![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MMaKOqJ\_wpBuC7BX4zs%2F-MMaKw\_feeQ-8YEp13b\_%2Fimage.png?alt=media\&token=b8b16ddd-d961-4062-b2ee-a2b7d7661e31)
+![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj_ZiSkSA%2F-MMaKOqJ_wpBuC7BX4zs%2F-MMaKw_feeQ-8YEp13b_%2Fimage.png?alt=media&token=b8b16ddd-d961-4062-b2ee-a2b7d7661e31)
 
 {% hint style="warning" %}
 If your project was created before February 2021, please visit [this page](https://docs.forestadmin.com/documentation/how-tos/maintain/migrate-to-the-new-role-system) to learn how to enable this feature.
@@ -22,26 +22,30 @@ The above screenshot shows your role's details page. This is where you'll be man
 
 Permissions are displayed in 2 sections:‌
 
-* _Smart Action permissions_
-* _Collection permissions_
+- _Smart Action permissions_
+- _Collection permissions_
 
 ### Smart Action permissions <a href="#smart-action-permissions" id="smart-action-permissions"></a>
 
 This section lets you to easily manage your Smart Action permissioins (for this role **only**). Click _Show more_ **(1)** to display all permissions, or _Edit permissions_ **(2)** to directly edit its Smart Action permissions.‌
 
-![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MNL8RDssS14SucKOxhW%2F-MNL8dVEaQPf3Gt2l6Dt%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-29%20a%CC%80%2023.33.19.png?alt=media\&token=a977faf6-54ec-4fc0-9a99-b7422b4a3792)
+![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj_ZiSkSA%2F-MNL8RDssS14SucKOxhW%2F-MNL8dVEaQPf3Gt2l6Dt%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-29%20a%CC%80%2023.33.19.png?alt=media&token=a977faf6-54ec-4fc0-9a99-b7422b4a3792)
 
-* Trigger: Allow users assigned to this role to trigger this Smart Action
+- Trigger: Allow users assigned to this role to trigger this Smart Action
 
 #### Approval workflow permissions <a href="#approval-workflow-permissions" id="approval-workflow-permissions"></a>
+
+{% hint style="info" %}
+You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to have access to this feature.
+{% endhint %}
 
 If you are using our approval workflow feature, your approval permissions are also managed within roles.‌
 
 The following options become available if you are on the [Pro](https://www.forestadmin.com/pricing) plan or above:‌
 
-* _Require approval_: Unlike Trigger, the Smart Action will not be executed unless manually approved
-* _Approve_: Allow users assigned to this role to [approve a trigger request](../../collections/actions/create-and-manage-smart-actions.md#review-approval-requests)​
-* _Self Approve_: Allow users assigned to this role to approve their own trigger request
+- _Require approval_: Unlike Trigger, the Smart Action will not be executed unless manually approved
+- _Approve_: Allow users assigned to this role to [approve a trigger request](../../collections/actions/create-and-manage-smart-actions.md#review-approval-requests)​
+- _Self Approve_: Allow users assigned to this role to approve their own trigger request
 
 <figure><img src="../../.gitbook/assets/image (492).png" alt=""><figcaption></figcaption></figure>
 
@@ -75,23 +79,23 @@ The same feature is available for **Trigger** and **Approve** permissions: use t
 
 _Collection permissions_ allow you to enable/disable the following collection-specific permissions:‌
 
-* _Read (list)_: access to the collection's [Table View](../../getting-started/master-your-ui/the-table-view.md) data. Note that the collection must also be [shown in the layout](../../getting-started/master-your-ui/using-the-layout-editor-mode/) to be displayed.
-* _Read (details)_: access to the [Details View](../../getting-started/master-your-ui/using-the-layout-editor-mode/customize-the-details-view.md) (and Summary View) data of any record of this collection.
-* _Create_: create a record of this collection (N.B: the "Duplicate" action is also managed by this permission)
-* _Update_: update a record of this collection
-* _Delete_: delete a record of this collection
-* _Export_: export the list of records of this collection
+- _Read (list)_: access to the collection's [Table View](../../getting-started/master-your-ui/the-table-view.md) data. Note that the collection must also be [shown in the layout](../../getting-started/master-your-ui/using-the-layout-editor-mode/) to be displayed.
+- _Read (details)_: access to the [Details View](../../getting-started/master-your-ui/using-the-layout-editor-mode/customize-the-details-view.md) (and Summary View) data of any record of this collection.
+- _Create_: create a record of this collection (N.B: the "Duplicate" action is also managed by this permission)
+- _Update_: update a record of this collection
+- _Delete_: delete a record of this collection
+- _Export_: export the list of records of this collection
 
 ### Control environment access per role <a href="#control-environment-access-per-role" id="control-environment-access-per-role"></a>
 
 From a role's details page, you can also:‌
 
-* toggle which environments users assigned to this role have access to **(1)**
-*   select which environment you wish to view permissions of or edit them **(2)**
+- toggle which environments users assigned to this role have access to **(1)**
+- select which environment you wish to view permissions of or edit them **(2)**
 
-    ​
+  ​
 
-![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MNLEdL3DsRwZtcPE3Y8%2F-MNLHgbJt8yyjtjbegaE%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-30%20a%CC%80%2000.13.58.png?alt=media\&token=25e11968-7174-4b9a-90c6-570b8cf37e05)
+![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj_ZiSkSA%2F-MNLEdL3DsRwZtcPE3Y8%2F-MNLHgbJt8yyjtjbegaE%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-30%20a%CC%80%2000.13.58.png?alt=media&token=25e11968-7174-4b9a-90c6-570b8cf37e05)
 
 **Only remote environments** are available here, since development environments have all permissions‌.
 
@@ -101,16 +105,16 @@ At anytime you may export your user role permissions to a CSV file by clicking o
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MLw\_8zLAMrECE3UR252%2F-MLwdtJp4dUTFe-1CuHN%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-12%20a%CC%80%2014.06.02.png?alt=media\&token=71b59490-63ee-4bb2-8758-099232387859)
+![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj_ZiSkSA%2F-MLw_8zLAMrECE3UR252%2F-MLwdtJp4dUTFe-1CuHN%2FCapture%20d%E2%80%99e%CC%81cran%202020-11-12%20a%CC%80%2014.06.02.png?alt=media&token=71b59490-63ee-4bb2-8758-099232387859)
 
 It contains User information **(1)**, Smart Action name **(2)** and Collection name **(3).** Granted permissions **(4)** are as follows:‌
 
-* _empty_: the user is not authorized to use that Smart Action as part of that team
-* _trigger_: the user can trigger that Smart Action
-* If the [approval workflow module](../../collections/actions/create-and-manage-smart-actions.md#require-approval-for-a-smart-action) is enabled:
-  * _request_: the user can ask for an approval to trigger that Smart Action
-  * _request/approve_: the user can ask for an approval to trigger that Smart Action and can approve requests of this Smart Action except his own
-  * _request/approve(self)_: the user can ask for an approval to trigger that Smart Action and can approve requests of this Smart Action including his own
+- _empty_: the user is not authorized to use that Smart Action as part of that team
+- _trigger_: the user can trigger that Smart Action
+- If the [approval workflow module](../../collections/actions/create-and-manage-smart-actions.md#require-approval-for-a-smart-action) is enabled:
+  - _request_: the user can ask for an approval to trigger that Smart Action
+  - _request/approve_: the user can ask for an approval to trigger that Smart Action and can approve requests of this Smart Action except his own
+  - _request/approve(self)_: the user can ask for an approval to trigger that Smart Action and can approve requests of this Smart Action including his own
 
 ### Copy role permissions across environments
 
@@ -126,12 +130,12 @@ To use it, go to: Project Settings → Roles → Actions.
 
 The permission level of a user determines what Forest Admin administration permissions he has. You can assign one of the following _permission levels_ per user:‌
 
-| Forest Admin permission level | Manage Data          | Customize admin UI (activate layout editor) | Access project settings (environments only) | Access project settings (environments, teams, user roles) |
-| ----------------------------- | -------------------- | ------------------------------------------- | ------------------------------------------- | --------------------------------------------------------- |
-| **Admin**                     | :heavy\_check\_mark: | :heavy\_check\_mark:                        | :heavy\_check\_mark:                        | :heavy\_check\_mark:                                      |
-| **Developer**                 | :heavy\_check\_mark: | :heavy\_check\_mark:                        | :heavy\_check\_mark:                        |                                                           |
-| **Editor**                    | :heavy\_check\_mark: | :heavy\_check\_mark:                        |                                             |                                                           |
-| **User**                      | :heavy\_check\_mark: |                                             |                                             |                                                           |
+| Forest Admin permission level | Manage Data        | Customize admin UI (activate layout editor) | Access project settings (environments only) | Access project settings (environments, teams, user roles) |
+| ----------------------------- | ------------------ | ------------------------------------------- | ------------------------------------------- | --------------------------------------------------------- |
+| **Admin**                     | :heavy_check_mark: | :heavy_check_mark:                          | :heavy_check_mark:                          | :heavy_check_mark:                                        |
+| **Developer**                 | :heavy_check_mark: | :heavy_check_mark:                          | :heavy_check_mark:                          |                                                           |
+| **Editor**                    | :heavy_check_mark: | :heavy_check_mark:                          |                                             |                                                           |
+| **User**                      | :heavy_check_mark: |                                             |                                             |                                                           |
 
 ## Manage a user's role and permission level <a href="#manage-a-users-role-and-permission-level" id="manage-a-users-role-and-permission-level"></a>
 
@@ -142,4 +146,4 @@ You can change a user's role or permission level from their details page:‌
 3. Change the role and/or permission level assigned to that user
 4. Don't forget to save
 
-![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-MKKUnOvF9h4T2t0c\_vi%2F-MKKxu9dgVLyFlA7VYV3%2FCapture%20d%E2%80%99e%CC%81cran%202020-10-23%20a%CC%80%2016.56.58.png?alt=media\&token=08c9126f-383d-4857-9107-d3df61c6c848)
+![](https://gblobscdn.gitbook.com/assets%2F-LR7SWfEwsNtj_ZiSkSA%2F-MKKUnOvF9h4T2t0c_vi%2F-MKKxu9dgVLyFlA7VYV3%2FCapture%20d%E2%80%99e%CC%81cran%202020-10-23%20a%CC%80%2016.56.58.png?alt=media&token=08c9126f-383d-4857-9107-d3df61c6c848)

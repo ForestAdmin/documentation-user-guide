@@ -1,7 +1,7 @@
 # Security tab
 
 {% hint style="info" %}
-You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to have access to this tab
+You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to have access to this tab.
 {% endhint %}
 
 Here, we explore essential features like IP whitelisting, auto logout, two-factor authentication (2FA), and user provisioning via SCIM. All to boost your project's security and manage user permissions effectively.

@@ -1,16 +1,20 @@
 # Activity
 
+{% hint style="info" %}
+You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to have access to this feature.
+{% endhint %}
+
 The global _Activity_ tab gives you an overall view of all your team's activities:
 
 ![](<../.gitbook/assets/image (190).png>)
 
 It allows users to track any actions triggered by a member of your Forest Admin project. The logged actions are:
 
-* Create
-* Update
-* Delete
-* Trigger a [Smart Action](../collections/actions/create-and-manage-smart-actions.md#what-is-a-smart-action)
-* Leave a [note](collaboration/communicate-with-notes.md)
+- Create
+- Update
+- Delete
+- Trigger a [Smart Action](../collections/actions/create-and-manage-smart-actions.md#what-is-a-smart-action)
+- Leave a [note](collaboration/communicate-with-notes.md)
 
 For each of these actions, the **user**, the **record** and **datetime** are logged.
 
