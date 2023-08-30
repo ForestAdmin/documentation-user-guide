@@ -5,15 +5,15 @@ description: Adding Forest Admin to OneLogin
 # SCIM integration with OneLogin
 
 {% hint style="info" %}
-You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to have access to this feature.
+You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this feature.
 {% endhint %}
 
 ## Supported features
 
-* Provisioning users from OneLogin to Forest Admin
-* Updating user role, permission level, and tags from OneLogin to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
-* Deleting user in Forest Admin when user is removed from Forest Admin app in OneLogin.&#x20;
-* SCIM Groups are used to assign users to team.
+- Provisioning users from OneLogin to Forest Admin
+- Updating user role, permission level, and tags from OneLogin to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
+- Deleting user in Forest Admin when user is removed from Forest Admin app in OneLogin.&#x20;
+- SCIM Groups are used to assign users to team.
 
 ## Adding the Forest Admin app
 
@@ -33,7 +33,7 @@ Name your app, then go to your Forest Admin project settings and enable the User
 
 Add the following baseUrl and paste your token generated on Forest Admin:
 
-* SCIM Base URL: `https://api.forestadmin.com/scim`
+- SCIM Base URL: `https://api.forestadmin.com/scim`
 
 <figure><img src="../../../.gitbook/assets/image (511).png" alt=""><figcaption></figcaption></figure>
 
@@ -69,9 +69,9 @@ SCIM JSON Template: add the following:
 
 ## Adding Forest Admin custom parameters
 
-* permissionLevel (`string`): should match exactly an existing permissionLevel in Forest Admin.
-* role (`string`): should match exactly an existing role in the project.
-* tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
+- permissionLevel (`string`): should match exactly an existing permissionLevel in Forest Admin.
+- role (`string`): should match exactly an existing role in the project.
+- tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
 
 <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 

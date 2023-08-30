@@ -1,11 +1,12 @@
 # Export users history
 
 {% hint style="info" %}
-You need to be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing/) to have access to this feature.
+You need to be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this feature.
 {% endhint %}
 
 Some organizations with hundreds of collaborators use Forest Admin every day.
 Administrators of such projects usually need to monitor:
+
 - how users are added to the admin panel,
 - which Permission Level, Role, Tags they are given,
 - which Teams they are assign to,
