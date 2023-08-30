@@ -46,7 +46,7 @@ Once your Smart View is applied, it will also be displayed in your record's rela
 
 #### In the Summary View
 
-![](<../../.gitbook/assets/image (3) (1) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 {% hint style="info" %}
 As of today, it's **not** possible to set different views for your table/summary/related data views.

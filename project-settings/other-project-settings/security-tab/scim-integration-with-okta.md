@@ -9,7 +9,10 @@ description: Adding Forest Admin to Okta from the preconfigured app (recommended
 * Provisioning users from Okta to Forest Admin
 * Updating user role, permission level, and tags from Okta to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
 * Deleting user in Forest Admin when user is removed from Forest Admin app in Okta.
-* SCIM Groups are used to assign users to teams. Note:
+* SCIM Groups are used to assign users to teams.
+
+Note:
+
 * userName is following an email format and is readonly after creation
 * firstName and lastName are also readonly after creation
 
@@ -64,7 +67,7 @@ Create mapping rules to automatically provide values to mandatory parameters `te
 Beware of selecting the right mapping direction: Okta to Forest Admin
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Adding custom user attributes
 
