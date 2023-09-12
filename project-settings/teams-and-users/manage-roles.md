@@ -88,24 +88,22 @@ _Collection permissions_ allow you to enable/disable the following collection-sp
 
 ### Default permissions <a href="#default-permissions" id="default-permissions"></a>
 
-_Default permissions_ allow you to choose default permissions for you newly created smart actions and collections
+_Default permissions_ allow you to choose default permissions for each newly created Collection or Smart Action.
 
-You can configure it for both smart actions and collections.
 
-For the new roles, here are the values of the default permissions: 
-* Smart actions: 
-  * Trigger: :heavy_check_mark:
-  * Require approval: -
-  * Approve: -
-  * Self approve: -
+Here is the initial configuration for a new role:
+* Smart Actions
+  |Trigger| Require approval  | Approve| Self approve| 
+  | :-: | :-: | :-: | :-: | 
+  | :heavy_check_mark: | - | - | - | - |
 * Collections:
-  * Read (list): :heavy_check_mark:
-  *	Read (details): :heavy_check_mark:
-  * Create: :heavy_check_mark:
-  * Update: :heavy_check_mark:
-  * Delete: :heavy_check_mark:
-  * Export: :heavy_check_mark:
+  | Read (list) | Read (details) | Create | Update | Delete | Export |
+  |  :-: |  :-: |  :-: |  :-: |  :-: |  :-: |
+  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 
 
+{% hint style="info" %}
+For projects with high security standards, although it implies more manual opt-in activation, it is advised to reduce these default permissions at least in production, to prevent excessive rights in operators hands.
+{% endhint %}
 
 ### Control environment access per role <a href="#control-environment-access-per-role" id="control-environment-access-per-role"></a>
 
