@@ -86,6 +86,37 @@ _Collection permissions_ allow you to enable/disable the following collection-sp
 - _Delete_: delete a record of this collection
 - _Export_: export the list of records of this collection
 
+### Default permissions <a href="#default-permissions" id="default-permissions"></a>
+
+_Default permissions_ allow you to choose default permissions for each newly created Collection or Smart Action.
+
+
+Here is the initial configuration for a new role:
+
+Smart Actions:
+
+|Permission| Value |
+| :- | :-: |
+| Trigger| :heavy_check_mark: |
+| Require approval  | - |
+| Approve| - |
+| Self approve| - |
+  
+Collections:
+
+|Permission| Value |
+| :- | :-: |
+| Read (list) | :heavy_check_mark: | 
+| Read (details) | :heavy_check_mark: | 
+| Create | :heavy_check_mark: | 
+| Update | :heavy_check_mark: | 
+| Delete | :heavy_check_mark: | 
+| Export | :heavy_check_mark: | 
+
+{% hint style="info" %}
+For projects with high security standards, although this involves more frequent manual activation, it is advisable to reduce these default permissions, at least for your production environment. Il will avoid excessive accesses being automatically granted to operators, when a new Collection or Smart Action is released.
+{% endhint %}
+
 ### Control environment access per role <a href="#control-environment-access-per-role" id="control-environment-access-per-role"></a>
 
 From a role's details page, you can also:‌
