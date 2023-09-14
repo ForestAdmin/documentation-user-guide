@@ -93,7 +93,7 @@ _Default permissions_ allow you to choose default permissions for each newly cre
 
 Here is the initial configuration for a new role:
 
-Smart Actions
+Smart Actions:
 
 |Permission| Value |
 | :- | :-: |
