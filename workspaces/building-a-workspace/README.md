@@ -30,10 +30,6 @@ Deleting a component may impact other components. If this is the case, you'll be
 
 Write anything you wish to display, then customize how it's displayed using the style options.
 
-{% hint style="info" %}
-Soon you'll be able to use markdown format as well.
-{% endhint %}
-
 ### The Action Component
 
 The **Action** component can be used to trigger `global,` `single`, and `bulk` Smart Actions as well as CRUD operations.&#x20;
