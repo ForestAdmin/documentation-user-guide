@@ -53,6 +53,8 @@
 
 - [Collaboration](other-tabs/collaboration/README.md)
   - [Communicate with Notes](other-tabs/collaboration/communicate-with-notes.md)
+  - [Approval requests](other-tabs/collaboration/approval-requests.md)
+
 - [Activity](other-tabs/activity.md)
 
 ## Integrations
