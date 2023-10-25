@@ -8,7 +8,7 @@ Approval requests are created by triggering smart actions that require manual va
 
 - __Created__: list of pending approvals you have generated.
 
-- __To review__: list of approval requests you have the right to approve or reject based on role permission.
+- __To review__: list of approval requests that you have the right to approve or reject based on role permission.
 
 - __History__: history of approval requests that have been processed and closed.
 
