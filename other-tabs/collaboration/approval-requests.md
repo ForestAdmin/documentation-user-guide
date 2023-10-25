@@ -6,17 +6,17 @@ You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to
 
 Approval requests are created by smarts actions that require manual validation to be executed according to the [Approval workflow](../../project-settings/teams-and-users/manage-roles.md#approval-workflow-permissions). On this screen, you'll find all the actions linked to these approvals, divided into three lists: &#x20;
 
-- __Created__:  This is the list of approvals requests you've created using acton smarts.
+- __Created__:  This is the list of pending approvals you have generated.
 
-- __To review__: This is the list of approval requests you have to approve or reject.
+- __To review__: This is the list of approval requests you have the right to approve or reject based on role permission.
 
-- __History__: This is the history of approvals requests that have been processed and closed.
+- __History__: This is the history of approval requests that have been processed and closed.
 
 ![](../../.gitbook/assets/approvals-global-screen.png)
 
 ## Action on approval requests
 
-You can open every approval request you have to process and choose to validate or reject them on this modal:
+By clicking on an approval, a modal will open. In there you will find the execution context of the action (the targeted record and any form value that was defined on the action). After review, you can either validate or reject the approval:
 
 ![](../../.gitbook/assets/approvals-actions.png)
 
