@@ -1,0 +1,51 @@
+# Approval requests
+
+{% hint style="info" %}
+You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this feature.
+{% endhint %}
+
+Approval requests are created by smarts actions that require manual validation to be executed according to the [Approval workflow](../../project-settings/teams-and-users/manage-roles.md#approval-workflow-permissions). On this screen, you'll find all the actions linked to these approvals, divided into three lists: &#x20;
+
+- __Created__:  This is the list of approvals requests you've created using acton smarts.
+
+- __To review__: This is the list of approval requests you have to approve or reject.
+
+- __History__: This is the history of approvals requests that have been processed and closed.
+
+![](../../.gitbook/assets/approvals-global-screen.png)
+
+## Action on approval requests
+
+You can open every approval request you have to process and choose to validate or reject them on this modal:
+
+![](../../.gitbook/assets/approvals-actions.png)
+
+Once the request has been processed, it will be transferred to the history.
+
+## Filter approvals
+
+The larger your team and your project, the larger the list of approval requests. To manage your actions more easily, you can filter your approvals on different criteria to display a more restricted list.
+
+Available filters are: 
+- __Action__: the name of the smart action(s) you wish to display
+
+- __Requester__: the names of the requesters who created the approval requests
+
+- __Team__: the name of the teams associated with approval requests
+
+- __Creation date__: allows you to select an approval request creation date interval
+
+Each of these filters can be combined to give you the most accurate list possible.
+
+
+![](../../.gitbook/assets/approvals-filters.png)
+
+## Export approval request history
+
+You can also export the history of your approval requests over a given period. To do this, simply click on the Export button and select the desired time interval in the modal. You'll receive a CSV file by e-mail as soon as possible. 
+
+![](../../.gitbook/assets/approvals-export.png)
+
+
+
+
