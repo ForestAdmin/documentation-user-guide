@@ -4,7 +4,7 @@
 You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this feature.
 {% endhint %}
 
-Approval requests are created by smarts actions that require manual validation to be executed according to the [Approval workflow](../../project-settings/teams-and-users/manage-roles.md#approval-workflow-permissions). On this screen, you'll find all the actions linked to these approvals, divided into three lists: &#x20;
+Approval requests are created by triggering smart actions that require manual validation to be executed according to the [Approval workflow](../../project-settings/teams-and-users/manage-roles.md#approval-workflow-permissions). On this screen, you will find all approval requests divided into three lists: &#x20;
 
 - __Created__:  This is the list of pending approvals you have generated.
 
