@@ -1,9 +1,18 @@
 # Billing tab
 
-From the Billing tab, you can do 2 things:
+The Billing tab provides an overview of your Forest Admin plan and billing information. It includes two main sections: Current Plan and Past Invoices.
 
-* See your current plan and metrics
-* **Upgrade** to a [higher plan](https://www.forestadmin.com/pricing)
+## Billing details
 
-![](<../../.gitbook/assets/image (54).png>)
+This section summarizes your current Forest Admin plan and includes details about your monthly fee, commitment, payment frequency, total number of users, and activated features. 
+
+The estimated monthly fee is based on the current number of users. 
+
+If your needs change, you can use the "Manage your plan" button to [upgrade to a higher plan](https://www.forestadmin.com/pricing).
+
+## Invoices
+
+This section displays a summary of your past invoices, including the month and year, invoice amount, and payment status.
+
+![](<../../.gitbook/assets/billing-tab.jpg>)
 
