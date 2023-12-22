@@ -12,13 +12,13 @@ Your Security tab can give you access to various features:
 
 Control which IP addresses can access to your admin panel.
 
-![](<../../../.gitbook/assets/image (609).png>)
+![](<../../.gitbook/assets/image (609).png>)
 
 ## **Auto logout**
 
 Force your users session logout after a few minutes of inactivity.
 
-![](<../../../.gitbook/assets/image (274).png>)
+![](<../../.gitbook/assets/image (274).png>)
 
 Options are 1 min, 2 min, 3 min, 10 min, 30 min, 1h (default), 2h, 3h, 4h, 5h, 10h, and 24h.
 
@@ -26,7 +26,7 @@ Options are 1 min, 2 min, 3 min, 10 min, 30 min, 1h (default), 2h, 3h, 4h, 5h, 1
 
 Enforce a second authentication factor while login to specific environments.
 
-![](<../../../.gitbook/assets/image (184).png>)
+![](<../../.gitbook/assets/image (184).png>)
 
 Two-factor authentication (2FA) is a security feature available to everyone. However, requiring that a user has set up 2FA before they can access an environment is what this tab allows you to achieve.
 

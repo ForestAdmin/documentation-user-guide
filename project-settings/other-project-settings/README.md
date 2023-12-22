@@ -15,7 +15,6 @@ In this section, we'll cover:
 * [General settings](general-tab.md)
 * [Interface settings](interface-tab.md)
 * [Billing settings](billing-tab.md)
-* [Security settings](security-tab/)
 
 For Teams and Users settings, check out this [section](../teams-and-users/).
 
