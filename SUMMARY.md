@@ -63,13 +63,14 @@
 
 ## Project settings
 
+- [General tab](project-settings/general-tab.md)
+- [Environments tab](project-settings/environments-tab.md)
 - [Teams, Users & Permissions](project-settings/teams-and-users/README.md)
   - [Create and manage a team](project-settings/teams-and-users/create-and-manage-a-team.md)
   - [Add and manage users](project-settings/teams-and-users/add-and-manage-users.md)
   - [Manage roles and permission levels](project-settings/teams-and-users/manage-roles.md)
   - [Export users history](project-settings/teams-and-users/export-users-history.md)
 - [Other project settings](project-settings/other-project-settings/README.md)
-  - [General tab](project-settings/other-project-settings/general-tab.md)
   - [Interface tab](project-settings/other-project-settings/interface-tab.md)
   - [Security tab](project-settings/other-project-settings/security-tab/README.md)
     - [SCIM integration with OneLogin](project-settings/other-project-settings/security-tab/scim-integration-with-onelogin.md)
