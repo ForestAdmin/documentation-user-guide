@@ -12,7 +12,6 @@ Make sure you have the **Admin** role. If you do, you can access your Project se
 
 In this section, we'll cover:
 
-* [General settings](general-tab.md)
 * [Interface settings](interface-tab.md)
 * [Billing settings](billing-tab.md)
 
