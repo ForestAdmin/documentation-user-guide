@@ -36,6 +36,59 @@ The **extended search** lets you search also within _reference fields_ of `belon
 _Extended search_ is **not the default** search because it is **slower**.
 {% endhint %}
 
+### Advanced syntax for search
+
+{% hint style="info" %}
+_Advanced syntax for search_ is only supported on nodejs agents `@forestadmin/agent` starting from version 1.37. 
+{% endhint %}
+
+Search supports advanced syntax to help you find exactly what you are looking for:
+
+* `-term` will search for records that do not contain `term` ;
+* `property:term` will search for records that contain `term` in the `property` field ;
+* `relation.childProperty:term` will search for records that contain `term` in the `childProperty` field of the `relation` relation ;
+* `term1 OR term2` will search for records that contain `term1` or `term2` ;
+* `term1 AND term2` will search for records that contain `term1` and `term2` (equivalent to `term1 term2`);
+* `term1 AND (term2 OR term3)` will search for records that contain `term1` and either `term2` or `term3`.
+* `property:NULL` will explicitly search for records that contain the technical value `NULL` in the `property` field ;
+* `"multiple quoted words"` will search for records that contain the phrase `multiple quoted words` without splitting it into multiple terms ;
+
+All elements of the advanced syntax can be combined, for instance `property:term OR -term2 OR relation.childProperty:term3`.
+
+#### Searching on numbers
+
+Number fields support the following additional syntax:
+
+* `>42` will search for records that contain a number greater than `42` ;
+* `>=42` will search for records that contain a number greater than or equal to `42` ;
+* `<42` will search for records that contain a number lower than `42` ;
+* `<=42` will search for records that contain a number lower than or equal to `42`.
+
+This syntax can be used in combination with property names, for instance `property:>42` will search for records that contain a number greater than `42` in the `property` field.
+
+#### Searching on dates
+
+Date fields support the following additional syntax:
+
+* `2020` will search for records that contain a date in the year `2020` ;
+* `2020-01` will search for records that contain a date in `January 2020` ;
+* `2020-01-01` will search for records that contain a date on `January 1st 2020` ;
+
+Operators `>`, `>=`, `<`, `<=` can be used in combination with dates, for instance 
+* `property:>2020-01-01` will search for records that contain a date after `January 1st 2020` in the `property` field ;
+* `property:<=2020` will search for records that contain a date in `2020` or before in the `property` field.
+
+#### Searching on booleans
+
+Boolean values support the following additional syntax:
+
+* `true` or `1` will search for records that contain `true` ;
+* `false` or `0` will search for records that contain `false` ;
+
+True and false values are case insensitive, meaning that `True` and `False` will also work for instance.
+
+
+
 ## Filters
 
 Searching is just one way to be faster at finding the desired data. Forest Admin also allows you to use filters to sort your data.
