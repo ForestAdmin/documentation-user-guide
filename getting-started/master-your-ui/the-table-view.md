@@ -53,7 +53,9 @@ Search supports advanced syntax to help you find exactly what you are looking fo
 - `property:NULL` will explicitly search for records that contain the technical value `NULL` in the `property` field ;
 - `"multiple quoted words"` will search for records that contain the phrase `multiple quoted words` without splitting it into multiple terms ;
 
-All elements of the advanced syntax can be combined, for instance `property:term OR -term2 OR relation.childProperty:term3`.
+All elements of the advanced syntax can be combined, for instance `(property:term OR -term2) AND (property1:NULL OR relation.childProperty:term3)`.
+
+Please note that `NULL`, `OR` and `AND` need to be written in capital letters to be interpreted as operators.
 
 ### Focused search on one property
 
