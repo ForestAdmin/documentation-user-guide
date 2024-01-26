@@ -36,10 +36,10 @@ The **extended search** lets you search also within _reference fields_ of `belon
 _Extended search_ is **not the default** search because it is **slower**.
 {% endhint %}
 
-### Advanced syntax for search
+### Advanced search syntax
 
 {% hint style="info" %}
-_Advanced syntax for search_ is only supported on nodejs agents `@forestadmin/agent` starting from version 1.37.
+_Advanced search syntax_ is only supported on nodejs agents `@forestadmin/agent` starting from version 1.37.
 {% endhint %}
 
 Search supports advanced syntax to help you find exactly what you are looking for:
