@@ -39,7 +39,7 @@ _Extended search_ is **not the default** search because it is **slower**.
 ### Advanced search syntax
 
 {% hint style="info" %}
-_Advanced search syntax_ is only supported on nodejs agents `@forestadmin/agent` starting from version 1.37.
+_Advanced search syntax_ is only supported on nodejs agents `@forestadmin/agent` starting from version 1.36.18.
 {% endhint %}
 
 Search supports advanced syntax to help you find exactly what you are looking for:
