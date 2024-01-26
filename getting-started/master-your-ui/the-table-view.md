@@ -55,6 +55,19 @@ Search supports advanced syntax to help you find exactly what you are looking fo
 
 All elements of the advanced syntax can be combined, for instance `property:term OR -term2 OR relation.childProperty:term3`.
 
+### Focused search on one property
+
+The following syntax allows to search a specific term only on a given property in a database:
+
+- `property:searchedTerm` will search the term "searchedTerm" in the field named `property` ;
+- `relation.childProperty:searchedTerm` will search the term "searchedTerm" in the field `childProperty` inside the relation named `relation`.
+
+{% hint style="info" %}
+The property name needs to match the technical one in the database. Forest Admin will ignore casing and separator characters such as `-` and `_` when searching for fields. For instance `property_name` will match an technical property named `propertyName`.
+{% endhint %}
+
+Focused search can be combined with other syntax, such as `property:>20` to search for a value greater than 20.
+
 ### Search on text fields
 
 Searching on text fields is done differently, depending on the different operators supported by your database. We select the right operator in this order of priority:
