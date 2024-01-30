@@ -6,7 +6,7 @@ Forest Admin provides a straightforward UI to configure the charts you want.
 
 First, turn on the Layout Editor mode **(1)**, then click _Add a new chart_ **(2)**.
 
-![](../../.gitbook/assets/2019-07-02\_09.15.18.png)
+![](../../.gitbook/assets/2019-07-02_09.15.18.png)
 
 {% hint style="info" %}
 To add a new dashboard, click on _+ New_ while in Layout Editor mode **(0)**.
@@ -14,7 +14,7 @@ To add a new dashboard, click on _+ New_ while in Layout Editor mode **(0)**.
 
 Then add a _Name_ and optionally a _Description_ **(1)** and select a [chart type](./#what-types-of-charts-exist-in-forest-admin) **(2)**:
 
-![](../../.gitbook/assets/2019-07-02\_09.23.00.png)
+![](../../.gitbook/assets/2019-07-02_09.23.00.png)
 
 Next, in **Simple** mode, you need to provide the following information, depending on your chart type:
 
@@ -24,7 +24,7 @@ Next, in **Simple** mode, you need to provide the following information, dependi
 * 1 time frame (day, week, month, year) option.
 * 1 or multiple filters.
 
-![](../../.gitbook/assets/2019-07-02\_10.47.13.png)
+![](../../.gitbook/assets/2019-07-02_10.47.13.png)
 
 ## Creating a Chart with SQL
 
@@ -47,7 +47,7 @@ SELECT COUNT(*) AS value
 FROM customers;
 ```
 
-![](../../.gitbook/assets/2019-07-02\_10.50.31.png)
+![](../../.gitbook/assets/2019-07-02_10.50.31.png)
 
 ### Single value (with growth percentage)
 
@@ -66,7 +66,7 @@ FROM (
 ) as previous;
 ```
 
-![](../../.gitbook/assets/2019-07-02\_10.53.33.png)
+![](../../.gitbook/assets/2019-07-02_10.53.33.png)
 
 ### Repartition
 
@@ -78,7 +78,7 @@ FROM transactions
 GROUP BY status;
 ```
 
-![](../../.gitbook/assets/2019-07-02\_14.08.05.png)
+![](../../.gitbook/assets/2019-07-02_14.08.05.png)
 
 ### Time-based
 
@@ -91,7 +91,7 @@ GROUP BY key
 ORDER BY key;
 ```
 
-![](<../../.gitbook/assets/2019-07-02\_14.10.02 (1) (1).png>)
+![](<../../.gitbook/assets/2019-07-02_14.10.02 (1) (1).png>)
 
 ### Objective
 
@@ -103,7 +103,7 @@ FROM orders
 WHERE orders.created_at < date_trunc('year', now());
 ```
 
-![](../../.gitbook/assets/2019-07-02\_14.16.46.png)
+![](../../.gitbook/assets/2019-07-02_14.16.46.png)
 
 ### Leaderboard
 
@@ -118,4 +118,4 @@ ORDER BY value DESC
 LIMIT 10;
 ```
 
-![](../../.gitbook/assets/2019-07-02\_14.12.28.png)
+![](../../.gitbook/assets/2019-07-02_14.12.28.png)
