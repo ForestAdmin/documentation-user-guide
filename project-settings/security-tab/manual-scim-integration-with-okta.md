@@ -97,7 +97,8 @@ Then go to the Forest Admin App in Okta and click on the "Push groups" tab.
 
 Click on "Refresh App Groups" then "Push Groups" and select "Find groups by name". Type in the name of any group you want to link with a Forest Admin team.
 
-![](<../../.gitbook/assets/image (582).png>) ![](<../../.gitbook/assets/image (583).png>)
+![](<../../.gitbook/assets/image (582).png>)
+![](<../../.gitbook/assets/image (583).png>)
 
 You can then map the Okta group with an existing Forest Admin team or create a new team with the same name.
 
@@ -109,4 +110,5 @@ Warning: when you link a group from Okta to a Forest Admin team, the Forest Admi
 
 To prevent Okta from renaming your Forest Admin teams, you can disable groups renaming in the app settings.
 
-![](<../../.gitbook/assets/image (594).png>) ![](<../../.gitbook/assets/image (586).png>)
+![](<../../.gitbook/assets/image (594).png>)
+![](<../../.gitbook/assets/image (586).png>)

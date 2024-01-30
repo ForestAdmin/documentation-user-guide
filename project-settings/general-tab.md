@@ -8,7 +8,7 @@ In the General tab of your Project settings, you'll be able to:
 * Transfer the ownership of your project
 * Delete your project
 
-![](<../../.gitbook/assets/image (560).png>)
+![](<../.gitbook/assets/image (560).png>)
 
 {% hint style="danger" %}
 Deleting your project cannot be undone. Think about it twice!
