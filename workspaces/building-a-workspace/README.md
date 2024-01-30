@@ -12,7 +12,7 @@ Components are the bricks of your workspace. To add a component, simply **drag &
 
 Naming your component can help you keep your workspace easy to understand and maintain. Components are given a default name upon creation, but this can be changed from the top-left of the settings panel of your component.
 
-<img src="../../.gitbook/assets/image (360).png" alt="" data-size="original">
+![](<../../.gitbook/assets/image (360).png>)
 
 ### Deleting a component
 
@@ -54,7 +54,7 @@ If you have a Collection component in your workspace, make sure its "On row clic
 
 In the Field component, select `collection1` as the source and choose which field value you wish to display: here we chose `name`.
 
-<img src="../../.gitbook/assets/image (64).png" alt="" data-size="original">
+![](<../../.gitbook/assets/image (64).png>)
 
 You may have a more complex use case, where you'd want to display a property further away. To achieve this, you'll have to click the _Toggle to input code_ button:
 
@@ -128,7 +128,7 @@ Some of your components display data. You may want this data to influence other 
 **Templating** is pseudo-code that will fetch the piece of data you want from a component. \
 To start using it, simply type `{{` in a text input:
 
-<img src="../../.gitbook/assets/image (344).png" alt="" data-size="original">
+![](<../../.gitbook/assets/image (344).png>)
 
 This opens an autocomplete dropdown which helps you use the correct syntax.
 
