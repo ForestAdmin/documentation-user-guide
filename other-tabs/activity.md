@@ -8,27 +8,32 @@ The global _Activity_ tab gives you an overall view of all your team's activitie
 
 ![](<../.gitbook/assets/image (190).png>)
 
-It allows users to track any actions triggered by a member of your Forest Admin project. The logged actions are:
+It allows users to track any actions triggered by a member of your Forest Admin project.
 
-- Create
-- Update
-- Delete
-- Trigger a [Smart Action](../collections/actions/create-and-manage-smart-actions.md#what-is-a-smart-action)
-- Leave a [note](collaboration/communicate-with-notes.md)
+The actions that are displayed in the activity view are "write" actions:
 
-For each of these actions, the **user**, the **record** and **datetime** are logged.
+- create
+- update
+- delete
+- trigger a [Smart Action](../collections/actions/create-and-manage-smart-actions.md#what-is-a-smart-action)
+- leave a [note](collaboration/communicate-with-notes.md)
 
-{% hint style="info" %}
-As part of the _Enterprise plan_, a weekly report of READ actions is also available.
-{% endhint %}
+For each of these actions, the **user**, the targeted **record(s)** and **timestamp** are logged.
 
-{% hint style="warning" %}
-Forest Admin only stores those information **without records’ data** except the ID/primary key to reconcile data in the frontend.
+{% hint style="success" %}
+Forest Admin tracks and stores these activities **without records’ sensible data** except the ID/primary key to be able to reconcile data in the user interface on users request in the user interface.
 {% endhint %}
 
 #### Export activity logs
 
-If you're an admin, you may export activity logs. Simply select a date range and click "Export activities". You will receive a link to your export by email shortly after.
+As an admin user, you can access to a wider range of activities that occurred in Forest Admin; not only "write" actions (as detailed above) but also "read" action like searches, filters, record details visualization, dashboards visualization, records exports and more.
+
+{% hint style="info" %}
+This feature generally helps administrators for users monitoring and operational issues investigations.
+{% endhint %}
+
+Simply click on the "Export" button in the header, then select a date range and click "Export activities".
+You will receive a link to your export by email shortly after.
 
 ![](<../.gitbook/assets/image (529).png>)
 
