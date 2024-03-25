@@ -8,7 +8,7 @@ The global _Activity_ tab gives you an overall view of all your team's activitie
 
 ![](<../.gitbook/assets/image (190).png>)
 
-It allows users to track any actions triggered by a member of your Forest Admin project.
+It allows users to track any actions triggered by a member of a Forest Admin project.
 
 The actions that are displayed in the activity view are "write" actions:
 
