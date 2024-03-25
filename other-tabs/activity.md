@@ -33,12 +33,13 @@ This feature generally helps administrators for users monitoring and operational
 {% endhint %}
 
 Simply click on the "Export" button in the header, then select a date range and click "Export activities".
-You will receive a link to your export by email shortly after.
+Shortly after, you will receive a link to download your export, by email.
 
 ![](<../.gitbook/assets/image (529).png>)
 
 #### Activity of a record
 
-As your team grows, so does your customer pool. It gets harder to stay on top of everything which happens on a record. That is why we've implemented the _Activity_ tab on each record:
+As your team grows, so does your customer pool. It gets harder to stay on top of everything that happens on a specific record.
+Forest Admin also enables you to access the activity logs of a record by clicking on the _Activity_ tab of a record page:
 
 ![](<../.gitbook/assets/image (634).png>)
