@@ -15,7 +15,7 @@ The actions that are displayed in the activity view are "write" actions:
 - create
 - update
 - delete
-- trigger a [Smart Action](../collections/actions/create-and-manage-smart-actions.md#what-is-a-smart-action)
+- trigger an [Action](../collections/actions/create-and-manage-smart-actions.md#what-is-a-smart-action)
 - leave a [note](collaboration/communicate-with-notes.md)
 
 For each of these actions, the **user**, the targeted **record(s)** and **timestamp** are logged.
