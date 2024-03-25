@@ -21,7 +21,7 @@ The actions that are displayed in the activity view are "write" actions:
 For each of these actions, the **user**, the targeted **record(s)** and **timestamp** are logged.
 
 {% hint style="success" %}
-Forest Admin tracks and stores these activities **without records’ sensible data** except the ID/primary key to be able to reconcile data in the user interface on users request in the user interface.
+Forest Admin tracks and stores these activities **without records’ sensible data** except the ID/primary key to be able to reconcile data, on users request, in the user interface.
 {% endhint %}
 
 #### Export activity logs
