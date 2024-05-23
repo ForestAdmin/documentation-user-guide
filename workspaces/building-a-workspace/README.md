@@ -121,6 +121,42 @@ As explained in the tooltip, the expected response format is:
 }
 ```
 
+### The Metabase component
+
+All you have to do to embed your Metabase dashboard into Forest Admin workspace is to create a new Metabase component and fill in all necesary informations.
+
+![](<../../.gitbook/assets/workspace-metabase-component-params.png>)
+
+#### Url
+This corresponds to the url of your Metabase instance. For example, if your Metabase instance is accessible through https://myanalytics.mycompany.com, then you must set it to the url option.
+
+#### Token
+
+The token is a JWT token and ensures valid authentication when retrieving the Metabase dashboard. The simplest way to do this is to generate it online using https://token.dev. To sign it, you need to use the METABASE_SECRET_KEY provided by Metabase.
+
+You must replace METABASE_DASHBOARD_ID by the correct dashboard ID provided by Metabase.
+
+*JWT Payload*:
+```json
+{
+  "resource": { "dashboard": METABASE_DASHBOARD_ID },
+  "params": {}
+}
+```
+
+#### Query
+Here are the parameters that the dashboard can take into account.
+This is a basic query string based input that can intercact with workspace context.
+
+For exemple if my dashboard take `projectId` as parameters, i can put the following inside the option.
+```
+projectId=1
+```
+or
+```
+projectId={{searchComponent.selectedRecord.id}}
+```
+
 ## Making your components interact
 
 Some of your components display data. You may want this data to influence other components. If you've read the [field component](./#the-field-component) section above, you've seen a simple way to make that happen. But there is another way: using **templating**.\
