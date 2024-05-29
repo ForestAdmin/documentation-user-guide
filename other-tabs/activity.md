@@ -4,6 +4,10 @@
 You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this feature.
 {% endhint %}
 
+{% hint style="warning" %}
+There is currently a limitation when tracking activities on collections sharing the same name with different capitalization. 
+{% endhint %}
+
 The global _Activity_ tab gives you an overall view of all your team's activities:
 
 ![](<../.gitbook/assets/image (190).png>)
