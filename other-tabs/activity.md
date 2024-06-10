@@ -4,10 +4,6 @@
 You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this feature.
 {% endhint %}
 
-{% hint style="warning" %}
-There is currently a limitation when tracking activities on collections sharing the same name with different capitalization. 
-{% endhint %}
-
 The global _Activity_ tab gives you an overall view of all your team's activities:
 
 ![](<../.gitbook/assets/image (190).png>)
@@ -26,6 +22,12 @@ For each of these actions, the **user**, the targeted **record(s)** and **timest
 
 {% hint style="success" %}
 Forest Admin tracks and stores these activities **without records’ sensible data** except the ID/primary key to be able to reconcile data, on users request, in the user interface.
+{% endhint %}
+
+{% hint style="warning" %}
+Although this is a fairly rare configuration, it is important to note that, for technical reasons, there is currently a limitation when tracking activities on collections sharing the **same name with a different capitalization** (example: `myCollection` and `MyCollection`). Such configuration can occur, for instance, during legacy collection migrations on the data source plugged to Forest Admin.
+
+In such configuration, the activities tracked on a collection (`myCollection`) can be attached to the other (`MyCollection`).
 {% endhint %}
 
 #### Export activity logs
