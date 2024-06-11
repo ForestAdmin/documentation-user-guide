@@ -148,7 +148,7 @@ You must replace METABASE_DASHBOARD_ID by the correct dashboard ID provided by M
 #### Query
 
 Here are the parameters that the dashboard can take into account.
-This is a basic query string based input that can intercact with workspace context.
+This is a basic query string based input that can interact with workspace context.
 
 For example if your dashboard take `projectId` as parameters, you can put the following as option input.
 ```
