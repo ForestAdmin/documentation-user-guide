@@ -128,6 +128,7 @@ All you have to do to embed your Metabase dashboard into Forest Admin workspace 
 ![](<../../.gitbook/assets/workspace-metabase-component-params.png>)
 
 #### Url
+
 This corresponds to the url of your Metabase instance. For example, if your Metabase instance is accessible through https://myanalytics.mycompany.com, then you must set it to the url option.
 
 #### Token
@@ -139,16 +140,17 @@ You must replace METABASE_DASHBOARD_ID by the correct dashboard ID provided by M
 *JWT Payload*:
 ```json
 {
-  "resource": { "dashboard": METABASE_DASHBOARD_ID },
+  "resource": { "dashboard": "<METABASE_DASHBOARD_ID>" },
   "params": {}
 }
 ```
 
 #### Query
+
 Here are the parameters that the dashboard can take into account.
 This is a basic query string based input that can intercact with workspace context.
 
-For exemple if my dashboard take `projectId` as parameters, i can put the following inside the option.
+For example if your dashboard take `projectId` as parameters, you can put the following as option input.
 ```
 projectId=1
 ```
