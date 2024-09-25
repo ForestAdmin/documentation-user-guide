@@ -29,18 +29,49 @@ You can then select between two dispatch rules:
 
 ## Processing tickets
 
-Once an inbox has been created, access it from the "Collaboration" tab.
+Once an inbox has been created, access the inbox from the "Collaboration" tab.
 
-### Todo tasks
+### Todo section
 
-### Doing tasks
+The count near the "Todo" section represents the number of records currently in the collection segment selected for the inbox (e.g. `Waiting for Validation`) that have not yet been assigned to an operator.
 
-### Backlog
+In the "Todo" section of the inbox, an operator can click on the "Start processing button" to have a task automatically assigned, and being redirected on the record.
 
-## Settings
+The user then does what is necessary to achieve the current workflow, for example trigger a `Validate Document` action. Then the user can click the "Next ticket" button on the top of Forest Admin UI, to be assigned to a new record.
 
-### Inbox renaming
+### Doing section
 
-### Inbox deletion
+On the "Doing" section, the user can view the tasks that are still in the segment and that are currently assigned to he or she.
+
+### Backlog section
+
+This section is accessible for users with a Editor or Administrator role.
+
+It provides an overview of the current inbox.
+
+You can see all the records in the segment their current task state, and which user is assigned to it.
+
+For the "Doing" tasks, you can see the date when the task was started.
+
+For the "Completed" tasks, you can also see the time it took for the task to get out of the segment. If the records gets out of the segment using an action requiring an approval, it includes the approval time.
+
+### Manual task assignment
+
+Assigning a task to an operator, makes this record be the next one to be assigned for this user, bypassing the sorting rules of the inbox.
+
+It is possible to manually assign a task to a specific user from the [backlog](#backlog-section).
+
+It is also possible to manually assign a task to an operator from the record view, through the native Forest Admin action "Assign to...".
+
+From this action, you can assign a task to users that are not in you current team and also select the inbox. The team should have an inbox based on a segment matching the record state.
+
+## Inbox settings
+
+Inbox settings are accessible from the Edit layout mode.
+
+You can rename and delete inboxes from the settings.
 
 ### Organize your inboxes with folders
+
+Inbox folders let you organize the way your inboxes are displayed to your operators.
+In the settings, under the "Inbox folder" setting you can add the current inbox in an existing folder, or create a new folder.
