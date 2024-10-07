@@ -75,3 +75,23 @@ You can rename and delete inboxes from the settings.
 
 Inbox folders let you organize the way your inboxes are displayed to your operators.
 In the settings, under the "Inbox folder" setting you can add the current inbox in an existing folder, or create a new folder.
+
+### Set a number of maximum concurrent tasks per operators
+
+In the settings you can configure a maximum number of tasks that can be assign at the same time for an operator.
+
+When this number is reached for an operator, when trying clicking on "Next ticket" he or she will be redirected to of the doing tasks.
+
+Tasks manually assigned from the backlog or a record ignore this behavior.
+
+{% hint style="info" %}
+This setting is disabled by default
+{% endhint %}
+
+### Automatically unassign tasks
+
+You can configure a maximum time before automatically unassigning a task, making the record available for other operators
+
+{% hint style="info" %}
+This setting is disabled by default
+{% endhint %}
