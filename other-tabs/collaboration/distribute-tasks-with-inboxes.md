@@ -45,7 +45,7 @@ On the "Doing" section, the operator can view the tasks that are still in the se
 
 ### Backlog section
 
-This section is accessible for operators with an Editor or Administrator role.
+This section is accessible for operators with a Manager, Editor or Administrator permission level.
 
 It provides an overview of the current inbox.
 
