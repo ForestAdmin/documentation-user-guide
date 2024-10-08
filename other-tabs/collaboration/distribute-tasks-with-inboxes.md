@@ -41,11 +41,11 @@ The operator then does what is necessary to achieve the current workflow, for ex
 
 ### Doing section
 
-On the "Doing" section, the user can view the tasks that are still in the segment and that are currently assigned to he or she.
+On the "Doing" section, the operator can view the tasks that are still in the segment and that are currently assigned to he or she.
 
 ### Backlog section
 
-This section is accessible for users with an Editor or Administrator role.
+This section is accessible for operators with an Editor or Administrator role.
 
 It provides an overview of the current inbox.
 
@@ -57,7 +57,7 @@ For the "Completed" tasks, you can also see the time it took for the task to get
 
 ### Manual task assignment
 
-Assigning a task to an operator, makes this record be the next one to be assigned for this user, bypassing the sorting rules of the inbox.
+Assigning a task to an operator, makes this record be the next one to be assigned for this operator, bypassing the sorting rules of the inbox.
 
 It is possible to manually assign a task to a specific operator from the [backlog](#backlog-section).
 
