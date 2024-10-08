@@ -1,7 +1,7 @@
 # Distribute tasks with Inboxes
 
 {% hint style="info" %}
-You must [contact a CS]("https://www.forestadmin.com/contact-us?message=Subject: I want to enable the inbox feature") to have access to this feature.
+You must [contact a CS](https://www.forestadmin.com/contact-us?message=Subject:%20I%20want%20to%%20enable%20the%20inbox%20feature) to have access to this feature.
 {% endhint %}
 
 The Inbox feature automatically assigns tasks among your team members based, improving the efficiency of your workflows.
