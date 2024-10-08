@@ -22,10 +22,10 @@ You can then select between two dispatch rules:
   - The records will be sorted by the first sorting field, in case of equality, the second sorting field is applied and so on to the third sorting field.
   - For example:
     - You can select the first sorting field to be the create date of the document, sorted descending
-    - You can select the second sorting field to be the importance (not sure for this one) of the document, sorted ascending
+    - You can select the second sorting field to be the importance of the document, sorted ascending
     - For two `Documents` with the same creation date, the importance will take over for the first that will be assigned
 - "Random":
-  - The `Documents` will randomly be assigned
+  - The `Documents` will be assigned in a random order
 
 ## Processing tickets
 
@@ -35,9 +35,9 @@ Once an inbox has been created, access the inbox from the "Collaboration" tab.
 
 The count near the "Todo" section represents the number of records currently in the collection segment selected for the inbox (e.g. `Waiting for Validation`) that have not yet been assigned to an operator.
 
-In the "Todo" section of the inbox, an operator can click on the "Start processing button" to have a task automatically assigned, and being redirected on the record.
+In the "Todo" section of the inbox, an operator can click on the "Start processing button" to have a task automatically assigned, and being redirected to the record.
 
-The user then does what is necessary to achieve the current workflow, for example trigger a `Validate Document` action. Then the user can click the "Next ticket" button on the top of Forest Admin UI, to be assigned to a new record.
+The operator then does what is necessary to achieve the current workflow, for example trigger a `Validate Document` action. Then the operator can click on the "Next ticket" button on the top of Forest Admin UI, to be assigned to a new record.
 
 ### Doing section
 
@@ -45,11 +45,11 @@ On the "Doing" section, the user can view the tasks that are still in the segmen
 
 ### Backlog section
 
-This section is accessible for users with a Editor or Administrator role.
+This section is accessible for users with an Editor or Administrator role.
 
 It provides an overview of the current inbox.
 
-You can see all the records in the segment their current task state, and which user is assigned to it.
+You can see all the records in the segment with their current task state, and which operator is assigned to it.
 
 For the "Doing" tasks, you can see the date when the task was started.
 
@@ -59,15 +59,15 @@ For the "Completed" tasks, you can also see the time it took for the task to get
 
 Assigning a task to an operator, makes this record be the next one to be assigned for this user, bypassing the sorting rules of the inbox.
 
-It is possible to manually assign a task to a specific user from the [backlog](#backlog-section).
+It is possible to manually assign a task to a specific operator from the [backlog](#backlog-section).
 
 It is also possible to manually assign a task to an operator from the record view, through the native Forest Admin action "Assign to...".
 
-From this action, you can assign a task to users that are not in you current team and also select the inbox. The team should have an inbox based on a segment matching the record state.
+From this action, you can assign a task to operators that are not in you current team and also select the inbox. The team should have an inbox based on a segment matching the record state.
 
 ## Inbox settings
 
-Inbox settings are accessible from the Edit layout mode.
+Inbox settings are accessible from the Edit layout mode, in the menu near the inbox name.
 
 You can rename and delete inboxes from the settings.
 
@@ -80,7 +80,7 @@ In the settings, under the "Inbox folder" setting you can add the current inbox 
 
 In the settings you can configure a maximum number of tasks that can be assign at the same time for an operator.
 
-When this number is reached for an operator, when trying clicking on "Next ticket" he or she will be redirected to of the doing tasks.
+When this number is reached for an operator, when trying clicking on "Next ticket" he or she will be redirected to the doing tasks.
 
 Tasks manually assigned from the backlog or a record ignore this behavior.
 
@@ -90,7 +90,7 @@ This setting is disabled by default
 
 ### Automatically unassign tasks
 
-You can configure a maximum time before automatically unassigning a task, making the record available for other operators
+You can configure a maximum time before automatically unassigning a task, making the record available for other operators.
 
 {% hint style="info" %}
 This setting is disabled by default
