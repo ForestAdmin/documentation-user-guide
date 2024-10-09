@@ -1,4 +1,4 @@
-# Default actions on related data
+# Default actions on relationships
 
 When you have a has many related data, you probably want to disable some native action provided by forest.
 
