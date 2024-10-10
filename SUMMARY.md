@@ -23,6 +23,7 @@
   - [Edit widgets](collections/customize-your-fields/edit-widgets.md)
   - [Display widgets](collections/customize-your-fields/display-widgets.md)
   - [Options](collections/customize-your-fields/options.md)
+  - [Default actions on relationships](collections/customize-your-fields/default-action-related-data.md)
 - [Actions](collections/actions/README.md)
   - [Edit a record](collections/actions/edit-a-record.md)
   - [Create a record](collections/actions/create-a-record.md)
