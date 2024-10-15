@@ -53,8 +53,10 @@
 ## Other tabs
 
 - [Collaboration](other-tabs/collaboration/README.md)
+
   - [Communicate with Notes](other-tabs/collaboration/communicate-with-notes.md)
   - [Approval requests](other-tabs/collaboration/approval-requests.md)
+  - [Inboxes](other-tabs/collaboration/distribute-tasks-with-inboxes.md)
 
 - [Activity](other-tabs/activity.md)
 
