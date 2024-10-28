@@ -214,6 +214,11 @@ Coordinates format must be:\
 \- 48.8566° N, 2.3522° E :x:&#x20;
 {% endhint %}
 
+## Number
+
+Use this widget to display numbers.
+It can be configured to show a specific number of decimal places, between 0 and 20
+
 ## JSON
 
 Use this widget to neatly display your JSON.
