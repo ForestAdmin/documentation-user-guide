@@ -68,6 +68,10 @@ You'll first need to **declare Forest Admin in your Identity Provider** using th
 
 **XML file upload or XML file endpoint (Recommended)**
 
+{% hint style="warning" %}
+We highly recommend to use this option, most especially the one where you provide the metadata file using an url. This allows automatic certificate update without service interruption. 
+{% endhint %}
+
 Either upload a file containing the authentication information (you'll be able to generate this file in your Identify Provider) or input the endpoint at which such a file is available (some IPs provide this).
 
 ![](<../../.gitbook/assets/image (59).png>)
