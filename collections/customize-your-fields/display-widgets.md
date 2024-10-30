@@ -24,51 +24,51 @@ With this widget, you can control how your dates will be displayed:
 
 To customize your date format, use [Moment.js](https://momentjs.com/) syntax:
 
-![](<../../.gitbook/assets/2019-07-01_11.46.22.png>)
+![](../../.gitbook/assets/2019-07-01_11.46.22.png)
 
 Here's what each token represents:
 
-* "M" => Returns "5" - representing the current month
-* "Mo" => Returns "5th" - the current month in ordinal form
-* "MM" => Returns "05" - the current month with a leading zero
-* "MMM" => Returns "May" - the shorthand name of the current month
-* "MMMM" => Returns "May" - the full name of the current month
-* "Q" => Returns "2" - the current quarter of the year
-* "Qo" => Returns "2nd" - the current quarter in ordinal form
-* "D" => Returns "10" - the current day of the month
-* "Do" => Returns "10th" - the current day in ordinal form
-* "DD" => Returns "10" - the current day with a leading zero
-* "ddd" => Returns "Wed" - the shorthand name of the current day of the week
-* "dddd" => Returns "Wednesday" - the full name of the current day of the week
-* "A" => Returns "AM" or "PM" - the current period of the day
-* "a" => Returns "am" or "pm" - the current period of the day in lowercase
-* "H" => Returns "8" - the current hour in 24-hour format
-* "HH" => Returns "08" - the current hour with a leading zero
-* "h" => Returns "8" - the current hour in 12-hour format
-* "hh" => Returns "08" - the current hour in 12-hour format with a leading zero
-* "m" => Returns "2" - the current minute
-* "mm" => Returns "02" - the current minute with a leading zero
-* "s" => Returns "17" - the current second
-* "ss" => Returns "17" - the current second with a leading zero
-* "S" => Returns "0" - the first fractional second (if any)
-* "Z" => Returns "-05:00" - the offset from UTC
-* "ZZ" => Returns "-0500" - the offset from UTC without a colon separator
-* "X" => Returns a Unix timestamp (the number of seconds that have elapsed since 01 January, 1970 UTC)
+- "M" => Returns "5" - representing the current month
+- "Mo" => Returns "5th" - the current month in ordinal form
+- "MM" => Returns "05" - the current month with a leading zero
+- "MMM" => Returns "May" - the shorthand name of the current month
+- "MMMM" => Returns "May" - the full name of the current month
+- "Q" => Returns "2" - the current quarter of the year
+- "Qo" => Returns "2nd" - the current quarter in ordinal form
+- "D" => Returns "10" - the current day of the month
+- "Do" => Returns "10th" - the current day in ordinal form
+- "DD" => Returns "10" - the current day with a leading zero
+- "ddd" => Returns "Wed" - the shorthand name of the current day of the week
+- "dddd" => Returns "Wednesday" - the full name of the current day of the week
+- "A" => Returns "AM" or "PM" - the current period of the day
+- "a" => Returns "am" or "pm" - the current period of the day in lowercase
+- "H" => Returns "8" - the current hour in 24-hour format
+- "HH" => Returns "08" - the current hour with a leading zero
+- "h" => Returns "8" - the current hour in 12-hour format
+- "hh" => Returns "08" - the current hour in 12-hour format with a leading zero
+- "m" => Returns "2" - the current minute
+- "mm" => Returns "02" - the current minute with a leading zero
+- "s" => Returns "17" - the current second
+- "ss" => Returns "17" - the current second with a leading zero
+- "S" => Returns "0" - the first fractional second (if any)
+- "Z" => Returns "-05:00" - the offset from UTC
+- "ZZ" => Returns "-0500" - the offset from UTC without a colon separator
+- "X" => Returns a Unix timestamp (the number of seconds that have elapsed since 01 January, 1970 UTC)
 
 By using these tokens, you can have complete control over how dates and times are presented, making it easier and more intuitive to read and interpret your data in Forest Admin.
 
 Here are five examples of various date and time formatting possibilities in Forest Admin:
 
 1. **"Do MMM, YYYY"**
-   * This will return the date in a format like "10th May, 2023". It uses the day of the month in ordinal form, the shorthand name of the month, a comma, and the full year.
+   - This will return the date in a format like "10th May, 2023". It uses the day of the month in ordinal form, the shorthand name of the month, a comma, and the full year.
 2. **"dddd, hA"**
-   * This will return something like "Wednesday, 8AM". It's a simple format that includes the full name of the day of the week, followed by the hour in 12-hour format and the period of the day in uppercase.
+   - This will return something like "Wednesday, 8AM". It's a simple format that includes the full name of the day of the week, followed by the hour in 12-hour format and the period of the day in uppercase.
 3. **"YYYY-MM-DD HH:mm"**
-   * This format will provide a date and time like "2023-05-10 08:02". It's a standard and commonly used format, especially in data storage and technical applications. It includes the full year, the month and day with leading zeros, and the hour and minute in 24-hour format with leading zeros.
+   - This format will provide a date and time like "2023-05-10 08:02". It's a standard and commonly used format, especially in data storage and technical applications. It includes the full year, the month and day with leading zeros, and the hour and minute in 24-hour format with leading zeros.
 4. **"MMM Do, h:mm a"**
-   * This format will return "May 10th, 8:02 am". It uses the shorthand name of the month, the day in ordinal form, and the hour and minute in 12-hour format with the period of the day in lowercase.
+   - This format will return "May 10th, 8:02 am". It uses the shorthand name of the month, the day in ordinal form, and the hour and minute in 12-hour format with the period of the day in lowercase.
 5. **"Qo quarter, YYYY"**
-   * This will return something like "2nd quarter, 2023". It's an interesting format that shows the current quarter in ordinal form and the full year. This could be useful for financial or business applications where data is often considered on a quarterly basis.
+   - This will return something like "2nd quarter, 2023". It's an interesting format that shows the current quarter in ordinal form and the full year. This could be useful for financial or business applications where data is often considered on a quarterly basis.
 
 ## Price
 
@@ -76,8 +76,8 @@ This widget allows you to display a number as a nicely formatted price:
 
 ![](<../../.gitbook/assets/image (102).png>)
 
-* Choose a currency symbol between **euros** (EUR), **dollars** (USD) and **pounds** (GBP)
-* Choose a base: **Cents** if your values are stored in cents, **Unit** otherwise
+- Choose a currency symbol between **euros** (EUR), **dollars** (USD) and **pounds** (GBP)
+- Choose a base: **Cents** if your values are stored in cents, **Unit** otherwise
 
 ![](<../../.gitbook/assets/image (71).png>)
 
@@ -110,7 +110,7 @@ This widget is your go-to widget for viewing files of all types.
 ![](<../../.gitbook/assets/image (17).png>)
 
 {% hint style="warning" %}
-Previews are only available for images and PDFs.
+Previews are only available for images and PDFs with a maximum size of 1.5 Mo.
 {% endhint %}
 
 ### Images
@@ -121,9 +121,9 @@ Images can be previewed from all views. Click on them to display the following m
 
 From this modal, you can:
 
-* **Click** to zoom
-* **Scroll** to zoom in
-* **Drag & drop** your zoomed-in area
+- **Click** to zoom
+- **Scroll** to zoom in
+- **Drag & drop** your zoomed-in area
 
 {% hint style="info" %}
 The _File viewer_ widget will also act as a **carousel** when viewing multiple images or files. In this case, your field must be defined as an array of strings (`type: ['String']`).
@@ -138,7 +138,7 @@ If you must keep them **private**, you should consider using [signed URLs](https
 
 From the Table View, clicking on the file icon will open the PDF in a new tab.
 
-![](<../../.gitbook/assets/2019-07-01_12.08.02.png>)
+![](../../.gitbook/assets/2019-07-01_12.08.02.png)
 
 From the summary and Details Views, the PDF can be previewed:
 
@@ -164,13 +164,13 @@ In this widget's settings, you can manage whether to authorize rotation and zoom
 
 Use this option to specify a URL prefix or path prefix depending on your usage. For instance:
 
-* If you store your files on an external cloud (ie: AWS S3) and in your database as a **filename**, your prefix will be a link like this:
+- If you store your files on an external cloud (ie: AWS S3) and in your database as a **filename**, your prefix will be a link like this:
 
-![](<../../.gitbook/assets/2019-04-15_09.24.25.png>)
+![](../../.gitbook/assets/2019-04-15_09.24.25.png)
 
-* If you store your images in **base64**, you could find it convenient to add a `data:image/png;base64` prefix on the go:
+- If you store your images in **base64**, you could find it convenient to add a `data:image/png;base64` prefix on the go:
 
-![](<../../.gitbook/assets/2019-04-19_11.28.29.png>)
+![](../../.gitbook/assets/2019-04-19_11.28.29.png)
 
 ### Preview size
 
@@ -206,11 +206,11 @@ You can also choose to display a title instead of the link.&#x20;
 
 Select this widget if you want to visualize a point coordinates on a map.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-L\_II7LUdAOkcJsUNFZy%2F-L\_IJblBj02ohUaAKIYi%2Fimage.png?alt=media\&token=74be70cf-ba69-46e6-b51f-d9adad61278d)
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LR7SWfEwsNtj_ZiSkSA%2F-L_II7LUdAOkcJsUNFZy%2F-L_IJblBj02ohUaAKIYi%2Fimage.png?alt=media&token=74be70cf-ba69-46e6-b51f-d9adad61278d)
 
 {% hint style="info" %}
 Coordinates format must be:\
-\- 48.8566, 2.3522 :white\_check\_mark: \
+\- 48.8566, 2.3522 :white_check_mark: \
 \- 48.8566° N, 2.3522° E :x:&#x20;
 {% endhint %}
 
@@ -218,7 +218,7 @@ Coordinates format must be:\
 
 Use this widget to neatly display your JSON.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LR7SWfEwsNtj\_ZiSkSA%2F-L\_II7LUdAOkcJsUNFZy%2F-L\_IJf1dCciE4jukwKma%2Fimage.png?alt=media\&token=70c5565a-e205-44ff-8b60-2bc6f7753c29)
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LR7SWfEwsNtj_ZiSkSA%2F-L_II7LUdAOkcJsUNFZy%2F-L_IJf1dCciE4jukwKma%2Fimage.png?alt=media&token=70c5565a-e205-44ff-8b60-2bc6f7753c29)
 
 ## User
 
@@ -232,10 +232,10 @@ This widget detects emails of existing Forest Admin users of your project and di
 
 Here are the possible cases:
 
-* **(1)** : the user belongs to the project. The profile picture is composed of his initials.
-* **(2)** : the user belongs to the project and has a [gravatar](https://gravatar.com/).&#x20;
-* **(3)** : the field is empty. Notice that you may assign it simply by clicking on it.
-* **(4)** : the user doesn't belong to this project.&#x20;
+- **(1)** : the user belongs to the project. The profile picture is composed of his initials.
+- **(2)** : the user belongs to the project and has a [gravatar](https://gravatar.com/).&#x20;
+- **(3)** : the field is empty. Notice that you may assign it simply by clicking on it.
+- **(4)** : the user doesn't belong to this project.&#x20;
 
 Notice that you may assign **multiple users** if your field is an **array** of emails:
 
