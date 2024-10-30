@@ -110,7 +110,7 @@ This widget is your go-to widget for viewing files of all types.
 ![](<../../.gitbook/assets/image (17).png>)
 
 {% hint style="warning" %}
-Previews are only available for images and PDFs with a maximum size of 1.5 Mo.
+Previews are only available for images and PDFs with a maximum size of 1.5 MB.
 {% endhint %}
 
 ### Images
