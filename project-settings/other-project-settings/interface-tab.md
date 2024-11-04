@@ -1,7 +1,7 @@
 # Interface tab
 
 {% hint style="info" %}
-You need to be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this tab.
+You need to be on a [Forest Admin Enterprise plan](https://www.forestadmin.com/pricing) to have access to this tab.
 {% endhint %}
 
 In the Interface tab of your Project settings, you"ll be able to:
