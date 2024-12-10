@@ -57,7 +57,7 @@ WHERE beneficiary.headquarter ILIKE '%United States%' AND emitter.headquarter IL
 {% endcode %}
 
 {% hint style="warning" %}
-In agent v1, he returned column **must** be `id`.&#x20;
+In agent v1, the returned column **must** be `id`.&#x20;
 Whereas in agent v2, the returned column **must** be the primary key field.&#x20;
 {% endhint %}
 
