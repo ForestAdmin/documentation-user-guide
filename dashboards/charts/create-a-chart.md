@@ -28,6 +28,12 @@ Next, in **Simple** mode, you need to provide the following information, dependi
 
 ## Creating a Chart with SQL
 
+{% hint style="info" %}
+To enable this feature in agent v2, your developers have to add a connection name to the datasources on which you want to execute live queries chart.
+
+After that, you must select on which one you want to run the query.
+{% endhint %}
+
 {% hint style="warning" %}
 The **Query** mode is only available for SQL databases.
 

@@ -10,11 +10,17 @@ Forest Admin’s dashboard is handy when it comes to monitoring the overall KPIs
 “Analytics per record” are only supported in the API and Query modes.
 {% endhint %}
 
-* For Query charts, use the character `?` to inject the current record the user is currently seeing to your query.
+* For Query charts, in agent v1, use the character `?` to inject the current record the user is currently seeing to your query. Meanwhile in agent v2, you must use `{{recordId}}`.
 * For API charts, the parameter `record_id` is automatically passed in the HTTP body to access the record the user is currently seeing.
 
 {% hint style="success" %}
 A chart added on a record with such parameters will work for **all records**.
+{% endhint %}
+
+{% hint style="info" %}
+To enable this feature in agent v2, your developers have to add a connection name into the datasources on which you want to execute live queries chart.
+
+After that, you must select on which one you want to run the query.
 {% endhint %}
 
 {% hint style="warning" %}

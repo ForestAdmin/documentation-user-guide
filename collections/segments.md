@@ -29,6 +29,12 @@ You can also adjust your **sorting** **field** and **order** [like you would for
 
 Forest Admin gives you a second option to create segment: SQL queries.&#x20;
 
+{% hint style="info" %}
+To enable this feature in agents v2, your developers have to add a connection name to the datasources on which you want to execute live queries segments.
+
+After that, you must select on which one you want to run the query.
+{% endhint %}
+
 {% hint style="warning" %}
 **Query** **mode** is only available for databases which support SQL.\
 \
@@ -51,7 +57,8 @@ WHERE beneficiary.headquarter ILIKE '%United States%' AND emitter.headquarter IL
 {% endcode %}
 
 {% hint style="warning" %}
-The returned column **must** be `id` .&#x20;
+In agent v1, he returned column **must** be `id`.&#x20;
+Whereas in agent v2, the returned column **must** be the primary key field.&#x20;
 {% endhint %}
 
 In the above example, we display the transactions whose beneficiaries and emitters are in the United States.
