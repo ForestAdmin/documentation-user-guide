@@ -60,7 +60,7 @@ You may then proceed to configure your app:
 Create mapping rules to automatically provide values to mandatory parameters `teams`, `role`, and `permissionLevel`, and optionally `tags`. If you don’t create mapping rules, you will have to provide these values manually for each user provisioned.
 
 - permissionLevel (string): should match any of `admin`, `developer`, `editor`, or `user`.
-- teams (`string`): comma separated list names exactly matching a team name in the project. ex: `"Operator,Admin"`. This can be either filled in via a custom mapping rule or by using Groups.
+- teams (`string`): comma separated list of names exactly matching a team name in the project. ex: `"Operator,Admin"`. This can be either filled in via a custom mapping rule or or ignored if you are using Groups.
 - role (`string`): should match exactly an existing role in the project.
 - tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
 
