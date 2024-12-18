@@ -62,7 +62,8 @@ SCIM JSON Template: add the following:
   "urn:ietf:params:scim:schemas:extension:forest:2.0:User": {
     "permissionLevel": "{$parameters.permission_level}",
     "role": "{$parameters.role}",
-    "tags": "{$parameters.tags}"
+    "tags": "{$parameters.tags}",
+    "teams": "{$parameters.teams}"
   }
 }
 ```
@@ -70,6 +71,7 @@ SCIM JSON Template: add the following:
 ## Adding Forest Admin custom parameters
 
 - permissionLevel (`string`): should match exactly an existing permissionLevel in Forest Admin.
+- teams (`string`): comma separated list of names exactly matching a team name in the project. ex: `"Operators,Support"`. This should either be filled in via a custom mapping rule or ignored if you are using Groups.
 - role (`string`): should match exactly an existing role in the project.
 - tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
 
