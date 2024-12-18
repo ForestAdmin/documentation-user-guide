@@ -56,6 +56,7 @@ The "Sync Password" field should be kept disabled, as we don't support it.
 ## Adding Forest Admin custom parameters
 
 - permissionLevel (string): should match any of “Admin”, “Developer”, “Editor”, or “User”.
+- teams (`string`): comma separated list names exactly matching a team name in the project. ex: `"Operator,Admin"`. This can be either filled in via a custom mapping rule or by using Groups.
 - role (`string`): should match exactly an existing role in the project.
 - tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
 
