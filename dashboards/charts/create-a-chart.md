@@ -101,7 +101,7 @@ ORDER BY key;
 
 ### Objective
 
-The returned columns **must** be named `key` and `objective`. In the following example, we set manually the objective to 750.
+The returned columns **must** be named `value` and `objective`. In the following example, we set manually the objective to 750.
 
 ```sql
 SELECT COUNT(orders) AS value, 750 AS objective
