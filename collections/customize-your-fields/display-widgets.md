@@ -225,6 +225,14 @@ Use this widget to neatly display your JSON.
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LR7SWfEwsNtj_ZiSkSA%2F-L_II7LUdAOkcJsUNFZy%2F-L_IJf1dCciE4jukwKma%2Fimage.png?alt=media&token=70c5565a-e205-44ff-8b60-2bc6f7753c29)
 
+## JSON Tree
+
+Use this display to browse your JSON.
+
+With this widget you can collapse or fold the nested item, and search into your JSON value.
+
+<figure><img src="../../.gitbook/assets/image json tree.png" alt=""><figcaption></figcaption></figure>
+
 ## User
 
 {% hint style="info" %}
