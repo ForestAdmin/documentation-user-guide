@@ -26,16 +26,25 @@ Deleting a component may impact other components. If this is the case, you'll be
 
 ## Understanding how components work
 
-### Section component
+### Layout & Guidance components
+
+Components to design your workspace in an intuitive way
+
+#### Section component
 
 The section component lets you regroup multiple components into a single area.
 
-### Tabs Component
+It enables you to configure the [visibility](./#managing-visibility-of-your-components) for all the components inside only through the Section component.
+
+It also enable you to drag the components inside altogether.
+
+#### Tabs Component
 
 Like the [section component](./#section-component), the tabs components lets you regroup multiple components into a single area, only the active tab components are displayed.
+
 The tabs component can hold between 1 and 10 tabs.
 
-### Text Component
+#### Text Component
 
 Write anything you wish to display, then customize how it's displayed using the style options.
 
@@ -43,18 +52,18 @@ Write anything you wish to display, then customize how it's displayed using the 
 You can add [custom style](./#styling-your-components) on this component
 {% endhint %}
 
-### Link Component
+#### Link Component
 
-The link component lets you create a link on the workspace there are 2 modes:
+The link component lets you create a link on the workspace. There are 2 modes:
 
 - **Custom**: you can set the url you want, and in this url you can use the value of another component selected record. e.g.: `https://mydomain/posts/{{collection1.selectedRecord.id}}`
-- **Redirect to record**: when this option is used, clicking the link will redirect on the record.
+- **Redirect to record**: clicking the link will redirect you on the record's detail page.
 
 {% hint style="info" %}
 You can add [custom style](./#styling-your-components) on this component
 {% endhint %}
 
-### Divider Components
+#### Divider Components
 
 You can use the horizontal and vertical dividers to create a visual separation between components.
 
@@ -62,7 +71,11 @@ You can use the horizontal and vertical dividers to create a visual separation b
 You can add [custom style](./#styling-your-components) on this component
 {% endhint %}
 
-### Search Component
+### Source components
+
+Components to set the context of your workspace
+
+#### Search Component
 
 Use the Search component to quickly select a record within a given Collection:
 
@@ -70,13 +83,11 @@ Use the Search component to quickly select a record within a given Collection:
 
 With the above settings, you'll be searching within **all fields** of your `Company` records and displaying the [reference field](../../collections/manage-your-collection-settings.md#general-tab).
 
-The Search component can then be used in other components like Field ("on record from"), Text, (templating), Collection (templating in filter), Chart (templating in filter), etc.
-
 {% hint style="info" %}
 You can use this component as a source for other components ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
 {% endhint %}
 
-### Collection Component
+#### Collection Component
 
 The collection component lets you visualize your data and select records in a workspace.
 There are 2 types for the collection component, _Collection_ and _Relationship_.
@@ -99,7 +110,7 @@ For the 2 types of collection components, you can do the following (independentl
 You can use this component as a source for other components ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
 {% endhint %}
 
-### Inbox Component
+#### Inbox Component
 
 The inbox component lets your operator treat their [inbox](../../other-tabs/collaboration/distribute-tasks-with-inboxes.md) tasks directly from a workspace.
 
@@ -107,13 +118,13 @@ The inbox component lets your operator treat their [inbox](../../other-tabs/coll
 You can use this component as a source for other components ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
 {% endhint %}
 
-### Dropdown Component
+#### Dropdown Component
 
 The Dropdown is a great UI classic. Here's how you can set it up:
 
 Choose a mode between "Static", "Dynamic > Simple" and "Dynamic > Smart"
 
-#### Static
+##### Static
 
 In _Static_ mode, you hard-code values. You may re-order them using the handles.
 
@@ -123,13 +134,13 @@ In _Static_ mode, you hard-code values. You may re-order them using the handles.
 _Enable search_ adds a search to your dropdown, making is easier to find values when there are many.
 {% endhint %}
 
-#### Dynamic > Simple
+##### Dynamic > Simple
 
 In _Simple_ mode, you choose a collection, a field and optionally a filter: this defines the values that will appear in the dropdown.
 
 ![](<../../.gitbook/assets/image (113).png>)
 
-#### Dynamic > Smart
+##### Dynamic > Smart
 
 _Smart_ mode lets you fetch values from an external endpoint.
 
@@ -146,23 +157,27 @@ As explained in the tooltip, the expected response format is:
 }
 ```
 
-### Date Picker Component
+#### Date Picker Component
 
 The date picker component lets your operator choose a date. You can set maximum and / or minimum dates that are enabled.
 Minimum and maximum dates can be hardcoded or use [templating](./#making-your-components-interact) to get a date from a selected record.
 
-### Toggle Component
+#### Toggle Component
 
-The toggle component can be used as an input, for example to dynamically filter on a collection or search component.
+The toggle component can be used as an input, for example to dynamically filter on a collection or a search component.
 It can also be used to display the value of a boolean field.
 
-### Input Component
+#### Input Component
 
 The input component is an input, you should use it when you want to dynamically filter a collection or a search component using a text or a number.
 
-### Action Component
+### Data & Actions
 
-The **Action** component can be used to trigger `global,` `single`, and `bulk` Smart Actions as well as CRUD operations.&#x20;
+Components to interact with your data
+
+#### Action Component
+
+The Action component can be used to trigger `global,` `single`, and `bulk` Smart Actions as well as CRUD operations.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-05 at 16.56.40.png" alt=""><figcaption></figcaption></figure>
 
@@ -170,15 +185,11 @@ If you've selected an action that requires selected record(s) to apply to, then 
 
 Here we have linked the `action2` component so that when you select a record from the`collection1` component, you'll be able to trigger the _Edit a company_ action in 1 click.&#x20;
 
-### The Field Component
+#### The Field Component
 
-The **Field** component lets you read data of a record that you selected in a "source" component.&#x20;
+The Field component lets you read data of a record that you selected in a [source](./#source-components) component.
 
-{% hint style="info" %}
-**Source** components are components that let you select a record: Collection, Search, Dropdown components can be source components.
-{% endhint %}
-
-If you have a Collection component in your workspace, make sure its "On row click" option is set to "Select a record": this will allow you to select a record in your table, which in turn feeds the **Field** component.&#x20;
+If you have a Collection component in your workspace, make sure its "On row click" option is set to "Select a record": this will allow you to select a record in your table, which in turn feeds the Field component.
 
 ![](<../../.gitbook/assets/image (109).png>)
 
@@ -192,7 +203,7 @@ You may have a more complex use case, where you'd want to display a property fur
 
 For instance, if your collection is `Company` and it is linked to a `Country` collection, you may want to display `{{country.name}}` or even `{{country.headquarter.address}}`.
 
-#### Widgets & labels
+##### Widgets & labels
 
 Note that you may also choose which [widget](../../collections/customize-your-fields/#list-of-display-widgets) to use to display your field.
 
@@ -202,17 +213,21 @@ The **(Inherited)** widget will use the same widget used in your Collection sett
 
 Lastly you may also choose whether to display the label and customize it.
 
-### The Metabase component
+### Analytics
+
+Components to visualize your data
+
+#### The Metabase component
 
 All you have to do to embed your Metabase dashboard into Forest Admin workspace is to create a new Metabase component and fill in all necesary informations.
 
 ![](../../.gitbook/assets/workspace-metabase-component-params.png)
 
-#### Url
+##### Url
 
 This corresponds to the url of your Metabase instance. For example, if your Metabase instance is accessible through https://myanalytics.mycompany.com, then you must set it to the url option.
 
-#### Token
+##### Token
 
 The token is a JWT token and ensures valid authentication when retrieving the Metabase dashboard. The simplest way to do this is to generate it online using https://token.dev. To sign it, you need to use the METABASE_SECRET_KEY provided by Metabase.
 
@@ -227,7 +242,7 @@ _JWT Payload_:
 }
 ```
 
-#### Query
+##### Query
 
 Here are the parameters that the dashboard can take into account.
 This is a basic query string based input that can interact with workspace context.
