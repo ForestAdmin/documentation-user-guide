@@ -77,11 +77,9 @@ Components to set the context of your workspace.
 
 #### Search Component
 
-Use the Search component to quickly select a record within a given Collection:
+Use the Search component to quickly select a record within a given Collection.
 
-![](<../../.gitbook/assets/image (81).png>)
-
-With the above settings, you'll be searching within **all fields** of your `Company` records and displaying the [reference field](../../collections/manage-your-collection-settings.md#general-tab).
+You can customize the field used to display the search results.
 
 {% hint style="info" %}
 You can use this component as a source for other components ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
@@ -159,8 +157,15 @@ As explained in the tooltip, the expected response format is:
 
 #### Date Picker Component
 
-The date picker component lets your operator choose a date. You can set maximum and / or minimum dates that are enabled.
+The date picker component lets your operator choose a date.
+You can set maximum and / or minimum dates that are enabled.
+
 Minimum and maximum dates can be hardcoded or use [templating](./#making-your-components-interact) to get a date from a selected record.
+
+You can use the `{{currentDate}}` templating to ensure the selected date is in a good range, for example:
+
+- Minimum date: `{{currentDate.subtract.days.1}}`
+- Maximum date: `{{currentDate.add.days.1}}`
 
 #### Toggle Component
 
@@ -170,7 +175,9 @@ It can also be used to display the value of a boolean field.
 
 #### Input Component
 
-The input component is an input, you should use it when you want to dynamically filter a collection or a search component using a text or a number.
+The input component is an input.
+
+You should use it when you want to dynamically filter a collection or a search component using a text or a number.
 
 ### Data & Actions
 
@@ -178,13 +185,13 @@ Components to interact with your data.
 
 #### Action Component
 
-The Action component can be used to trigger `global,` `single`, and `bulk` Smart Actions as well as CRUD operations.&#x20;
+The Action component can be used to trigger `global`, `single`, and `bulk` Smart Actions as well as CRUD operations.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-10-05 at 16.56.40.png" alt=""><figcaption></figcaption></figure>
 
 If you've selected an action that requires selected record(s) to apply to, then you'll need to specify a source component:
 
-Here we have linked the `action2` component so that when you select a record from the`collection1` component, you'll be able to trigger the _Edit a company_ action in 1 click.&#x20;
+Here we have linked the `action2` component so that when you select a record from the`collection1` component, you'll be able to trigger the _Edit a company_ action in 1 click.
 
 #### Field Component
 
@@ -279,14 +286,6 @@ Here are some examples:
 If you rename your components, the syntax adjusts automatically in all components using templating.
 {% endhint %}
 
-#### Adding related data
-
-Templating may also be used **in filters** of the Collection component. In practice, this allows you to recreate a related data collection.
-
-![Creating a related data](<../../.gitbook/assets/image (370).png>)
-
-In the example above, we've set up collection1 (`Customer`) and collection2 (`Order`) so that when you click on a **Customer**, it shows **their Orders only** in collection2.
-
 #### Filtering charts
 
 Templating is also useful within the **Chart** component: you may use other components' data to filter on your chart(s).
@@ -306,7 +305,7 @@ Templating also works within **Query** mode, i.e within your SQL queries, like s
 
 ![](<../../.gitbook/assets/image (451).png>)
 
-**Bonus**: it's also possible to use templating in the Timeframe property of Time-based charts. This means that you could for instance create a **Dropdown** component with values _Day_, _Week_, _Month_ and _Year_ and using that dropdown would automatically refresh the chart based on the selected timeframe!&#x20;
+**Bonus**: it's also possible to use templating in the Timeframe property of Time-based charts. This means that you could for instance create a **Dropdown** component with values _Day_, _Week_, _Month_ and _Year_ and using that dropdown would automatically refresh the chart based on the selected timeframe!
 
 This is how you would set it up:
 
@@ -325,7 +324,7 @@ The default choice is **Always**, but there are 2 other options that we'll expla
 
 ### Only when a component is visible
 
-This lets you basically select another component and make your component visible when that other component is.&#x20;
+This lets you basically select another component and make your component visible when that other component is.
 
 A pretty basic example of this is if you want to show dividers only if the component they are splitting the view for is visible.
 
@@ -333,7 +332,7 @@ Similarly, you can make a Section component hidden unless a component inside of 
 
 ### Only when dynamic variables are defined / Only when source record is selected
 
-As covered in the [Making your components interact](./#making-your-components-interact) section above, components can be set up to depend on information from another component, using **templating**. This visibility option makes it so that the component is visible only if information from the other component it depends on is available.&#x20;
+As covered in the [Making your components interact](./#making-your-components-interact) section above, components can be set up to depend on information from another component, using **templating**. This visibility option makes it so that the component is visible only if information from the other component it depends on is available.
 
 Here's an example:
 
