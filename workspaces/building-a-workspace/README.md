@@ -49,7 +49,7 @@ The tabs component can hold between 1 and 10 tabs.
 Write anything you wish to display, then customize how it's displayed using the style options.
 
 {% hint style="info" %}
-You can add [custom style](./#styling-your-components) on this component
+You can add [custom style](./#styling-your-components) on this component.
 {% endhint %}
 
 #### Link Component
@@ -60,7 +60,7 @@ The link component lets you create a link on the workspace. There are 2 modes:
 - **Redirect to record**: clicking the link will redirect you on the record's detail page.
 
 {% hint style="info" %}
-You can add [custom style](./#styling-your-components) on this component
+You can add [custom style](./#styling-your-components) on this component.
 {% endhint %}
 
 #### Divider Components
@@ -68,7 +68,7 @@ You can add [custom style](./#styling-your-components) on this component
 You can use the horizontal and vertical dividers to create a visual separation between components.
 
 {% hint style="info" %}
-You can add [custom style](./#styling-your-components) on this component
+You can add [custom style](./#styling-your-components) on this component.
 {% endhint %}
 
 ### Source components
@@ -165,6 +165,7 @@ Minimum and maximum dates can be hardcoded or use [templating](./#making-your-co
 #### Toggle Component
 
 The toggle component can be used as an input, for example to dynamically filter on a collection or a search component.
+
 It can also be used to display the value of a boolean field.
 
 #### Input Component
