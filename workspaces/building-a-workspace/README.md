@@ -28,7 +28,7 @@ Deleting a component may impact other components. If this is the case, you'll be
 
 ### Layout & Guidance components
 
-Components to design your workspace in an intuitive way
+Components to design your workspace in an intuitive way.
 
 #### Section component
 
@@ -73,7 +73,7 @@ You can add [custom style](./#styling-your-components) on this component
 
 ### Source components
 
-Components to set the context of your workspace
+Components to set the context of your workspace.
 
 #### Search Component
 
@@ -173,7 +173,7 @@ The input component is an input, you should use it when you want to dynamically 
 
 ### Data & Actions
 
-Components to interact with your data
+Components to interact with your data.
 
 #### Action Component
 
@@ -185,7 +185,7 @@ If you've selected an action that requires selected record(s) to apply to, then 
 
 Here we have linked the `action2` component so that when you select a record from the`collection1` component, you'll be able to trigger the _Edit a company_ action in 1 click.&#x20;
 
-#### The Field Component
+#### Field Component
 
 The Field component lets you read data of a record that you selected in a [source](./#source-components) component.
 
@@ -215,9 +215,9 @@ Lastly you may also choose whether to display the label and customize it.
 
 ### Analytics
 
-Components to visualize your data
+Components to visualize your data.
 
-#### The Metabase component
+#### Metabase component
 
 All you have to do to embed your Metabase dashboard into Forest Admin workspace is to create a new Metabase component and fill in all necesary informations.
 
