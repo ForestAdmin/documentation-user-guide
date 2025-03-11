@@ -32,7 +32,7 @@ The section component lets you regroup multiple components into a single area.
 
 ### Tabs Component
 
-As the [section component](./#section-component), the tabs components lets you regroup multiple component into a single area, only the active tab components are displayed.
+Like the [section component](./#section-component), the tabs components lets you regroup multiple components into a single area, only the active tab components are displayed.
 The tabs component can hold between 1 and 10 tabs.
 
 ### Text Component
@@ -73,7 +73,7 @@ With the above settings, you'll be searching within **all fields** of your `Comp
 The Search component can then be used in other components like Field ("on record from"), Text, (templating), Collection (templating in filter), Chart (templating in filter), etc.
 
 {% hint style="info" %}
-You can use this component as a source for other component ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
+You can use this component as a source for other components ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
 {% endhint %}
 
 ### Collection Component
@@ -84,19 +84,19 @@ There are 2 types for the collection component, _Collection_ and _Relationship_.
 The _Collection_ type behaves as a regular collection in Forest Admin. You can select records, trigger actions, filter and so on.
 
 The _Relationship_ type lets you visualize your has-many relationships. To make it work, you need to use another workspace component as the source.
-Let's say you have a user collection, and on user can have multiple documents.
+Let's say you have a user collection, and one user can have multiple documents.
 You can use a search component to search for a user, and use the _Collection Relationship_ component to list all the documents of a selected user.
 
-For the 2 types of collection component, you can do the followings (independently from the regular collection settings):
+For the 2 types of collection components, you can do the following (independently from the regular collection settings):
 
 - Add a custom filter on the collection
 - Add a custom sorting field and sorting order
 - Customize the displayed columns
 - Reorder the displayed columns
-- Disabled the search, or the actions for this component
+- Disable the search, or the actions for this component
 
 {% hint style="info" %}
-You can use this component as a source for other component ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
+You can use this component as a source for other components ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
 {% endhint %}
 
 ### Inbox Component
@@ -104,7 +104,7 @@ You can use this component as a source for other component ([Field](./#field-com
 The inbox component lets your operator treat their [inbox](../../other-tabs/collaboration/distribute-tasks-with-inboxes.md) tasks directly from a workspace.
 
 {% hint style="info" %}
-You can use this component as a source for other component ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
+You can use this component as a source for other components ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
 {% endhint %}
 
 ### Dropdown Component
