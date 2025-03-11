@@ -26,11 +26,141 @@ Deleting a component may impact other components. If this is the case, you'll be
 
 ## Understanding how components work
 
-### The Text Component
+### Section component
+
+The section component lets you regroup multiple components into a single area.
+
+### Tabs Component
+
+As the [section component](./#section-component), the tabs components lets you regroup multiple component into a single area, only the active tab components are displayed.
+The tabs component can hold between 1 and 10 tabs.
+
+### Text Component
 
 Write anything you wish to display, then customize how it's displayed using the style options.
 
-### The Action Component
+{% hint style="info" %}
+You can add [custom style](./#styling-your-components) on this component
+{% endhint %}
+
+### Link Component
+
+The link component lets you create a link on the workspace there are 2 modes:
+
+- **Custom**: you can set the url you want, and in this url you can use the value of another component selected record. e.g.: `https://mydomain/posts/{{collection1.selectedRecord.id}}`
+- **Redirect to record**: when this option is used, clicking the link will redirect on the record.
+
+{% hint style="info" %}
+You can add [custom style](./#styling-your-components) on this component
+{% endhint %}
+
+### Divider Components
+
+You can use the horizontal and vertical dividers to create a visual separation between components.
+
+{% hint style="info" %}
+You can add [custom style](./#styling-your-components) on this component
+{% endhint %}
+
+### Search Component
+
+Use the Search component to quickly select a record within a given Collection:
+
+![](<../../.gitbook/assets/image (81).png>)
+
+With the above settings, you'll be searching within **all fields** of your `Company` records and displaying the [reference field](../../collections/manage-your-collection-settings.md#general-tab).
+
+The Search component can then be used in other components like Field ("on record from"), Text, (templating), Collection (templating in filter), Chart (templating in filter), etc.
+
+{% hint style="info" %}
+You can use this component as a source for other component ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
+{% endhint %}
+
+### Collection Component
+
+The collection component lets you visualize your data and select records in a workspace.
+There are 2 types for the collection component, _Collection_ and _Relationship_.
+
+The _Collection_ type behaves as a regular collection in Forest Admin. You can select records, trigger actions, filter and so on.
+
+The _Relationship_ type lets you visualize your has-many relationships. To make it work, you need to use another workspace component as the source.
+Let's say you have a user collection, and on user can have multiple documents.
+You can use a search component to search for a user, and use the _Collection Relationship_ component to list all the documents of a selected user.
+
+For the 2 types of collection component, you can do the followings (independently from the regular collection settings):
+
+- Add a custom filter on the collection
+- Add a custom sorting field and sorting order
+- Customize the displayed columns
+- Reorder the displayed columns
+- Disabled the search, or the actions for this component
+
+{% hint style="info" %}
+You can use this component as a source for other component ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
+{% endhint %}
+
+### Inbox Component
+
+The inbox component lets your operator treat their [inbox](../../other-tabs/collaboration/distribute-tasks-with-inboxes.md) tasks directly from a workspace.
+
+{% hint style="info" %}
+You can use this component as a source for other component ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
+{% endhint %}
+
+### Dropdown Component
+
+The Dropdown is a great UI classic. Here's how you can set it up:
+
+Choose a mode between "Static", "Dynamic > Simple" and "Dynamic > Smart"
+
+#### Static
+
+In _Static_ mode, you hard-code values. You may re-order them using the handles.
+
+<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+_Enable search_ adds a search to your dropdown, making is easier to find values when there are many.
+{% endhint %}
+
+#### Dynamic > Simple
+
+In _Simple_ mode, you choose a collection, a field and optionally a filter: this defines the values that will appear in the dropdown.
+
+![](<../../.gitbook/assets/image (113).png>)
+
+#### Dynamic > Smart
+
+_Smart_ mode lets you fetch values from an external endpoint.
+
+![](<../../.gitbook/assets/image (91).png>)
+
+As explained in the tooltip, the expected response format is:
+
+```
+{
+    "data": [
+        "foo",
+        "bar"
+    ]
+}
+```
+
+### Date Picker Component
+
+The date picker component lets your operator choose a date. You can set maximum and / or minimum dates that are enabled.
+Minimum and maximum dates can be hardcoded or use [templating](./#making-your-components-interact) to get a date from a selected record.
+
+### Toggle Component
+
+The toggle component can be used as an input, for example to dynamically filter on a collection or search component.
+It can also be used to display the value of a boolean field.
+
+### Input Component
+
+The input component is an input, you should use it when you want to dynamically filter a collection or a search component using a text or a number.
+
+### Action Component
 
 The **Action** component can be used to trigger `global,` `single`, and `bulk` Smart Actions as well as CRUD operations.&#x20;
 
@@ -72,60 +202,11 @@ The **(Inherited)** widget will use the same widget used in your Collection sett
 
 Lastly you may also choose whether to display the label and customize it.
 
-### The Search component&#x20;
-
-Use the Search component to quickly select a record within a given Collection:
-
-![](<../../.gitbook/assets/image (81).png>)
-
-With the above settings, you'll be searching within **all fields** of your `Company` records and displaying the [reference field](../../collections/manage-your-collection-settings.md#general-tab).
-
-The Search component can then be used in other components like Field ("on record from"), Text, (templating), Collection (templating in filter), Chart (templating in filter), etc.
-
-### The Dropdown component&#x20;
-
-The Dropdown is a great UI classic. Here's how you can set it up:
-
-Choose a mode between "Static", "Dynamic > Simple" and "Dynamic > Smart"
-
-#### Static
-
-In _Static_ mode, you hard-code values. You may re-order them using the handles.
-
-<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-_Enable search_ adds a search to your dropdown, making is easier to find values when there are many.
-{% endhint %}
-
-#### Dynamic > Simple
-
-In _Simple_ mode, you choose a collection, a field and optionally a filter: this defines the values that will appear in the dropdown.
-
-![](<../../.gitbook/assets/image (113).png>)
-
-#### Dynamic > Smart
-
-_Smart_ mode lets you fetch values from an external endpoint.
-
-![](<../../.gitbook/assets/image (91).png>)
-
-As explained in the tooltip, the expected response format is:
-
-```
-{
-    "data": [
-        "foo",
-        "bar"
-    ]
-}
-```
-
 ### The Metabase component
 
 All you have to do to embed your Metabase dashboard into Forest Admin workspace is to create a new Metabase component and fill in all necesary informations.
 
-![](<../../.gitbook/assets/workspace-metabase-component-params.png>)
+![](../../.gitbook/assets/workspace-metabase-component-params.png)
 
 #### Url
 
@@ -137,7 +218,8 @@ The token is a JWT token and ensures valid authentication when retrieving the Me
 
 You must replace METABASE_DASHBOARD_ID by the correct dashboard ID provided by Metabase.
 
-*JWT Payload*:
+_JWT Payload_:
+
 ```json
 {
   "resource": { "dashboard": "<METABASE_DASHBOARD_ID>" },
@@ -151,10 +233,13 @@ Here are the parameters that the dashboard can take into account.
 This is a basic query string based input that can interact with workspace context.
 
 For example if your dashboard take `projectId` as parameters, you can put the following as option input.
+
 ```
 projectId=1
 ```
+
 or
+
 ```
 projectId={{searchComponent.selectedRecord.id}}
 ```
@@ -211,8 +296,6 @@ This is how you would set it up:
 
 ![](<../../.gitbook/assets/image (439).png>)
 
-
-
 ## Managing visibility of your components
 
 Every component has a `Visible` option - at the bottom of its settings panel - which allows you to control when it is displayed:
@@ -221,8 +304,8 @@ Every component has a `Visible` option - at the bottom of its settings panel - w
 
 The default choice is **Always**, but there are 2 other options that we'll explain shortly:
 
-* Only when a component is visible
-* Only when dynamic variables are defined / Only when source record is selected
+- Only when a component is visible
+- Only when dynamic variables are defined / Only when source record is selected
 
 ### Only when a component is visible
 
@@ -240,10 +323,12 @@ Here's an example:
 
 ![](<../../.gitbook/assets/image (504).png>)
 
-:point\_up: This is a Collection component (`collection2`) that is filtered on another Collection component (`collection1`). See how the filter contains _dynamic variables_ (a.k.a templating)? Well, choosing the "Only when dynamic variables are defined" option means `collection2` will appear only if a record of `collection1` is selected.
+:point*up: This is a Collection component (`collection2`) that is filtered on another Collection component (`collection1`). See how the filter contains \_dynamic variables* (a.k.a templating)? Well, choosing the "Only when dynamic variables are defined" option means `collection2` will appear only if a record of `collection1` is selected.
 
 {% hint style="info" %}
 With the **Always** option, filters containing templating are ignored if undefined.\
 \
 In practice, this means that in the above screenshot, if Visible was set on Always, `collection2` would ignore its filters unless a record from `collection1` is selected.
 {% endhint %}
+
+## Styling your components
