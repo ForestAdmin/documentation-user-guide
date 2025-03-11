@@ -332,3 +332,5 @@ In practice, this means that in the above screenshot, if Visible was set on Alwa
 {% endhint %}
 
 ## Styling your components
+
+For components with style options, you can change the color, the font, the alignment and the formatting of the displayed text.
