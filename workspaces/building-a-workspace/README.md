@@ -179,7 +179,9 @@ Let's say you have a collection component using your **Users** collection. You c
 
 - You can have a _String_ toggle with value "onboarding" to filter the user status.
 - You can have a _Boolean_ toggle with value true to filter on the user `isEmailVerified` field.
+
   Or
+
 - You can create multiple _Date_ toggle and use the templating for the value, like:
   - `{{currentDate.startOf.months}}`
   - `{{currentDate.subtract.days.15}}`
