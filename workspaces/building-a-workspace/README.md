@@ -295,7 +295,7 @@ This opens an autocomplete dropdown which helps you use the correct syntax.
 
 Here are some examples:
 
-<table><thead><tr><th width="340.66545807311365">Templating syntaxe</th><th>Result</th></tr></thead><tbody><tr><td><code>{{collection1.selectedRecord.email}}</code></td><td>Displays the column "email" of the select row of collection1</td></tr><tr><td><code>{{currentUser.fullName}}</code></td><td>Displays the current user's fullname</td></tr><tr><td><code>{{currentUser.email}}</code></td><td>Displays the current user's email</td></tr><tr><td><code>{{currentUser.team}}</code></td><td>Displays the current user's team</td></tr><tr><td><code>{{currentUser.tags.some-tag}}</code></td><td>Displays the current user's value of the tag "some-tag"</td></tr></tbody></table>
+<table><thead><tr><th width="340.66545807311365">Templating syntaxe</th><th>Result</th></tr></thead><tbody><tr><td><code>{{collection1.selectedRecord.email}}</code></td><td>Displays the column "email" of the select row of collection1</td></tr><tr><td><code>{{currentUser.fullName}}</code></td><td>Displays the current user's fullname</td></tr><tr><td><code>{{currentUser.email}}</code></td><td>Displays the current user's email</td></tr><tr><td><code>{{currentUser.team}}</code></td><td>Displays the current user's team</td></tr><tr><td><code>{{currentUser.tags.some-tag}}</code></td><td>Displays the current user's value of the tag "some-tag"</td></tr><tr><td><code>{{currentDate.option}}</code></td><td>Displays a date manipulated from the current date</td></tr></tbody></table>
 
 {% hint style="success" %}
 If you rename your components, the syntax adjusts automatically in all components using templating.
