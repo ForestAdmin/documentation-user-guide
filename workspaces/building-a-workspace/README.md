@@ -169,9 +169,22 @@ You can use the `{{currentDate}}` templating to ensure the selected date is in a
 
 #### Toggle Component
 
-The toggle component can be used as an input, for example to dynamically filter on a collection or a search component.
+The toggle component can be used as an input, to dynamically filter another source component.
 
-It can also be used to display the value of a boolean field.
+You have to pick a value type (String, Number, Boolean, etc..), then set the value the component will have when it has the `toggled on` state. The value of the toggle component is used only when toggled on.
+
+Example:
+
+Let's say you have a collection component using your **Users** collection. You can add many toggle components to enable quick filtering with combined filters on your collection component.
+
+- You can have a _String_ toggle with value "onboarding" to filter the user status.
+- You can have a _Boolean_ toggle with value true to filter on the user `isEmailVerified` field.
+  Or
+- You can create multiple _Date_ toggle and use the templating for the value, like:
+  - `{{currentDate.startOf.months}}`
+  - `{{currentDate.subtract.days.15}}`
+  - `{{currentDate.startOf.days}}`
+  - And use these toggles in a `OR` filter on the collection component
 
 #### Input Component
 
