@@ -160,12 +160,13 @@ To use it, go to: Project Settings → Roles → Actions.
 
 The permission level of a user determines what Forest Admin administration permissions he has. You can assign one of the following _permission levels_ per user:‌
 
-| Forest Admin permission level | Manage Data        | Customize admin UI (activate layout editor) | Manage Environments and Development Workflow actions | Manage Teams, Users, Roles |
-| ----------------------------- | ------------------ | ------------------------------------------- | ---------------------------------------------------- | -------------------------- |
-| **Admin**                     | :heavy_check_mark: | :heavy_check_mark:                          | :heavy_check_mark:                                   | :heavy_check_mark:         |
-| **Developer**                 | :heavy_check_mark: | :heavy_check_mark:                          | :heavy_check_mark:                                   |                            |
-| **Editor**                    | :heavy_check_mark: | :heavy_check_mark:                          |                                                      |                            |
-| **User**                      | :heavy_check_mark: |                                             |                                                      |                            |
+| Forest Admin permission level | Manage Data        | Manage [Inboxes](../../other-tabs/collaboration/distribute-tasks-with-inboxes.md) | Customize admin UI (activate layout editor) | Manage Environments and Development Workflow actions | Manage Teams, Users, Roles |
+| ----------------------------- | ------------------ | --------------------------------------------------------------------------------- | ------------------------------------------- | ---------------------------------------------------- | -------------------------- |
+| **Admin**                     | :heavy_check_mark: | :heavy_check_mark:                                                                | :heavy_check_mark:                          | :heavy_check_mark:                                   | :heavy_check_mark:         |
+| **Developer**                 | :heavy_check_mark: | :heavy_check_mark:                                                                | :heavy_check_mark:                          | :heavy_check_mark:                                   |                            |
+| **Editor**                    | :heavy_check_mark: | :heavy_check_mark:                                                                | :heavy_check_mark:                          |                                                      |                            |
+| **Manager**                   | :heavy_check_mark: | :heavy_check_mark:                                                                |                                             |                                                      |                            |
+| **User**                      | :heavy_check_mark: |                                                                                   |                                             |                                                      |                            |
 
 ## Manage a user's role and permission level <a href="#manage-a-users-role-and-permission-level" id="manage-a-users-role-and-permission-level"></a>
 
