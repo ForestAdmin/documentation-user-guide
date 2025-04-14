@@ -14,7 +14,7 @@ Forest Admin is compatible with AWS's SAML 2.0 application. To enable SSO from y
 
 | Setting                                      | Description                                                                            | Value                                                                                   |
 | -------------------------------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| Application ACS URL\*                      | Assertion Consumer Service URL is responsible for receiving the SAML response. Check _Use this for Recipient URL and Destination URL_ | `https://api.forestadmin.com/api/saml/callback`                                         |
+| Application ACS URL                      | Assertion Consumer Service URL is responsible for receiving the SAML response. Check _Use this for Recipient URL and Destination URL_ | `https://api.forestadmin.com/api/saml/callback`                                         |
 | Application SAML audience                       | This is a globally unique name that Forest Admin gives you (`Unique User ID`).         | `forestadmin-OrganizationName`                                                          |
 | (Optional) Relay State                       | Only useful for [IDP-initiated login](../organization-settings.md#idp-initiated-login) | `{"organizationName": "<OrganizationName>", "destinationUrl": "organization.projects"}` |
 
