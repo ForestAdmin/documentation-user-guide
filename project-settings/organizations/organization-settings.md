@@ -41,7 +41,7 @@ This tab gathers all security options of your Organization. For now you can only
 {% hint style="info" %}
 We are supporting the SAML 2.0 specifications, you can use all the main Identity Providers.
 
-For instance, the following platforms have been tested and documented: [**Okta**](./sso-guides/sso-with-okta.md), [**OneLogin**](./sso-guides/sso-with-one-login.md), [**Google**](./sso-guides/sso-with-google.md) and [**Azure Active Directory**](./sso-guides/sso-with-azure.md) IdPs.
+For instance, the following platforms have been tested and documented: [**Okta**](./sso-guides/sso-with-okta.md), [**OneLogin**](./sso-guides/sso-with-one-login.md), [**Google**](./sso-guides/sso-with-google.md), [**Azure Active Directory**](./sso-guides/sso-with-azure.md) and [**AWS IAM**](./sso-guides/sso-with-aws.md) IdPs.
 {% endhint %}
 
 #### Requirements
