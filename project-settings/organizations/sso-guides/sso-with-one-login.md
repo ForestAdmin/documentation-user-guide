@@ -5,7 +5,7 @@ description: OneLogin SSO for Forest Admin
 # OneLogin SSO
 
 {% hint style="info" %}
-You must have one project in your organization with the plan [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to access this feature.
+You must have one project in your organization with the plan [Forest Admin Enterprise plan](https://www.forestadmin.com/pricing) to access this feature.
 {% endhint %}
 
 ## Configuration

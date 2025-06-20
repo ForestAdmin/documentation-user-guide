@@ -5,7 +5,7 @@ description: Adding Forest Admin to Okta from a manually configued app
 # Manual SCIM integration with Okta
 
 {% hint style="info" %}
-You must be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this feature.
+You must be on a [Forest Admin Enterprise plan](https://www.forestadmin.com/pricing) to have access to this feature.
 {% endhint %}
 
 ## Supported features

@@ -28,7 +28,7 @@ A user must belong to at least 1 project of the Organization to be invited as an
 ### Security tab
 
 {% hint style="info" %}
-You need to be on a [Forest Admin Pro plan](https://www.forestadmin.com/pricing) to have access to this feature.
+You need to be on a [Forest Admin Enterprise plan](https://www.forestadmin.com/pricing) to have access to this feature.
 _You need a least one project within this organization with this plan to gain access to this feature_
 {% endhint %}
 
