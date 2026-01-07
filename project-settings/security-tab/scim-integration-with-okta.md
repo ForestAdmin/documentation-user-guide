@@ -96,7 +96,11 @@ Click on "Refresh App Groups" then "Push Groups" and select "Find groups by name
 You can then map the Okta group with an existing Forest Admin team or create a new team with the same name.
 
 {% hint style="warning" %}
-Warning: when you link a group from Okta to a Forest Admin team, the Forest Admin team will be renamed to match the group name, unless you disable this option (see below).
+Removing a group from Okta created from or linked to a Forest Admin team, the Forest Admin team will be deleted.
+{% endhint %}
+
+{% hint style="warning" %}
+When you link a group from Okta to a Forest Admin team, the Forest Admin team will be renamed to match the group name, unless you disable this option (see below).
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (589).png" alt=""><figcaption></figcaption></figure>
