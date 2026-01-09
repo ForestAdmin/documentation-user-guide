@@ -26,7 +26,7 @@ You can rename it by clicking the 🖊 icon next to "My Workspace".&#x20;
 
 To make your Workspace clear and guide your users, you can add Text components. Drag and drop the "Text" component from the right bar to the place you want in your Workspace:
 
-![](<../../.gitbook/assets/image (369).png>)
+![](<../../.gitbook/assets/image (369) (2).png>)
 
 Let's add the title of the workspace for instance. You can choose the color, formatting, size of the text and the text component.
 
@@ -50,7 +50,7 @@ Then, give your chart a name, decide on the chart type. Here we're going with "D
 
 Choose the collection for which you want to display data, in our case "Issue", and select "Count" for the view.
 
-![](<../../.gitbook/assets/image (371).png>)
+![](<../../.gitbook/assets/image (371) (1).png>)
 
 Done, you now have a graph. By the way, you can also leverage the Text component to guide your users into how to use your Workspace!
 

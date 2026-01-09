@@ -14,7 +14,7 @@ Loading performance is key to streamlining your operations. Here are a few steps
 
 ### 3. Reduce the number of fields displayed
 
-![](<../.gitbook/assets/2019-07-01_17.47.55 (1) (1).png>)
+![](<../.gitbook/assets/2019-07-01_17.47.55 (1) (1) (1).png>)
 
 {% hint style="info" %}
 You can hide some fields in your Table View; this will not prevent you from seeing them in the record Details View.

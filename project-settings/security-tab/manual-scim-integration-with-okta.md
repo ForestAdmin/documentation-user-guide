@@ -10,10 +10,10 @@ You must be on a [Forest Admin Enterprise plan](https://www.forestadmin.com/pric
 
 ## Supported features
 
-- Provisioning users from Okta to Forest Admin
-- Updating user role, permission level, and tags from Okta to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
-- Deleting user in Forest Admin when user is removed from Forest Admin app in Okta.
-- Groups are used to assign users to team.
+* Provisioning users from Okta to Forest Admin
+* Updating user role, permission level, and tags from Okta to Forest Admin: Enabling SCIM will disable user editing from Forest Admin.
+* Deleting user in Forest Admin when user is removed from Forest Admin app in Okta.
+* Groups are used to assign users to team.
 
 ## Adding the Forest Admin app
 
@@ -55,10 +55,10 @@ The "Sync Password" field should be kept disabled, as we don't support it.
 
 ## Adding Forest Admin custom parameters
 
-- permissionLevel (string): should match any of “Admin”, “Developer”, “Editor”, or “User”.
-- teams (`string`): comma separated list of names exactly matching a team name in the project. ex: `"Operators,Support"`. This should either be filled in via a custom mapping rule or ignored if you are using Groups.
-- role (`string`): should match exactly an existing role in the project.
-- tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
+* permissionLevel (string): should match any of “Admin”, “Developer”, “Editor”, or “User”.
+* teams (`string`): comma separated list of names exactly matching a team name in the project. ex: `"Operators,Support"`. This should either be filled in via a custom mapping rule or ignored if you are using Groups.
+* role (`string`): should match exactly an existing role in the project.
+* tags (optional `string`): key/value pairs, separated with a semicolon. ex: `"regions:France,Italie;job:developer"`
 
 Go to Profile Editor and add attributes:
 
@@ -98,8 +98,7 @@ Then go to the Forest Admin App in Okta and click on the "Push groups" tab.
 
 Click on "Refresh App Groups" then "Push Groups" and select "Find groups by name". Type in the name of any group you want to link with a Forest Admin team.
 
-![](<../../.gitbook/assets/image (582).png>)
-![](<../../.gitbook/assets/image (583).png>)
+![](<../../.gitbook/assets/image (582).png>) ![](<../../.gitbook/assets/image (583) (1).png>)
 
 You can then map the Okta group with an existing Forest Admin team or create a new team with the same name.
 
@@ -111,5 +110,4 @@ Warning: when you link a group from Okta to a Forest Admin team, the Forest Admi
 
 To prevent Okta from renaming your Forest Admin teams, you can disable groups renaming in the app settings.
 
-![](<../../.gitbook/assets/image (594).png>)
-![](<../../.gitbook/assets/image (586).png>)
+![](<../../.gitbook/assets/image (594).png>) ![](<../../.gitbook/assets/image (586).png>)

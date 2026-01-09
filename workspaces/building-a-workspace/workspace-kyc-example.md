@@ -68,7 +68,7 @@ As we'll see later, we are creating a dynamic Workspace, which reacts to which r
 
 This is how Workspace's magic takes place: make it a dynamic interface for your workflow! We'll create a dedicated section in the Workspace using the Vertical Divider and Text components
 
-![](https://1726799947-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FOx0Wo3NZjrQrGQthTy6o%2Fuploads%2FOgFwvCOaKJTfBfblyTM4%2FScreenshot%202022-07-11%20at%2017.02.24.png?alt=media\&token=18cf4a70-2141-4493-bea2-c3e46cbcf2ae)
+![](https://1726799947-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FOx0Wo3NZjrQrGQthTy6o%2Fuploads%2FOgFwvCOaKJTfBfblyTM4%2FScreenshot%202022-07-11%20at%2017.02.24.png?alt=media\&token=18cf4a70-2141-4493-bea2-c3e46cbcf2ae)
 
 Note that we're also using the Templating feature here to dynamically display the name of the company we're reviewing.
 
@@ -100,7 +100,7 @@ Now, configure your Field component. In this Workspace, we want to show the docu
 
 You can customise the size of the image preview and additional parameters, then click "Save" and you're good to go. Repeat those steps for as many different document types you want to display in your workspace.
 
-![](<../../.gitbook/assets/Screenshot 2022-07-11 at 17.14.43.png>)
+![](<../../.gitbook/assets/Screenshot 2022-07-11 at 17.14.43 (1).png>)
 
 And that's it! Now when a user will click on a row in the "Companies" collection, they will see the company's documents displayed in the Workspace.
 
@@ -120,11 +120,7 @@ You can also give your users more options and more freedom by letting them perfo
 
 To add a button, drag and drop it from the "Actions" section in the sidebar.&#x20;
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/workspace-actions.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/workspace-actions.png" alt=""><figcaption></figcaption></figure></div>
 
 Let's say we want to allow users to upload more documents. We're going to use the same collection we used when adding the Field components to display the data - Company. Link it with the Collection on the left side of the page ('collection 1') to make the button appear after a user chooses a company, and finally pick 'Upload Legal Docs' as an Action to trigger.&#x20;
 
@@ -168,8 +164,7 @@ Click on "Exit builder" and you will land on the user facing Workspace.
 
 The collections within Workspace come with the same actions available in the collections within the "Data" tab.
 
-Meaning that for our use case, within the collection component, users can select one company. Let's say "EasySalary". We see the the company is missing Bank statement, Certificate of incorporation and Proof of Address. Once the company is selected, users can perform the "Upload Legal Docs" action.\
-
+Meaning that for our use case, within the collection component, users can select one company. Let's say "EasySalary". We see the the company is missing Bank statement, Certificate of incorporation and Proof of Address. Once the company is selected, users can perform the "Upload Legal Docs" action.<br>
 
 ![](<../../.gitbook/assets/Screenshot 2022-07-11 at 17.17.12.png>)
 

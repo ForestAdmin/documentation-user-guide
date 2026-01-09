@@ -30,7 +30,7 @@ This is only available for `enum` type fields. It sets a **random colored badge*
 
 This is a possible outcome:
 
-![](<../../.gitbook/assets/image (42).png>)
+![](<../../.gitbook/assets/image (42) (1).png>)
 
 ### Custom
 

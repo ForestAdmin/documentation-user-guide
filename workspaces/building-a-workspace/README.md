@@ -12,7 +12,7 @@ Components are the bricks of your workspace. To add a component, simply **drag &
 
 Naming your component can help you keep your workspace easy to understand and maintain. Components are given a default name upon creation, but this can be changed from the top-left of the settings panel of your component.
 
-![](<../../.gitbook/assets/image (360).png>)
+![](<../../.gitbook/assets/image (360) (1).png>)
 
 ### Deleting a component
 
@@ -56,8 +56,8 @@ You can add [custom style](./#styling-your-components) on this component.
 
 The link component lets you create a link on the workspace. There are 2 modes:
 
-- **Custom**: you can set the url you want, and in this url you can use the value of another component selected record. e.g.: `https://mydomain/posts/{{collection1.selectedRecord.id}}`
-- **Redirect to record**: clicking the link will redirect you on the record's detail page.
+* **Custom**: you can set the url you want, and in this url you can use the value of another component selected record. e.g.: `https://mydomain/posts/{{collection1.selectedRecord.id}}`
+* **Redirect to record**: clicking the link will redirect you on the record's detail page.
 
 {% hint style="info" %}
 You can add [custom style](./#styling-your-components) on this component.
@@ -87,22 +87,19 @@ You can use this component as a source for other components ([Field](./#field-co
 
 #### Collection Component
 
-The collection component lets you visualize your data and select records in a workspace.
-There are 2 types for the collection component, _Collection_ and _Relationship_.
+The collection component lets you visualize your data and select records in a workspace. There are 2 types for the collection component, _Collection_ and _Relationship_.
 
 The _Collection_ type behaves as a regular collection in Forest Admin. You can select records, trigger actions, filter and so on.
 
-The _Relationship_ type lets you visualize your has-many relationships. To make it work, you need to use another workspace component as the source.
-Let's say you have a user collection, and one user can have multiple documents.
-You can use a search component to search for a user, and use the _Collection Relationship_ component to list all the documents of a selected user.
+The _Relationship_ type lets you visualize your has-many relationships. To make it work, you need to use another workspace component as the source. Let's say you have a user collection, and one user can have multiple documents. You can use a search component to search for a user, and use the _Collection Relationship_ component to list all the documents of a selected user.
 
 For the 2 types of collection components, you can do the following (independently from the regular collection settings):
 
-- Add a custom filter on the collection
-- Add a custom sorting field and sorting order
-- Customize the displayed columns
-- Reorder the displayed columns
-- Disable the search, or the actions for this component
+* Add a custom filter on the collection
+* Add a custom sorting field and sorting order
+* Customize the displayed columns
+* Reorder the displayed columns
+* Disable the search, or the actions for this component
 
 {% hint style="info" %}
 You can use this component as a source for other components ([Field](./#field-component), [Link](./#link-component), [Text](./#text-component)) or use it in filters.
@@ -122,23 +119,23 @@ The Dropdown is a great UI classic. Here's how you can set it up:
 
 Choose a mode between "Static", "Dynamic > Simple" and "Dynamic > Smart"
 
-##### Static
+**Static**
 
 In _Static_ mode, you hard-code values. You may re-order them using the handles.
 
-<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (77) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 _Enable search_ adds a search to your dropdown, making is easier to find values when there are many.
 {% endhint %}
 
-##### Dynamic > Simple
+**Dynamic > Simple**
 
 In _Simple_ mode, you choose a collection, a field and optionally a filter: this defines the values that will appear in the dropdown.
 
 ![](<../../.gitbook/assets/image (113).png>)
 
-##### Dynamic > Smart
+**Dynamic > Smart**
 
 _Smart_ mode lets you fetch values from an external endpoint.
 
@@ -157,15 +154,14 @@ As explained in the tooltip, the expected response format is:
 
 #### Date Picker Component
 
-The date picker component lets your operator choose a date.
-You can set maximum and / or minimum dates that are enabled.
+The date picker component lets your operator choose a date. You can set maximum and / or minimum dates that are enabled.
 
 Minimum and maximum dates can be hardcoded or use [templating](./#making-your-components-interact) to get a date from a selected record.
 
 You can use the `{{currentDate}}` templating to ensure the selected date is in a good range, for example:
 
-- Minimum date: `{{currentDate.subtract.days.1}}`
-- Maximum date: `{{currentDate.add.days.1}}`
+* Minimum date: `{{currentDate.subtract.days.1}}`
+* Maximum date: `{{currentDate.add.days.1}}`
 
 #### Toggle Component
 
@@ -177,16 +173,15 @@ Example:
 
 Let's say you have a collection component using your **Users** collection. You can add many toggle components to enable quick filtering with combined filters on your collection component.
 
-- You can have a _String_ toggle with value "onboarding" to filter the user status.
-- You can have a _Boolean_ toggle with value true to filter on the user `isEmailVerified` field.
+* You can have a _String_ toggle with value "onboarding" to filter the user status.
+*   You can have a _Boolean_ toggle with value true to filter on the user `isEmailVerified` field.
 
-  Or
-
-- You can create multiple _Date_ toggle and use the templating for the value, like:
-  - `{{currentDate.startOf.months}}`
-  - `{{currentDate.subtract.days.15}}`
-  - `{{currentDate.startOf.days}}`
-  - And use these toggles in a `OR` filter on the collection component
+    Or
+* You can create multiple _Date_ toggle and use the templating for the value, like:
+  * `{{currentDate.startOf.months}}`
+  * `{{currentDate.subtract.days.15}}`
+  * `{{currentDate.startOf.days}}`
+  * And use these toggles in a `OR` filter on the collection component
 
 #### Input Component
 
@@ -218,15 +213,15 @@ If you have a Collection component in your workspace, make sure its "On row clic
 
 In the Field component, select `collection1` as the source and choose which field value you wish to display: here we chose `name`.
 
-![](<../../.gitbook/assets/image (64).png>)
+![](<../../.gitbook/assets/image (64) (1).png>)
 
 You may have a more complex use case, where you'd want to display a property further away. To achieve this, you'll have to click the _Toggle to input code_ button:
 
-![](<../../.gitbook/assets/2022-10-07_12.18.06 (1).png>)
+![](<../../.gitbook/assets/2022-10-07_12.18.06 (1) (1).png>)
 
 For instance, if your collection is `Company` and it is linked to a `Country` collection, you may want to display `{{country.name}}` or even `{{country.headquarter.address}}`.
 
-##### Widgets & labels
+**Widgets & labels**
 
 Note that you may also choose which [widget](../../collections/customize-your-fields/#list-of-display-widgets) to use to display your field.
 
@@ -246,15 +241,15 @@ All you have to do to embed your Metabase dashboard into Forest Admin workspace 
 
 ![](../../.gitbook/assets/workspace-metabase-component-params.png)
 
-##### Url
+**Url**
 
 This corresponds to the url of your Metabase instance. For example, if your Metabase instance is accessible through https://myanalytics.mycompany.com, then you must set it to the url option.
 
-##### Token
+**Token**
 
-The token is a JWT token and ensures valid authentication when retrieving the Metabase dashboard. The simplest way to do this is to generate it online using https://token.dev. To sign it, you need to use the METABASE_SECRET_KEY provided by Metabase.
+The token is a JWT token and ensures valid authentication when retrieving the Metabase dashboard. The simplest way to do this is to generate it online using https://token.dev. To sign it, you need to use the METABASE\_SECRET\_KEY provided by Metabase.
 
-You must replace METABASE_DASHBOARD_ID by the correct dashboard ID provided by Metabase.
+You must replace METABASE\_DASHBOARD\_ID by the correct dashboard ID provided by Metabase.
 
 _JWT Payload_:
 
@@ -265,10 +260,9 @@ _JWT Payload_:
 }
 ```
 
-##### Query
+**Query**
 
-Here are the parameters that the dashboard can take into account.
-This is a basic query string based input that can interact with workspace context.
+Here are the parameters that the dashboard can take into account. This is a basic query string based input that can interact with workspace context.
 
 For example if your dashboard take `projectId` as parameters, you can put the following as option input.
 
@@ -286,10 +280,10 @@ projectId={{searchComponent.selectedRecord.id}}
 
 Some of your components display data. You may want this data to influence other components. If you've read the [field component](./#the-field-component) section above, you've seen a simple way to make that happen. But there is another way: using **templating**.\
 \
-**Templating** is pseudo-code that will fetch the piece of data you want from a component. \
+**Templating** is pseudo-code that will fetch the piece of data you want from a component.\
 To start using it, simply type `{{` in a text input:
 
-![](<../../.gitbook/assets/image (344).png>)
+![](<../../.gitbook/assets/image (344) (2).png>)
 
 This opens an autocomplete dropdown which helps you use the correct syntax.
 
@@ -334,8 +328,8 @@ Every component has a `Visible` option - at the bottom of its settings panel - w
 
 The default choice is **Always**, but there are 2 other options that we'll explain shortly:
 
-- Only when a component is visible
-- Only when dynamic variables are defined / Only when source record is selected
+* Only when a component is visible
+* Only when dynamic variables are defined / Only when source record is selected
 
 ### Only when a component is visible
 
@@ -351,9 +345,9 @@ As covered in the [Making your components interact](./#making-your-components-in
 
 Here's an example:
 
-![](<../../.gitbook/assets/image (504).png>)
+![](<../../.gitbook/assets/image (504) (1).png>)
 
-:point*up: This is a Collection component (`collection2`) that is filtered on another Collection component (`collection1`). See how the filter contains \_dynamic variables* (a.k.a templating)? Well, choosing the "Only when dynamic variables are defined" option means `collection2` will appear only if a record of `collection1` is selected.
+:poin&#x74;_&#x75;p: This is a Collection component (`collection2`) that is filtered on another Collection component (`collection1`). See how the filter contains \_dynamic variables_ (a.k.a templating)? Well, choosing the "Only when dynamic variables are defined" option means `collection2` will appear only if a record of `collection1` is selected.
 
 {% hint style="info" %}
 With the **Always** option, filters containing templating are ignored if undefined.\

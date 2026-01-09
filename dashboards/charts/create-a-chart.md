@@ -14,7 +14,7 @@ To add a new dashboard, click on _+ New_ while in Layout Editor mode **(0)**.
 
 Then add a _Name_ and optionally a _Description_ **(1)** and select a [chart type](./#what-types-of-charts-exist-in-forest-admin) **(2)**:
 
-![](../../.gitbook/assets/2019-07-02_09.23.00.png)
+![](<../../.gitbook/assets/2019-07-02_09.23.00 (2).png>)
 
 Next, in **Simple** mode, you need to provide the following information, depending on your chart type:
 
@@ -97,7 +97,7 @@ GROUP BY key
 ORDER BY key;
 ```
 
-![](<../../.gitbook/assets/2019-07-02_14.10.02 (1) (1).png>)
+![](<../../.gitbook/assets/2019-07-02_14.10.02 (1) (1) (1).png>)
 
 ### Objective
 

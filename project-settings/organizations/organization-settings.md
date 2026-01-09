@@ -8,8 +8,8 @@ Your Organization settings are accessible from the top-right dropdown:
 
 The overview tab gathers the basic settings of your Organization: here you'll be able to edit
 
-- its name
-- its logo
+* its name
+* its logo
 
 or delete it **permanently**.
 
@@ -19,7 +19,7 @@ or delete it **permanently**.
 
 In this tab you can manage your Organization Owners. Owners are simply users who **have access to the Organization settings**.
 
-![](<../../.gitbook/assets/image (117).png>)
+![](<../../.gitbook/assets/image (117) (1).png>)
 
 {% hint style="warning" %}
 A user must belong to at least 1 project of the Organization to be invited as an Owner and will be **automatically added as Admin** on all projects of the Organization
@@ -28,8 +28,7 @@ A user must belong to at least 1 project of the Organization to be invited as an
 ### Security tab
 
 {% hint style="info" %}
-You need to be on a [Forest Admin Enterprise plan](https://www.forestadmin.com/pricing) to have access to this feature.
-_You need a least one project within this organization with this plan to gain access to this feature_
+You need to be on a [Forest Admin Enterprise plan](https://www.forestadmin.com/pricing) to have access to this feature._You need a least one project within this organization with this plan to gain access to this feature_
 {% endhint %}
 
 This tab gathers all security options of your Organization. For now you can only configure Single Sign-On (SSO).
@@ -41,15 +40,15 @@ This tab gathers all security options of your Organization. For now you can only
 {% hint style="info" %}
 We are supporting the SAML 2.0 specifications, you can use all the main Identity Providers.
 
-For instance, the following platforms have been tested and documented: [**Okta**](./sso-guides/sso-with-okta.md), [**OneLogin**](./sso-guides/sso-with-one-login.md), [**Google**](./sso-guides/sso-with-google.md), [**Azure Active Directory**](./sso-guides/sso-with-azure.md) and [**AWS IAM**](./sso-guides/sso-with-aws.md) IdPs.
+For instance, the following platforms have been tested and documented: [**Okta**](sso-guides/sso-with-okta.md), [**OneLogin**](sso-guides/sso-with-one-login.md), [**Google**](sso-guides/sso-with-google.md), [**Azure Active Directory**](sso-guides/sso-with-azure.md) and [**AWS IAM**](sso-guides/sso-with-aws.md) IdPs.
 {% endhint %}
 
 #### Requirements
 
 To configure SSO for your organization, you must:
 
-- Be an [organization owner](#owners-tab).
-- Have access to your Identity Provider.
+* Be an [organization owner](organization-settings.md#owners-tab).
+* Have access to your Identity Provider.
 
 #### Configure your Identity Provider
 
@@ -69,20 +68,20 @@ You'll first need to **declare Forest Admin in your Identity Provider** using th
 **XML file upload or XML file endpoint (Recommended)**
 
 {% hint style="warning" %}
-We highly recommend to use this option, most especially the one where you provide the metadata file using an url. This allows automatic certificate update without service interruption. 
+We highly recommend to use this option, most especially the one where you provide the metadata file using an url. This allows automatic certificate update without service interruption.
 {% endhint %}
 
 Either upload a file containing the authentication information (you'll be able to generate this file in your Identify Provider) or input the endpoint at which such a file is available (some IPs provide this).
 
-![](<../../.gitbook/assets/image (59).png>)
+![](<../../.gitbook/assets/image (59) (1).png>)
 
 **Manual input**
 
 You may also enter your authentication information manually. You'll need to provide:
 
-- a **Login endpoint**
-- a **Logout endpoint**
-- and finally a **Valid certificate**
+* a **Login endpoint**
+* a **Logout endpoint**
+* and finally a **Valid certificate**
 
 ![](<../../.gitbook/assets/image (595).png>)
 
@@ -117,8 +116,8 @@ To set it up properly, you will need to set a default **Relay state** on your id
 
 Check the steps below this if you encounter an issue:
 
-- Double check all information (endpoints, certificate expiration dates, etc..)
-- Make sure the `NameID` configured on your Identity Provider is the **email address used on Forest Admin accounts too**
-- Make sure you selected **SAML 2.0** on your Identity Provider
+* Double check all information (endpoints, certificate expiration dates, etc..)
+* Make sure the `NameID` configured on your Identity Provider is the **email address used on Forest Admin accounts too**
+* Make sure you selected **SAML 2.0** on your Identity Provider
 
-_If you can't find anything by yourself don't hesitate to [ask for help on our Community forum](https://community.forestadmin.com/)_
+_If you can't find anything by yourself don't hesitate to_ [_ask for help on our Community forum_](https://community.forestadmin.com/)

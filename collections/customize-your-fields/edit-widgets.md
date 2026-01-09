@@ -36,7 +36,7 @@ To set up your widget:
 ![](<../../.gitbook/assets/image (89).png>)
 
 {% hint style="info" %}
-The **number formatting** is based on your browser's locale, unless you have a specific [locale](../../project-settings/other-project-settings/general-tab.md#locale) set in your Project settings.
+The **number formatting** is based on your browser's locale, unless you have a specific [locale](../../project-settings/general-tab.md#locale) set in your Project settings.
 {% endhint %}
 
 ## Dropdown
@@ -318,7 +318,7 @@ The radio button widget works the same way as the [dropdown](edit-widgets.md#dro
 
 ![Manually entering values](<../../.gitbook/assets/image (325).png>)
 
-!["Alter values" option (display settings)](<../../.gitbook/assets/2020-12-01_15.15.45.png>)
+!["Alter values" option (display settings)](../../.gitbook/assets/2020-12-01_15.15.45.png)
 
 While editing, the widget will look like this:
 
@@ -330,7 +330,7 @@ The checkboxes widget works the same way as the [dropdown](edit-widgets.md#dropd
 
 ![Manually entering values](<../../.gitbook/assets/image (315).png>)
 
-!["Alter values" option (display settings)](<../../.gitbook/assets/2020-12-01_15.17.17.png>)
+!["Alter values" option (display settings)](../../.gitbook/assets/2020-12-01_15.17.17.png)
 
 While editing, your widget will look like this:
 
@@ -340,7 +340,7 @@ While editing, your widget will look like this:
 
 Use this widget to upload files (images, pdf,..). This can be done by clicking on the grey rectangle or drag & drop'ing your file in the grey rectangle.
 
-![](<../../.gitbook/assets/image (361).png>)
+![](<../../.gitbook/assets/image (361) (1).png>)
 
 ### Settings
 
