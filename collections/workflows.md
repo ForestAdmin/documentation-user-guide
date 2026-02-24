@@ -69,7 +69,7 @@ The following Steps are at your disposal to map your process into a Forest Admin
 {% embed url="https://app.guideflow.com/player/yr4y114blr" %}
 
 {% hint style="info" %}
-Find out more about configuring MCP Servers in Forest Admin [here](/broken/pages/9E2sXl1PkDBGQPizgrzA).
+Find out more about configuring MCP Servers in Forest Admin [here](../integrations/mcp-servers.md).
 {% endhint %}
 
 To see each Step type in action, head to the [Workflow Execution section](workflows.md#executing-workflows).
